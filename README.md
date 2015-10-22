@@ -6,7 +6,7 @@
 
 ## 关于作者
 
-* 新浪微博: [@水木纹子](http://weibo.com/u/2378141420)
+* 微博: [@水木纹子](http://weibo.com/u/2378141420)
 * 邮箱：mrgaonju#gmail.com
 
 ## 版权协议
