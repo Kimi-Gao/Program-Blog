@@ -7,7 +7,7 @@
 ## 关于作者
 
 * 微博: [@小木瓜DONG](http://weibo.com/u/2378141420)
-* 邮箱：mrgaonju#gmail.com
+* 邮箱：mrbudou@126.com
 
 ## 版权协议
 
