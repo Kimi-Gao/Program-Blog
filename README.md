@@ -26,6 +26,7 @@
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用ES6/7语法来写兼容IE8的Angular1应用](https://github.com/muwenzi/Blog/issues/8) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-26 |
+| 2    | [angular.element方法汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
 
 ## NodeJS
 
@@ -34,4 +35,3 @@
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NodeJS](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2016-08-24 |
-
