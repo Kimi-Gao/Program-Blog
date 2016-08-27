@@ -1,14 +1,14 @@
 
 ## 基础工具
 
-包括Shell、Git、IDE等
+包括Shell、Git、IDE、Babel、Gulp、Webpack等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [shell命令小结](https://github.com/muwenzi/Blog/issues/7) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
 | 2    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Blog/issues/1) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
 | 3    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Blog/issues/4) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
-| 4    | [Git相关操作](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
+| 4    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
 
 ## JavaScript
 
@@ -35,3 +35,5 @@
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NodeJS](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2016-08-24 |
+
+
