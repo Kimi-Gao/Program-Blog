@@ -1,3 +1,6 @@
+# 博客目录
+
+> 「學如逆水行舟，不進則退」 ——《增廣賢文》
 
 ## 基础工具
 
@@ -19,14 +22,15 @@
 | 1    | [ES6箭头函数初探](https://github.com/muwenzi/Blog/issues/2) | [ES6/ES7](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | 2016-07-26 |
 | 2    | [setTimeout黑魔法（一）基本原理探讨](https://github.com/muwenzi/Blog/issues/3) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-07-27 |
 
-## 前端框架
+## 前端库/框架
 
-包括Angular/React/Vue等
+包括jQuery/lodash/Angular/React/Vue等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用ES6/7语法来写兼容IE8的Angular1应用](https://github.com/muwenzi/Blog/issues/8) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-26 |
-| 2    | [angular.element方法汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
+| 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
+| 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 
 ## NodeJS
 
@@ -35,5 +39,6 @@
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NodeJS](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2016-08-24 |
+
 
 
