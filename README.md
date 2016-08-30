@@ -2,7 +2,7 @@
 
 > 「學如逆水行舟，不進則退」 ——《增廣賢文》
 
-## [1] 基础工具
+## 1—— 基础工具
 
 包括Shell、Git、IDE、Babel、Gulp、Webpack等
 
@@ -14,7 +14,7 @@
 | 4    | [一行命令让 Finder 显示隐藏文件和文件夹](https://github.com/muwenzi/Blog/issues/11) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
 | 5    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
 
-## [2] JavaScript
+## 2—— JavaScript
 
 包括ES5/6/7等
 
@@ -23,7 +23,7 @@
 | 1    | [ES6箭头函数初探](https://github.com/muwenzi/Blog/issues/2) | [ES6/ES7](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | 2016-07-26 |
 | 2    | [setTimeout黑魔法（一）基本原理探讨](https://github.com/muwenzi/Blog/issues/3) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-07-27 |
 
-## [3] 前端库/框架
+## 3—— 前端库/框架
 
 包括jQuery/lodash/Angular/React/Vue等
 
@@ -33,7 +33,7 @@
 | 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 
-## [4] NodeJS
+## 4—— NodeJS
 
 包括npm/Express/Koa/ThinkJS等
 
