@@ -39,7 +39,8 @@
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
-| 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NodeJS](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2016-08-24 |
+| 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-24 |
+| 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Blog/issues/12) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-31 |
 
 
 
