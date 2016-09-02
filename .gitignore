@@ -1,4 +1,20 @@
-/article/
-/imgInput/
-/node_modules/
-.gitignore
+# Windows image file caches
+Thumbs.db
+
+# Mac crap
+.DS_Store
+
+# Folder config file
+Desktop.ini
+
+#IDE
+*.idea
+*.iml
+*.vscode
+*.sublime-*
+
+# custom BWTS-UI files
+node_modules
+npm-debug.log
+dist
+.jsbeautifyrc
