@@ -25,7 +25,7 @@
 | 2    | [setTimeout黑魔法（一）基本原理探讨](https://github.com/muwenzi/Blog/issues/3) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-07-27 |
 | 3    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-01 |
 
-## 3. 前端库/框架
+## 3. JS库/框架
 
 包括jQuery/lodash/Angular/React/Vue等
 
