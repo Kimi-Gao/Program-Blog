@@ -18,7 +18,7 @@
 
 ## 2. JavaScript
 
-包括ES5/6/7等
+包括ES5/6/7/设计模式等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | ---------------------------------------- | ---------- |
@@ -26,10 +26,11 @@
 | 2    | [setTimeout黑魔法（一）基本原理探讨](https://github.com/muwenzi/Blog/issues/3) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-07-27 |
 | 3    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-01 |
 | 4    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
+| 5    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 
 ## 3. JS库/框架
 
-包括jQuery/lodash/Angular/React/Vue等
+包括Ajax/jQuery/lodash/Angular/React/Vue等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
@@ -37,14 +38,17 @@
 | 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 
-## 4. NodeJS
+## 4. NodeJS系列
 
-包括npm/Express/Koa/ThinkJS等
+包括npm/Express/Koa/NodeJS等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-24 |
 | 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Blog/issues/12) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-31 |
+
+## 5. DataBase
+包括MySQL/PostgreSQL/MongoDB/Riak/Redis等
 
 
 
