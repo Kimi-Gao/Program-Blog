@@ -8,15 +8,14 @@
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
-| 1    | [Shell命令小结](https://github.com/muwenzi/Blog/issues/7) |
-[Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
-| 3    | [iTerm2快捷键](https://github.com/muwenzi/Blog/issues/21) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
-| 2    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Blog/issues/1) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
-| 3    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Blog/issues/15) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
-| 4    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Blog/issues/4) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
-| 5    | [一行命令让 Finder 显示隐藏文件和文件夹](https://github.com/muwenzi/Blog/issues/11) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
-| 6    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
-| 7    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-31 |
+| 1    | [Shell命令小结](https://github.com/muwenzi/Blog/issues/7) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+| 2    | [iTerm2快捷键](https://github.com/muwenzi/Blog/issues/21) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
+| 3    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Blog/issues/1) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
+| 4    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Blog/issues/15) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
+| 5    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Blog/issues/4) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
+| 6    | [一行命令让 Finder 显示隐藏文件和文件夹](https://github.com/muwenzi/Blog/issues/11) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
+| 7    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
+| 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-31 |
 
 ## 2. JavaScript
 
