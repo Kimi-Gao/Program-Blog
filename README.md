@@ -8,7 +8,9 @@
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
-| 1    | [shell命令小结](https://github.com/muwenzi/Blog/issues/7) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+| 1    | [Shell命令小结](https://github.com/muwenzi/Blog/issues/7) |
+[Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+| 3    | [iTerm2快捷键](https://github.com/muwenzi/Blog/issues/21) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
 | 2    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Blog/issues/1) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
 | 3    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Blog/issues/15) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
 | 4    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Blog/issues/4) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
