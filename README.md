@@ -11,8 +11,8 @@
 | 1    | [Shell命令小结](https://github.com/muwenzi/Blog/issues/7) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
 | 2    | [iTerm2快捷键](https://github.com/muwenzi/Blog/issues/21) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
 | 3    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Blog/issues/1) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
-| 4    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Blog/issues/15) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
 | 5    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Blog/issues/4) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
+| 4    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Blog/issues/15) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
 | 6    | [一行命令让 Finder 显示隐藏文件和文件夹](https://github.com/muwenzi/Blog/issues/11) | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
 | 7    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
 | 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-31 |
@@ -28,7 +28,7 @@
 | 3    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-01 |
 | 4    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 5    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
-| 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/21) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
+| 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
 
 ## 3. JS库/框架
 
