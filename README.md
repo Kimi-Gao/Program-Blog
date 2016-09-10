@@ -1,6 +1,6 @@
-# 博客目录
+# FullStack-JS
 
-> 「學如逆水行舟，不進則退」 ——《增廣賢文》
+> Let's do something awesome by JS :laughing:
 
 ## 1. 基础工具
 
@@ -28,6 +28,7 @@
 | 3    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-01 |
 | 4    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 5    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
+| 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/21) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
 
 ## 3. JS库/框架
 
