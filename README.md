@@ -1,6 +1,6 @@
 # FullStack-JS
 
-> Let's do something awesome by JS :laughing:
+> Let's learn how to code with zhuangbility by JS from FE to BE
 
 ## 1. 基础工具
 
@@ -17,9 +17,9 @@
 | 7    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
 | 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-31 |
 
-## 2. JavaScript
+## 2. JavaScript Basic
 
-包括ES5/6/7/设计模式等
+包括ECMAScript 5/6/7等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | ---------------------------------------- | ---------- |
@@ -29,8 +29,15 @@
 | 4    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 5    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
+## 3. JavaScript Advanced
 
-## 3. JS库/框架
+包括DesignPattern(设计模式) / DataStructure(数据结构) / Algorithms(算法)等
+
+| 序号   | 标题                                       | 标签                                       | 发布日期       |
+| :--- | :--------------------------------------- | ---------------------------------------- | ---------- |
+| 1    | [排序算法](https://github.com/muwenzi/Blog/issues/22) | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | 2016-07-26 |
+
+## 4. JS库/框架
 
 包括Ajax/jQuery/lodash/Angular/React/Vue等
 
@@ -40,16 +47,16 @@
 | 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 
-## 4. NodeJS系列
+## 5. NodeJS
 
-包括npm/Express/Koa/NodeJS等
+包括npm/Express/Koa/V8 Engine等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-24 |
 | 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Blog/issues/12) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-31 |
 
-## 5. DataBase
+## 6. DataBase
 包括MySQL/PostgreSQL/MongoDB/Riak/Redis等
 
 
