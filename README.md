@@ -1,6 +1,6 @@
 # FullStack-JS
 
-> Let's learn how to code with zhuangbility by JS from FE to BE
+> Let's learn how to do something awesome by JS :smiling_imp:
 
 ## 1. 基础工具
 
@@ -31,11 +31,20 @@
 | 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
 ## 3. JavaScript Advanced
 
-包括DesignPattern(设计模式) / DataStructure(数据结构) / Algorithms(算法)等
+包括DataStructure(数据结构) / Algorithms(算法) / DesignPattern(设计模式) 等
 
-| 序号   | 标题                                       | 标签                                       | 发布日期       |
-| :--- | :--------------------------------------- | ---------------------------------------- | ---------- |
-| 1    | [排序算法](https://github.com/muwenzi/Blog/issues/22) | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | 2016-07-26 |
+| 序号   | 标题                                       | 标签                                       | 发布日期 |
+| :--- | :--------------------------------------- | ---------------------------------------- | ---- |
+| 1    | [List 列表](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 2    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 3    | [Stack 栈](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 4    | [Queue 队列](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 5    | [Graph 图](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 6    | [LinkedList 链表](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 7    | [Tree 树](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 8    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 9    | [B Tree B树](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 10   | [Heap 堆](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
 
 ## 4. JS库/框架
 
@@ -53,8 +62,9 @@
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
-| 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-24 |
-| 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Blog/issues/12) | [NPM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANPM) | 2016-08-31 |
+| 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Blog/issues/6) | [npm](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-24 |
+| 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Blog/issues/12) | [npm](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-31 |
+| 3    | [package.json-node项目的设计图纸](https://github.com/muwenzi/Blog/issues/22) | [npm](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-09-12 |
 
 ## 6. DataBase
 包括MySQL/PostgreSQL/MongoDB/Riak/Redis等
