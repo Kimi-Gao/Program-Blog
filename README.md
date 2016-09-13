@@ -35,7 +35,7 @@
 
 | 序号   | 标题                                       | 标签                                       | 发布日期 |
 | :--- | :--------------------------------------- | ---------------------------------------- | ---- |
-| 1    | [List 列表](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 1    | [List 列表](https://github.com/muwenzi/Blog/issues/23) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构) | 2016-09-13 |
 | 2    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
 | 3    | [Stack 栈](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
 | 4    | [Queue 队列](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
