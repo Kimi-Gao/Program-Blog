@@ -1,0 +1,29 @@
+# Windows Image File Caches
+Thumbs.db
+
+# Mac Crap
+.DS_Store
+
+# Folder Config File
+Desktop.ini
+
+#IDE
+*.idea
+*.iml
+*.vscode
+*.sublime-*
+
+# Custom Files
+node_modules
+npm-debug.log
+dist
+.jsbeautifyrc
+
+# Custom Folders
+1. Basic Tools
+2. JavaScript Basic
+3. JavaScript Advanced
+4. JS Libs and Frameworks
+5. Network
+6. NodeJS
+7. DataBase

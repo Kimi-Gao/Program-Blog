@@ -29,6 +29,7 @@
 | 4    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 5    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
+| 7    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-20 |
 
 ## 3. JavaScript Advanced
 
@@ -59,11 +60,12 @@
 
 ## 5. Network
 
-包括cache/cookie/OAuth/http/https/Restful等
+包括cache/cookie/OAuth/http/https/RESTful等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
-| 1    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/24) | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Acahce) | TODO |
+| 1    | [RESTful](https://github.com/muwenzi/Blog/issues/20) | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | TODO |
+| 2    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/25) | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Acahce) | TODO |
 
 ## 6. NodeJS
 
