@@ -58,7 +58,7 @@
 | 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Blog/issues/9) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 
-## 5. Network
+## 5. Web机制/协议
 
 包括cache/cookie/OAuth/http/https/RESTful等
 
@@ -69,7 +69,7 @@
 
 ## 6. NodeJS
 
-包括npm/Express/Koa/V8 Engine等
+包括npm/Koa/V8 Engine等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
 | :--- | :--------------------------------------- | :--------------------------------------- | ---------- |
