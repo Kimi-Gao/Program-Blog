@@ -30,6 +30,7 @@
 | 5    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-06 |
 | 6    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-10 |
 | 7    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | TODO |
+| 8    | [JSON对象的使用](https://github.com/muwenzi/Blog/issues/25) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | TODO |
 
 ## 3. JavaScript Advanced
 
