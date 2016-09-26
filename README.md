@@ -1,6 +1,6 @@
-# FullStack-JS
+# Blog
 
-> Let's learn how to do something awesome by JS :smiling_imp:
+> 好好学习，天天向上 :new_moon_with_face:
 
 ## 1. 基础工具
 
