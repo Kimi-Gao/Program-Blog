@@ -1,4 +1,4 @@
-# Blog
+# 目录
 
 > 好好学习，天天向上 :new_moon_with_face:
 
@@ -48,6 +48,7 @@
 | 8    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
 | 9    | [B Tree B树](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
 | 10   | [Heap 堆](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
+| 11   | [冒泡排序](https://github.com/muwenzi/Blog/issues/26) | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2F算法) | TODO |
 
 ## 4. JS库/框架
 
