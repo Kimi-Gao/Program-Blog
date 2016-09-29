@@ -2,8 +2,6 @@
 
 # 目录
 
-> 好好学习，天天向上 :new_moon_with_face:
-
 ## 1. 基础工具
 
 包括Shell、Git、IDE、Babel、Gulp、Webpack等
