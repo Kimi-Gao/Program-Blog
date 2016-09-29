@@ -1,10 +1,8 @@
 <p align="center"><img width="365"src="https://cloud.githubusercontent.com/assets/12554487/18941669/8a48b23a-8645-11e6-94e4-02b4160dfe8c.jpeg"></p>
 
-# 目录
+<h2 align="center">Part 1 Web编程基础</h2>
 
-## <center>Part1 Web编程基础<center>
-
-### 1-1 基础工具
+### 1. 基础工具
 
 包括Shell、Git、IDE等
 
@@ -19,7 +17,7 @@
 | 7    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-24 |
 | 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13) | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit) | 2016-08-31 |
 
-### 1-2 网络基础知识
+### 2. 网络基础知识
 包括Ajax/cache/cookie/OAuth/http/https/RESTful等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期 |
@@ -27,9 +25,9 @@
 | 1    | [RESTful](https://github.com/muwenzi/Blog/issues/20) | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | TODO |
 | 2    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/25) | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Acahce) | TODO |
 
-## 第二篇 编程语言(JS/C++)
+<h2 align="center">Part 2 编程语言(JS/C++)</h2>
 
-### 2-1 JavaScript Basic
+### 1. JavaScript Basic
 
 包括ECMAScript 5/6/7等
 
@@ -44,7 +42,7 @@
 | 7    | [JSON对象的使用](https://github.com/muwenzi/Blog/issues/25) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | 2016-09-23 |
 | 8    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24) | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5) | TODO       |
 
-### 2-2 C++ Basic
+### 2. C++ Basic
 
 包括等
 
@@ -52,7 +50,7 @@
 | :--- | :--------------------------------------- | ---------------------------------------- | ---- |
 | 1    | [TODO](https://github.com/muwenzi/Blog/issues/2) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO |
 
-### 2-3. 语言进阶(JS/C++)
+### 3. 语言进阶(JS/C++)
 
 包括DataStructure(数据结构) / Algorithms(算法) / DesignPattern(设计模式) 等
 
@@ -70,15 +68,15 @@
 | 10   | [Heap 堆](https://github.com/muwenzi/Blog/issues/22) | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
 | 11   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26) | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2F算法) | 2016-09-28 |
 
-## 第三篇 Front-End
+<h2 align="center">Part 3 Front-End</h2>
 
-### 3-1 CSS
+### 1. CSS
 包括CSS2.1/CSS3
 
-### 3-2 DOM操作
+### 2. DOM操作
 包括jQuery
 
-### 3-2 前端框架
+### 3. 前端框架
 包括Angular/React/Vue等
 
 | 序号   | 标题                                       | 标签                                       | 发布日期       |
@@ -88,9 +86,9 @@
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 
 
-## 第四篇 Back-End
+<h2 align="center">Part 4 Back-End</h2>
 
-### 4-1 NodeJS
+### 1. NodeJS
 
 包括npm/Koa/V8 Engine等
 
@@ -100,5 +98,5 @@
 | 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Blog/issues/12) | [npm](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-31 |
 | 3    | [package.json-node项目的设计图纸](https://github.com/muwenzi/Blog/issues/22) | [npm](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-09-12 |
 
-### 4-2 DataBase
+### 2. DataBase
 包括MySQL/PostgreSQL/MongoDB/Riak/Redis等
