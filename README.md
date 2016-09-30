@@ -1,4 +1,4 @@
-<p align="center"><img src="http://muwenzi.com/img/Tech-Stack.svg"></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/12554487/18983756/5d298acc-8721-11e6-8d92-e360e8505c7e.png"></p>
 
 <h2 align="center">Part 1 Web编程基础</h2>
 
