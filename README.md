@@ -26,7 +26,7 @@
 | 1    | [RESTful](https://github.com/muwenzi/Blog/issues/20)  | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | TODO    |
 | 2    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/25)  | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Acahce)   | TODO    |
 
-<h2 align="center">Part 2 编程语言(JS/C++)</h2>
+<h2 align="center">Part 2 编程语言(Coding by JS and C++)</h2>
 
 ### 1. JavaScript Basic
 
@@ -51,24 +51,25 @@
 | :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
 | 1    | [TODO](https://github.com/muwenzi/Blog/issues/2) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO    |
 
-### 3. 语言进阶(JS/C++)
+### 3. 编程的艺术 (JS and C++)
 
-包括DataStructure(数据结构) / Algorithms(算法) / DesignPattern(设计模式) 等
+包括DataStructure(数据结构) / Algorithms(算法) / DesignPattern(设计模式) / Functional Programming(函数式编程)等
 
-| 序号  | 标题                                                                     | 标签                                                                                      | 发布日期    |
-| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------- |
-| 1    | [数据结构概述](https://github.com/muwenzi/Blog/issues/28)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)   | 2016-09-30 |
-| 2    | [List 列表](https://github.com/muwenzi/Blog/issues/23)                   | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)   | 2016-09-13 |
-| 3    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/22)            | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 4    | [Stack 栈](https://github.com/muwenzi/Blog/issues/22)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 5    | [Queue 队列](https://github.com/muwenzi/Blog/issues/22)                  | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 6    | [Graph 图](https://github.com/muwenzi/Blog/issues/22)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 7    | [LinkedList 链表](https://github.com/muwenzi/Blog/issues/22)             | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 8    | [Tree 树](https://github.com/muwenzi/Blog/issues/22)                     | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 9    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Blog/issues/22)  | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 10   | [B Tree B树](https://github.com/muwenzi/Blog/issues/22)                  | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 11   | [Heap 堆](https://github.com/muwenzi/Blog/issues/22)                     | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO       |
-| 12   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26)         | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2F算法)    | 2016-09-28 |
+| 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
+| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| 1    | [数据结构概述](https://github.com/muwenzi/Blog/issues/28)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-30 |
+| 2    | [List 线性表](https://github.com/muwenzi/Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
+| 3    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/)              | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 4    | [Stack 栈](https://github.com/muwenzi/Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 5    | [Queue 队列](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 6    | [Graph 图](https://github.com/muwenzi/Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 7    | [LinkedList 链表](https://github.com/muwenzi/Blog/issues/)               | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 8    | [Tree 树](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 9    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Blog/issues/)    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 10   | [B Tree B树](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 11   | [Heap 堆](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 12   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26)         | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
+| 13   | [JS中的非可变性 (Immutability)](https://github.com/muwenzi/Blog/issues/29) | [函数式编程](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A函数式编程)      | 2016-09-30 |
 
 <h2 align="center">Part 3 Front-End</h2>
 
