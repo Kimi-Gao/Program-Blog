@@ -23,7 +23,7 @@
 
 | 序号  | 标题                                                   | 标签                                                                                   | 发布日期 |
 | :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
-| 1    | [RESTful](https://github.com/muwenzi/Blog/issues/20)  | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | TODO    |
+| 1    | [RESTful](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | TODO    |
 | 2    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/25)  | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Acahce)   | TODO    |
 
 <h2 align="center">Part 2 编程语言(Coding by JS and C++)</h2>
