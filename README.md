@@ -96,7 +96,7 @@
 | 7    | [JSON对象的使用](https://github.com/muwenzi/Blog/issues/25)                | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-23 |
 | 8    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | TODO       |
 | 9    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
-
+| 10   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
 
 ### 2. C++ Basic
 
@@ -148,6 +148,7 @@
 | 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Blog/issues/9)                | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-27 |
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular1](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular1) | 2016-08-28 |
 | 4    | [React基本思想](https://github.com/muwenzi/Blog/issues/32) | [React](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-09 |
+| 5    | [React ES6 class 中的this 绑定问题](https://github.com/muwenzi/Blog/issues/37) | [React](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-24 |
 
 <h2 align="center">Part 4 Back-End</h2>
 
