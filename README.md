@@ -3,53 +3,19 @@
 ```
 .
 ├── Web编程基础
-│   ├── 基础工具
-│   │   ├── Shell
-│   │   ├── Git
-│   │   └── IDE
-│   └── 网络基础知识
-│       ├── HTTP
-│       ├── Ajax
-│       └── RESTful
+│   ├── 基础工具       （Shell、Git、IDE）
+│   └── 网络基础知识    （HTTP、Ajax、RESTful）
 ├── 编程语言
-│   ├── Javascript
-│   │   ├── ES5
-│   │   ├── ES2015
-│   │   ├── ES2016
-│   │   └── ES2017
-│   ├── C++
-│   │   ├── TODO
-│   │   ├── TODO
-│   │   └── TODO
-│   └── 编程的艺术
-│       ├── 数据结构
-│       ├── 算法
-│       ├── 设计模式
-│       └── 函数式编程
+│   ├── Javascript    （ES5、ES2015、ES2016、ES2017）
+│   ├── C++           （TODO）
+│   └── 编程的艺术      （数据结构、算法、设计模式、函数式编程）
 ├── Front-End
-│   ├── CSS
-│   │   ├── 盒模型
-│   │   ├── 定位
-│   │   ├── 字体图标
-│   │   ├── 布局
-│   │   └── 动画
-│   ├── DOM
-│   │   ├── 原生 
-│   │   └── jQuery
-│   └── 前端框架
-│       ├── Angular
-│       ├── React
-│       └── Vue
+│   ├── CSS           （盒模型、定位、字体图标、布局、动画）
+│   ├── DOM           （原生、jQuery）
+│   └── 前端框架       （Angular、React、Vue）
 └── Back-End
-    ├── NodeJS
-    │   ├── npm
-    │   ├── Koa
-    │   └── V8 Engine
-    └── DataBase
-        ├── MySQL
-        ├── PostgreSQL
-        ├── MongoDB
-        └── Redis
+    ├── NodeJS        （npm、Koa、V8 Engine）
+    └── DataBase      （MySQL、PostgreSQL、MongoDB、Redis）
 ```
 
 <h2 align="center">Part 1 Web编程基础</h2>
