@@ -63,6 +63,7 @@
 | 8    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
 | 9    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
 | 10   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
+| 11   | [ES6+语言规范](https://github.com/muwenzi/Blog/issues/38)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7)           | 2016-10-26       |
 
 ### 2. C++ Basic
 
