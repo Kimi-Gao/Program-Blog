@@ -45,7 +45,7 @@
 | 2    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
 | 3    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/25)  | [cache](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3Acahce)   | TODO    |
 
-<h2 align="center">Part 2 编程语言(Coding by JS and C++)</h2>
+<h2 align="center">Part 2 编程语言</h2>
 
 ### 1. JavaScript Basic
 
@@ -63,7 +63,7 @@
 | 8    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
 | 9    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
 | 10   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
-| 11   | [ES6+语言规范](https://github.com/muwenzi/Blog/issues/38)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7)           | 2016-10-26       |
+| 11   | [ES6+语言规范](https://github.com/muwenzi/Blog/issues/38)    | [ES6/ES7](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7)           | 2016-10-26       |
 
 ### 2. C++ Basic
 
@@ -73,9 +73,9 @@
 | :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
 | 1    | [TODO](https://github.com/muwenzi/Blog/issues/2) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO    |
 
-### 3. 编程的艺术 (JS and C++)
+### 3. 编程的艺术
 
-包括DataStructure(数据结构) / Algorithms(算法) / DesignPattern(设计模式) / Functional Programming(函数式编程)等
+包括DataStructure(数据结构)/Algorithms(算法)/DesignPattern(设计模式)/Functional Programming(函数式编程)/AsyncProgramming(异步编程)等
 
 | 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
 | :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
