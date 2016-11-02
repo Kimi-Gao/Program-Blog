@@ -46,7 +46,6 @@
 | 1    | [HTTP协议的前身今世](https://github.com/muwenzi/Blog/issues/35)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-17    |
 | 2    | [常见HTTP响应状态码](https://github.com/muwenzi/Blog/issues/40)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-30    |
 | 3    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
-| 4    | [HTTP缓存](https://github.com/muwenzi/Blog/issues/25)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP)   | TODO    |
 
 <h2 align="center">Part 2 编程语言</h2>
 
@@ -57,17 +56,18 @@
 | 序号  | 标题                                                                     | 标签                                                                                        | 发布日期    |
 | :--- | :----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
 | 1   | [ES6+语言规范](https://github.com/muwenzi/Blog/issues/38)    | [ES6+](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2B)           | 2016-10-26       |
-| 2   | [Babel Plugin](https://github.com/muwenzi/Blog/issues/39)    | [Babel](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ABabel)           | 2016-10-26       |
-| 3    | [ES6箭头函数初探](https://github.com/muwenzi/Blog/issues/2)                | [ES6+](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2B) | 2016-07-26 |
-| 4    | [setTimeout黑魔法](https://github.com/muwenzi/Blog/issues/3)              | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-07-27 |
-| 5    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14)                | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-01 |
-| 6    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17)           | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
-| 7    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19)   | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
-| 8    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18)          | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-10 |
-| 9    | [JSON对象的使用](https://github.com/muwenzi/Blog/issues/25)                | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-23 |
-| 10    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
-| 11    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
-| 12   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
+| 2   | [JavaScript History](https://github.com/muwenzi/Blog/issues/43)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-30       |
+| 3   | [Babel Plugin](https://github.com/muwenzi/Blog/issues/39)    | [Babel](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ABabel)           | 2016-10-26       |
+| 4    | [ES6箭头函数初探](https://github.com/muwenzi/Blog/issues/2)                | [ES6+](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2B) | 2016-07-26 |
+| 5    | [setTimeout黑魔法](https://github.com/muwenzi/Blog/issues/3)              | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-07-27 |
+| 6    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14)                | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-01 |
+| 7    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17)           | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
+| 8    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Blog/issues/19)   | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
+| 9    | [Array数组相关操作小结](https://github.com/muwenzi/Blog/issues/18)          | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-10 |
+| 10    | [JSON对象的使用](https://github.com/muwenzi/Blog/issues/25)                | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-23 |
+| 11    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
+| 12    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
+| 13   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
 
 ### 2. C++
 
