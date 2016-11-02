@@ -92,7 +92,7 @@
 | 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
 | :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
 | 1    | [数据结构概述](https://github.com/muwenzi/Blog/issues/28)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-30 |
-| 2    | [List 线性表](https://github.com/muwenzi/Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
+| 2    | [List 数组](https://github.com/muwenzi/Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
 | 3    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/)              | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
 | 4    | [Stack 栈](https://github.com/muwenzi/Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
 | 5    | [Queue 队列](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
