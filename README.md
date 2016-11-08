@@ -129,6 +129,8 @@
 | 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Blog/issues/10) | [Angular](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-28 |
 | 4    | [React基本思想](https://github.com/muwenzi/Blog/issues/32) | [React](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-09 |
 | 5    | [React ES6 class 中的this 绑定问题](https://github.com/muwenzi/Blog/issues/37) | [React](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-24 |
+| 6    | [用ng-cloak/v-cloak 解决 Angular/Vue 初始化闪烁问题](https://github.com/muwenzi/Blog/issues/46) | [Angular](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) [Vue](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AVue)| 2016-11-08 |
+
 
 ### 4. Mobile
 
