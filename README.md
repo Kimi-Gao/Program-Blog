@@ -45,7 +45,8 @@
 | :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
 | 1    | [HTTP协议的前身今世](https://github.com/muwenzi/Blog/issues/35)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-17    |
 | 2    | [常见HTTP响应状态码](https://github.com/muwenzi/Blog/issues/40)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-30    |
-| 3    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
+| 3    | [localhost和127.0.0.1的异同](https://github.com/muwenzi/Blog/issues/52)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-11-14    |
+| 4    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
 
 <h2 align="center">Part 2 编程语言</h2>
 
