@@ -12,7 +12,7 @@
 │   └── Advanced      # 数据结构、算法、设计模式、函数式编程
 ├── Front-End
 │   ├── CSS           # 盒模型、定位、字体图标、布局、动画
-│   ├── DOM           # 原生、jQuery
+│   ├── DOM           # Event、jQuery
 │   ├── Frameworks    # Angular、React、Vue
 │   └── Mobile        # iOS、Cordova、ReactNative、H5
 └── Back-End
@@ -115,9 +115,9 @@
 
 包括CSS2.1/CSS3
 
-### 2. DOM操作
+### 2. DOM
 
-包括jQuery
+包括Event/jQuery
 
 ### 3. 前端框架
 
