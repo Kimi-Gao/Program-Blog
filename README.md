@@ -93,16 +93,16 @@
 | 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
 | :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
 | 1    | [数据结构概述](https://github.com/muwenzi/Blog/issues/28)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-30 |
-| 2    | [List 数组](https://github.com/muwenzi/Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
-| 3    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/)              | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 4    | [Stack 栈](https://github.com/muwenzi/Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 5    | [Queue 队列](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 6    | [Graph 图](https://github.com/muwenzi/Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 7    | [LinkedList 链表](https://github.com/muwenzi/Blog/issues/)               | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 8    | [Tree 树](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 9    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Blog/issues/)    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 10   | [B Tree B树](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 11   | [Heap 堆](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 2    | [Array 数组](https://github.com/muwenzi/Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
+| 3    | [Stack 栈](https://github.com/muwenzi/Blog/issues/56)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-11-19 |
+| 4    | [Queue 队列](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 5    | [Graph 图](https://github.com/muwenzi/Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 6    | [LinkedList 链表](https://github.com/muwenzi/Blog/issues/)               | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 7    | [Tree 树](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 8    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Blog/issues/)    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 9   | [B Tree B树](https://github.com/muwenzi/Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 10   | [Heap 堆](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 11    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/)              | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
 | 12   | [算法概述](https://github.com/muwenzi/Blog/issues/30)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
 | 13   | [两个整数的交换问题](https://github.com/muwenzi/Blog/issues/31)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
 | 14   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26)         | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
