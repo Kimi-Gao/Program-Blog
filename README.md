@@ -8,16 +8,15 @@
 ├── Language
 │   ├── Javascript    # ES5、ES6+、Babel、lodash
 │   ├── C++           # 基础语法、面向对象、标准库STL
-│   ├── Swift         # TODO
 │   └── Advanced      # 数据结构、算法、设计模式、函数式编程
 ├── Front-End
 │   ├── CSS           # 盒模型、定位、字体图标、布局、动画
 │   ├── DOM           # Event、jQuery
 │   ├── Frameworks    # Angular、React、Vue
-│   └── Mobile        # iOS、Cordova、ReactNative、H5
+│   └── Mobile        # Cordova、ReactNative、H5
 └── Back-End
     ├── NodeJS        # npm、Koa、V8 Engine
-    └── DataBase      # MySQL、PostgreSQL、MongoDB、Redis
+    └── DataBase      # MySQL、PostgreSQL、MongoDB
 ```
 
 <h2 align="center">Part 1 Web编程基础</h2>
@@ -78,15 +77,7 @@
 | :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
 | 1    | [TODO](https://github.com/muwenzi/Blog/issues/2) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO    |
 
-### 3. Swift
-
-包括 等
-
-| 序号  | 标题                                             | 标签                                                                                     | 发布日期 |
-| :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
-| 1    | [TODO](https://github.com/muwenzi/Blog/issues/2) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO    |
-
-### 4. Advanced
+### 3. Advanced
 
 包括数据结构/算法/设计模式/函数式编程/异步编程等
 
@@ -139,7 +130,7 @@
 
 ### 4. Mobile
 
-包括iOS/Cordova/ReactNative/H5
+包括Cordova/ReactNative/H5
 
 | 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
@@ -165,7 +156,7 @@
 
 ### 2. DataBase
 
-包括MySQL/PostgreSQL/MongoDB/Redis等
+包括MySQL/PostgreSQL/MongoDB等
 
 
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
