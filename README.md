@@ -104,7 +104,7 @@
 | 10   | [Heap 堆](https://github.com/muwenzi/Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
 | 11    | [HashTable 哈希表](https://github.com/muwenzi/Blog/issues/)              | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
 | 12   | [算法概述](https://github.com/muwenzi/Blog/issues/30)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
-| 13   | [两个整数的交换问题](https://github.com/muwenzi/Blog/issues/31)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
+| 13   | [深入探讨两个整数的交换问题](https://github.com/muwenzi/Blog/issues/31)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
 | 14   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26)         | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
 | 15   | [Singleton 单例模式](https://github.com/muwenzi/Blog/issues/45)         | [设计模式](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A设计模式)                | 2016-11-03 |
 | 16   | [JS中的非可变性 (Immutability)](https://github.com/muwenzi/Blog/issues/29) | [函数式编程](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A函数式编程)      | 2016-09-30 |
