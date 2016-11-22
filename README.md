@@ -3,7 +3,7 @@
 ```
 .
 ├── Web Basic
-│   ├── Tools         # Shell、Git、IDE
+│   ├── Tools         # Shell、Git、IDE、Tips
 │   └── Network       # HTTP、Ajax、RESTful
 ├── Language
 │   ├── Javascript    # ES5、ES6+、Babel、lodash
@@ -35,6 +35,7 @@
 | 6    | [Mac系统问题和命令汇总](https://github.com/muwenzi/Blog/issues/11)        | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
 | 7    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5)              | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-24 |
 | 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13)             | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
+| 9    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Blog/issues/54)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
 
 ### 2. 网络基础知识
 
@@ -112,7 +113,7 @@
 
 | 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
-| 1   | [明析相对路径、绝对路径以及<base>](https://github.com/muwenzi/Blog/issues/58) | [HTML](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
+| 1   | [明析相对路径、绝对路径以及base](https://github.com/muwenzi/Blog/issues/58) | [HTML](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
 | 2   | [事件流](https://github.com/muwenzi/Blog/issues/55) | [Event](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
 
 ### 3. 前端框架
