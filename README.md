@@ -11,7 +11,7 @@
 │   └── Advanced      # 数据结构、算法、设计模式、函数式编程
 ├── Front-End
 │   ├── CSS           # 盒模型、定位、字体图标、布局、动画
-│   ├── DOM           # Event、jQuery
+│   ├── DOM           # HTML、Event、jQuery
 │   ├── Frameworks    # Angular、React、Vue
 │   └── Mobile        # Cordova、ReactNative、H5
 └── Back-End
@@ -108,11 +108,12 @@
 
 ### 2. DOM
 
-包括Event/jQuery
+包括HTML/Event/jQuery
 
 | 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
-| 1   | [事件流](https://github.com/muwenzi/Blog/issues/55) | [DOM](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ADOM)      | 2016-11-18 |
+| 1   | [明析相对路径、绝对路径以及<base>](https://github.com/muwenzi/Blog/issues/58) | [HTML](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
+| 2   | [事件流](https://github.com/muwenzi/Blog/issues/55) | [Event](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
 
 ### 3. 前端框架
 
