@@ -14,9 +14,11 @@
 │   ├── DOM           # HTML、Event、jQuery
 │   ├── Frameworks    # Angular、React、Vue
 │   └── Mobile        # Cordova、ReactNative、H5
-└── Back-End
-    ├── NodeJS        # npm、Koa、V8 Engine
-    └── DataBase      # MySQL、PostgreSQL、MongoDB
+├── Back-End
+│   ├── NodeJS        # npm、Koa、V8 Engine
+│   └── DataBase      # MySQL、PostgreSQL、MongoDB
+│
+└── Book Notes        # 读书笔记
 ```
 
 <h2 align="center">Part 1 Web编程基础</h2>
@@ -164,4 +166,12 @@
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
 | 1    | [MySQL在Mac上的基本配置](https://github.com/muwenzi/Blog/issues/44)             | [MySQL](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMySQL) | 2016-11-01 |
+
+<h2 align="center">Part 5 Book Notes</h2>
+
+包括技术/小说/历史/其他等
+
+| 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
+| :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
+| 1    | [《编写可维护的JavaScript》读书笔记](https://github.com/muwenzi/Blog/issues/59)             | [读书笔记](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3读书笔记) | 2016-11-23 |
 
