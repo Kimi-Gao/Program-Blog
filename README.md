@@ -175,3 +175,9 @@
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
 | 1    | [《编写可维护的JavaScript》读书笔记](https://github.com/muwenzi/Blog/issues/59)             | [技术类书籍](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A技术类书籍) | 2016-11-23 |
 
+## License
+
+[![license][license-image]][license-url]
+
+[license-url]: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh
+[license-image]: https://img.shields.io/badge/license-CC%20BY--NC--ND-green.svg
