@@ -173,5 +173,5 @@
 
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
-| 1    | [《编写可维护的JavaScript》读书笔记](https://github.com/muwenzi/Blog/issues/59)             | [技术类书籍](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3技术类书籍) | 2016-11-23 |
+| 1    | [《编写可维护的JavaScript》读书笔记](https://github.com/muwenzi/Blog/issues/59)             | [技术类书籍](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A技术类书籍) | 2016-11-23 |
 
