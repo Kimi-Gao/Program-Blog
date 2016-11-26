@@ -37,7 +37,8 @@
 | 6    | [Mac系统问题和命令汇总](https://github.com/muwenzi/Blog/issues/11)        | [Shell](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
 | 7    | [Git生成SSH密匙](https://github.com/muwenzi/Blog/issues/5)              | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-24 |
 | 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13)             | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
-| 9    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Blog/issues/54)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
+| 9    | [Git合并多个commit](https://github.com/muwenzi/Blog/issues/60)             | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-11-25 |
+| 10    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Blog/issues/54)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
 
 ### 2. 网络基础知识
 
