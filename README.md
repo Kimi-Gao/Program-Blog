@@ -175,6 +175,7 @@
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
 | 1    | [《编写可维护的JavaScript》读书笔记（一）编程风格](https://github.com/muwenzi/Blog/issues/59)             | [技术类书籍](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A技术类书籍) | 2016-11-23 |
+| 2    | [《玫瑰的名字》读书笔记](https://github.com/muwenzi/Blog/issues/63)             | [小说类书籍](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A小说类书籍) | 2016-11-30 |
 
 ## License
 
