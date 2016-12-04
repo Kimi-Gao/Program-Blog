@@ -7,8 +7,8 @@
 │   └── Network       # HTTP、Ajax、RESTful
 ├── Language
 │   ├── Javascript    # ES5、ES6+、Babel、lodash
-│   ├── C++           # 基础语法、面向对象、标准库STL
-│   └── Advanced      # 数据结构、算法、设计模式、函数式编程
+│   ├── Typescript    # 面向对象编程
+│   └── Advanced      # 数据结构、算法、设计模式、函数式编程
 ├── Front-End
 │   ├── CSS           # 盒模型、定位、字体图标、布局、动画
 │   ├── DOM           # HTML、Event、jQuery
@@ -73,13 +73,13 @@
 | 12    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
 | 13   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
 
-### 2. C++
+### 2. Typescript
 
-包括基础语法/面向对象/标准库等
+包括面向对象编程等
 
 | 序号  | 标题                                             | 标签                                                                                     | 发布日期 |
 | :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
-| 1    | [TODO](https://github.com/muwenzi/Blog/issues/2) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2FES7) | TODO    |
+| 1    | [TODO](https://github.com/muwenzi/Blog/issues/) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A) | TODO    |
 
 ### 3. Advanced
 
