@@ -158,6 +158,7 @@
 | 7    | [Chrome背后的故事（三）搜索和用户体验](https://github.com/muwenzi/Blog/issues/49) | [V8 Engine](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
 | 8    | [Chrome背后的故事（四）安全性、沙盒模式和没有危险的浏览体验](https://github.com/muwenzi/Blog/issues/51) | [V8 Engine](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
 | 9    | [Chrome背后的故事（五）Gears，标准和开放源代码](https://github.com/muwenzi/Blog/issues/50) | [V8 Engine](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 10    | [V8内存机制](https://github.com/muwenzi/Blog/issues/61) | [V8 Engine](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
 
 ### 2. DataBase
 
