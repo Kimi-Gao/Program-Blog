@@ -39,6 +39,8 @@
 | 8    | [Git常用操作小结](https://github.com/muwenzi/Blog/issues/13)             | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
 | 9    | [Git合并多个commit](https://github.com/muwenzi/Blog/issues/60)             | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-11-25 |
 | 10    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Blog/issues/54)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
+| 11    | [初识常见的开源许可证](https://github.com/muwenzi/Blog/issues/65)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-12-07 |
+
 
 ### 2. 网络基础知识
 
