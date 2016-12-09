@@ -16,7 +16,7 @@
 │   └── Mobile        # Cordova、ReactNative、H5
 ├── Back-End
 │   ├── NodeJS        # npm、Koa、V8 Engine
-│   └── DataBase      # MySQL、PostgreSQL、MongoDB
+│   └── DataBase      # MySQL、MongoDB、Redis、Riak
 │
 └── Book Notes        # 读书笔记
 ```
@@ -168,7 +168,7 @@
 
 ### 2. DataBase
 
-包括MySQL/PostgreSQL/MongoDB等
+包括MySQL/MongoDB/Redis/Riak等
 
 
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
