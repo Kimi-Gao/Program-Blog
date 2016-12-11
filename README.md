@@ -2,7 +2,7 @@
 
 ```
 .
-├── Web Basic
+├── Dev Basic
 │   ├── Tools         # Shell、Git、IDE、Tips
 │   └── Network       # HTTP、Ajax、RESTful
 ├── Language
@@ -21,7 +21,7 @@
 └── Book Notes        # 读书笔记
 ```
 
-<h2 align="center">Part 1 Web编程基础</h2>
+<h2 align="center">Part 1 Dev Basic</h2>
 
 ### 1. 基础工具
 
