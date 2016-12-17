@@ -115,6 +115,7 @@
 | 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
 | 1   | [伪类和伪元素](https://github.com/muwenzi/Blog/issues/67) | [CSS基础](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-09 |
+| 2   | [去除inline-block元素间间距](https://github.com/muwenzi/Blog/issues/69) | [CSS基础](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-17 |
 
 ### 2. DOM
 
