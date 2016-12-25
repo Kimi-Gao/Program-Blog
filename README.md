@@ -75,6 +75,7 @@
 | 11    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Blog/issues/24)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
 | 12    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
 | 13   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
+| 14   | [剖析JS的浅拷贝与深拷贝](https://github.com/muwenzi/Blog/issues/62)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-11-30       |
 
 ### 2. Typescript
 
