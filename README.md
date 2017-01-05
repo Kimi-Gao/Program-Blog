@@ -62,10 +62,10 @@
 
 | 序号  | 标题                                                                     | 标签                                                                                        | 发布日期    |
 | :--- | :----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
-| 1   | [ES6+语言规范](https://github.com/muwenzi/Blog/issues/38)    | [ES6+](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2B)           | 2016-10-26       |
+| 1   | [ES2015+语言规范](https://github.com/muwenzi/Blog/issues/38)    | [ES2015](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015)           | 2016-10-26       |
 | 2   | [JavaScript History](https://github.com/muwenzi/Blog/issues/43)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-30       |
 | 3   | [Babel Plugin](https://github.com/muwenzi/Blog/issues/39)    | [Babel](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ABabel)           | 2016-10-26       |
-| 4    | [ES6箭头函数初探](https://github.com/muwenzi/Blog/issues/2)                | [ES6+](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES6%2B) | 2016-07-26 |
+| 4    | [ES2015箭头函数初探](https://github.com/muwenzi/Blog/issues/2)                | [ES2015](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015) | 2016-07-26 |
 | 5    | [setTimeout黑魔法](https://github.com/muwenzi/Blog/issues/3)              | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-07-27 |
 | 6    | [JS中奇葩的假值](https://github.com/muwenzi/Blog/issues/14)                | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-01 |
 | 7    | [JS中的数据类型及判断](https://github.com/muwenzi/Blog/issues/17)           | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
