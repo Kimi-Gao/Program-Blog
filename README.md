@@ -6,7 +6,7 @@
 │   ├── Tools         # Shell、Git、IDE、Tips
 │   └── Network       # HTTP、Ajax、RESTful
 ├── Language
-│   ├── Javascript    # ES5、ES6+、Babel、lodash
+│   ├── Javascript    # ES5、ES2015+、Babel
 │   ├── Typescript    # 面向对象编程
 │   └── Advanced      # 数据结构、算法、设计模式、函数式编程
 ├── Front-End
@@ -58,7 +58,7 @@
 
 ### 1. JavaScript
 
-包括ES5/ES6+/Babel/lodash等
+包括ES5/ES2015+/Babel等
 
 | 序号  | 标题                                                                     | 标签                                                                                        | 发布日期    |
 | :--- | :----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
