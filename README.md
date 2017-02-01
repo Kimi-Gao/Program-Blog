@@ -7,7 +7,7 @@
 │   └── Network       # HTTP、Ajax、RESTful
 ├── Language
 │   ├── Javascript    # ES5、ES2015+、Babel
-│   ├── Typescript    # 面向对象编程
+│   ├── Java          # 面向对象编程
 │   └── Advanced      # 数据结构、算法、设计模式、函数式编程
 ├── Front-End
 │   ├── CSS           # 盒模型、定位、字体图标、布局、动画
@@ -78,7 +78,7 @@
 | 14   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
 | 15   | [剖析JS的浅拷贝与深拷贝](https://github.com/muwenzi/Blog/issues/62)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-11-30       |
 
-### 2. Typescript
+### 2. Java
 
 包括面向对象编程等
 
