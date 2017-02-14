@@ -3,23 +3,23 @@
 ```
 .
 ├── Dev Basic
-│   ├── Tools             # Shell、Git、IDE、Tips
-│   └── Network           # HTTP、Ajax、RESTful
+│   ├── Tools                       # Shell、Git、IDE、Tips
+│   └── Network                     # HTTP、Ajax、RESTful
 ├── Javascript
-│   ├── Grammar           # ES5、ES2015+、Babel、Webpack
-│   ├── DS & ALG          # 数据结构和算法
-│   ├── Design Pattern    # 设计模式
-│   └── Functional P      # 函数式编程
+│   ├── Grammar                     # ES5、ES2015+、Babel、Webpack
+│   ├── Data Structure & Algorithm  # 数据结构和算法
+│   ├── Design Patterns             # 设计模式
+│   └── FunctionaDl Programming     # 函数式编程
 ├── Front-End
-│   ├── CSS               # 盒模型、定位、字体图标、布局、动画
-│   ├── DOM               # HTML、Event、jQuery
-│   ├── Frameworks        # Angular、React、Vue
-│   └── Mobile            # Cordova、ReactNative、H5
+│   ├── CSS                         # 盒模型、定位、字体图标、布局、动画
+│   ├── DOM                         # HTML、Event、jQuery
+│   ├── Frameworks                  # Angular、React、Vue
+│   └── Mobile                      # Cordova、ReactNative、H5
 ├── Back-End
-│   ├── NodeJS            # npm、Koa、V8 Engine、微服务
-│   └── DataBase          # MySQL、MongoDB、Redis
+│   ├── NodeJS                      # npm、Koa、V8 Engine、微服务
+│   └── DataBase                    # MySQL、MongoDB、Redis
 │
-└── Book Notes            # 读书笔记
+└── Book Notes                      # 读书笔记
 ```
 
 <h2 align="center">Part 1 Dev Basic</h2>
@@ -80,7 +80,7 @@
 | 15   | [剖析JS的浅拷贝与深拷贝](https://github.com/muwenzi/Blog/issues/62)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-11-30       |
 | 16   | [slice 和 splice 的区别备忘](https://github.com/muwenzi/Blog/issues/83)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2017-02-13       |
 
-### 2. DS & ALG
+### 2. Data Structure & Algorithm
 
 数据结构和算法
 
@@ -101,7 +101,7 @@
 | 13   | [深入探讨两个整数的交换问题](https://github.com/muwenzi/Blog/issues/31)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
 | 14   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26)         | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
 
-### 3. Design Pattern
+### 3. Design Patterns
 
 常用设计模式
 
@@ -109,7 +109,7 @@
 | :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
 | 1  | [Singleton 单例模式](https://github.com/muwenzi/Blog/issues/45)         | [设计模式](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A设计模式)                | 2016-11-03 |
 
-### 4. Functional P
+### 4. Functional Programming
 
 函数式编程
 
