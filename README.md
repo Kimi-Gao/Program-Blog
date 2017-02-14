@@ -3,22 +3,23 @@
 ```
 .
 ├── Dev Basic
-│   ├── Tools         # Shell、Git、IDE、Tips
-│   └── Network       # HTTP、Ajax、RESTful
-├── Language
-│   ├── Javascript    # ES5、ES2015+、Babel
-│   ├── Java          # 面向对象编程
-│   └── Advanced      # 数据结构、算法、设计模式、函数式编程
+│   ├── Tools             # Shell、Git、IDE、Tips
+│   └── Network           # HTTP、Ajax、RESTful
+├── Javascript
+│   ├── Grammar           # ES5、ES2015+、Babel、Webpack
+│   ├── DS & ALG          # 数据结构和算法
+│   ├── Design Pattern    # 设计模式
+│   └── Functional P      # 函数式编程
 ├── Front-End
-│   ├── CSS           # 盒模型、定位、字体图标、布局、动画
-│   ├── DOM           # HTML、Event、jQuery
-│   ├── Frameworks    # Angular、React、Vue
-│   └── Mobile        # Cordova、ReactNative、H5
+│   ├── CSS               # 盒模型、定位、字体图标、布局、动画
+│   ├── DOM               # HTML、Event、jQuery
+│   ├── Frameworks        # Angular、React、Vue
+│   └── Mobile            # Cordova、ReactNative、H5
 ├── Back-End
-│   ├── NodeJS        # npm、Koa、V8 Engine、微服务
-│   └── DataBase      # MySQL、MongoDB、Redis
+│   ├── NodeJS            # npm、Koa、V8 Engine、微服务
+│   └── DataBase          # MySQL、MongoDB、Redis
 │
-└── Book Notes        # 读书笔记
+└── Book Notes            # 读书笔记
 ```
 
 <h2 align="center">Part 1 Dev Basic</h2>
@@ -54,11 +55,11 @@
 | 3    | [localhost和127.0.0.1的异同](https://github.com/muwenzi/Blog/issues/52)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-11-14    |
 | 4    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
 
-<h2 align="center">Part 2 编程语言</h2>
+<h2 align="center">Part 2 JavaScript</h2>
 
-### 1. JavaScript
+### 1. Grammar
 
-包括ES5/ES2015+/Babel等
+包括ES5/ES2015+/Babel/Webpack等
 
 | 序号  | 标题                                                                     | 标签                                                                                        | 发布日期    |
 | :--- | :----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
@@ -77,8 +78,9 @@
 | 13    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Blog/issues/34)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
 | 14   | [JavaScript Error Types](https://github.com/muwenzi/Blog/issues/36)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
 | 15   | [剖析JS的浅拷贝与深拷贝](https://github.com/muwenzi/Blog/issues/62)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-11-30       |
+| 16   | [slice 和 splice 的区别备忘](https://github.com/muwenzi/Blog/issues/83)    | [ES5](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2017-02-13       |
 
-### 2. Java
+### 2. DS & ALG
 
 包括面向对象编程等
 
