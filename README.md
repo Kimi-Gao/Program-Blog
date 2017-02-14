@@ -82,18 +82,10 @@
 
 ### 2. DS & ALG
 
-包括面向对象编程等
+数据结构和算法
 
 | 序号  | 标题                                             | 标签                                                                                     | 发布日期 |
 | :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
-| 1    | [TODO](https://github.com/muwenzi/Blog/issues/) | [TODO](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A) | TODO    |
-
-### 3. Advanced
-
-包括数据结构/算法/设计模式/函数式编程/异步编程等
-
-| 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
-| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
 | 1    | [数据结构概述](https://github.com/muwenzi/Blog/issues/28)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-30 |
 | 2    | [Array 数组](https://github.com/muwenzi/Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
 | 3    | [Stack 栈](https://github.com/muwenzi/Blog/issues/56)                      | [数据结构](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-11-19 |
@@ -108,8 +100,22 @@
 | 12   | [算法概述](https://github.com/muwenzi/Blog/issues/30)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
 | 13   | [深入探讨两个整数的交换问题](https://github.com/muwenzi/Blog/issues/31)                       | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
 | 14   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Blog/issues/26)         | [算法](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
-| 15   | [Singleton 单例模式](https://github.com/muwenzi/Blog/issues/45)         | [设计模式](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A设计模式)                | 2016-11-03 |
-| 16   | [JS中的非可变性 (Immutability)](https://github.com/muwenzi/Blog/issues/29) | [函数式编程](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A函数式编程)      | 2016-09-30 |
+
+### 3. Design Pattern
+
+常用设计模式
+
+| 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
+| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| 1  | [Singleton 单例模式](https://github.com/muwenzi/Blog/issues/45)         | [设计模式](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A设计模式)                | 2016-11-03 |
+
+### 4. Functional P
+
+函数式编程
+
+| 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
+| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| 1   | [JS中的非可变性 (Immutability)](https://github.com/muwenzi/Blog/issues/29) | [函数式编程](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3A函数式编程)      | 2016-09-30 |
 
 <h2 align="center">Part 3 Front-End</h2>
 
