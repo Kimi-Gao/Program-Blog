@@ -3,23 +3,23 @@
 ```
 .
 ├── Dev Basic
-│   ├── Tools                       # Shell、Git、IDE、Tips
-│   └── Network                     # HTTP、Ajax、RESTful
+│   ├── Tools                         # Shell、Git、IDE、Tips
+│   └── Network                       # HTTP、Ajax、RESTful
 ├── Javascript
-│   ├── Grammar                     # ES5、ES2015+、Babel、Webpack
-│   ├── Data Structure & Algorithm  # 数据结构和算法
-│   ├── Design Patterns             # 设计模式
-│   └── FunctionaDl Programming     # 函数式编程
+│   ├── Grammar                       # ES5、ES2015+、Babel、Webpack
+│   ├── Data Structure & Algorithm    # 数据结构和算法
+│   ├── Design Patterns               # 设计模式
+│   └── Functional Programming        # 函数式编程
 ├── Front-End
-│   ├── CSS                         # 盒模型、定位、字体图标、布局、动画
-│   ├── DOM                         # HTML、Event、jQuery
-│   ├── Frameworks                  # Angular、React、Vue
-│   └── Mobile                      # Cordova、ReactNative、H5
+│   ├── CSS                           # 盒模型、定位、字体图标、布局、动画
+│   ├── DOM                           # HTML、Event、jQuery
+│   ├── Frameworks                    # Angular、React、Vue
+│   └── Mobile                        # Cordova、ReactNative、H5
 ├── Back-End
-│   ├── NodeJS                      # npm、Koa、V8 Engine、微服务
-│   └── DataBase                    # MySQL、MongoDB、Redis
+│   ├── NodeJS                        # npm、Koa、V8 Engine、微服务
+│   └── DataBase                      # MySQL、MongoDB、Redis
 │
-└── Book Notes                      # 读书笔记
+└── Book Notes                        # 读书笔记
 ```
 
 <h2 align="center">Part 1 Dev Basic</h2>
