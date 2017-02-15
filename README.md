@@ -42,7 +42,7 @@
 | 10    | [用emoji表情提交代码指南](https://github.com/muwenzi/Blog/issues/71)             | [Git](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-12-20 |
 | 11    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Blog/issues/54)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
 | 12    | [初识常见的开源许可证](https://github.com/muwenzi/Blog/issues/65)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-12-07 |
-
+| 13    | [vi/vim 快捷键小结](https://github.com/muwenzi/Blog/issues/85)    | [Tips](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-02-15 |
 
 ### 2. 网络基础知识
 
