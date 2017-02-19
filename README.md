@@ -1,3 +1,5 @@
+文章均发布在issue中，仓库仅作为备份使用，欢迎阅读，交流和:star:。
+
 ## 目录结构
 
 ```
@@ -138,6 +140,7 @@
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
 | 1   | [明析相对路径、绝对路径以及base](https://github.com/muwenzi/Blog/issues/58) | [HTML](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
 | 2   | [事件流](https://github.com/muwenzi/Blog/issues/55) | [Event](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
+| 3   | [JS滚动 scroll (1): 自动滚动到底部](https://github.com/muwenzi/Blog/issues/55) | [Event](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2017-02-19 |
 
 ### 3. 前端框架
 
