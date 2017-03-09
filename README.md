@@ -55,7 +55,8 @@
 | 1    | [HTTP协议的前身今世](https://github.com/muwenzi/Blog/issues/35)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-17    |
 | 2    | [常见HTTP响应状态码](https://github.com/muwenzi/Blog/issues/40)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-30    |
 | 3    | [localhost和127.0.0.1的异同](https://github.com/muwenzi/Blog/issues/52)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-11-14    |
-| 4    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
+| 4    | [PUT 和 POST的区别](https://github.com/muwenzi/Blog/issues/88)  | [HTTP](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2017-03-02    |
+| 5    | [RESTful入门指南录](https://github.com/muwenzi/Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
 
 <h2 align="center">Part 2 JavaScript</h2>
 
@@ -131,6 +132,7 @@
 | 2   | [去除inline-block元素间间距](https://github.com/muwenzi/Blog/issues/69) | [CSS基础](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-17 |
 | 3   | [css基础样式表](https://github.com/muwenzi/Blog/issues/70) | [CSS基础](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-19|
 | 4   | [textarea禁用拖动和固定大小的方法](https://github.com/muwenzi/Blog/issues/84) | [CSS基础](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-02-15|
+| 5   | [用CSS画一个三角形](https://github.com/muwenzi/Blog/issues/89) | [CSS基础](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-03-09|
 
 ### 2. DOM
 
@@ -192,6 +194,7 @@
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
 | 1    | [MySQL在Mac上的基本配置](https://github.com/muwenzi/Blog/issues/44)             | [MySQL](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMySQL) | 2016-11-01 |
+| 2    | [了解MongoDB](https://github.com/muwenzi/Blog/issues/90)             | [MongoDB](https://github.com/muwenzi/Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMongoDB) | 2017-03-09 |
 
 <h2 align="center">Part 5 Book Notes</h2>
 
