@@ -216,5 +216,5 @@
 
 [![license][license-image]][license-url]
 
-[license-url]: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh
-[license-image]: https://img.shields.io/badge/license-CC%20BY--NC--ND-green.svg
+[license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+[license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg

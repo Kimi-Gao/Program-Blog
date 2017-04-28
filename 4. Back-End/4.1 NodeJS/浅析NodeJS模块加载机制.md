@@ -34,7 +34,8 @@ function require(...) {
 
 模块主要分为两类：`核心模块`和`文件模块`
 ```
-核心模块：Node提供的模块，已经是编译后二进制文件，部分核心模块直接加载进内存，在步骤（1）中优先执行，切（2）（3）可省略，所以它的加载速度最快
+核心模块：Node提供的模块，已经是编译后二进制文件，部分核心模块直接加载进内存，在步骤1中优先执行，
+且2、3可省略，所以它的加载速度最快
 
 文件模块：用户编写的模块，运行时动态加载，需要1，2，3完整的过程，速度比核心模块慢
 ```
@@ -76,12 +77,12 @@ require有可能通过文件扩展名之后没有找到对应的文件，但会�
 
 Node也一定程度上遵循了CommonJS规范，过程如下：
 
-1. Node会在当前目录下查找`package.json`文件，查找`main`字段指定的文件
+1. Node会在当前目录下查找`package.json`文件（JSON.parse解析），查找`main`字段指定的文件
 1. 第一步不成功则会一次查找`index.js`、`index.json`、`index.node`
 1. 遍历下一个模块路径还是没有则抛出查找失败的异常
 
 **参考资料**
-1. [深入浅出NodeJS by 朴灵]
+1. 深入浅出NodeJS by 朴灵
 1. [node-interview module by ElemeFE](https://github.com/ElemeFE/node-interview/blob/master/sections/module.md#%E6%A8%A1%E5%9D%97%E6%9C%BA%E5%88%B6)
 
 **思考**
