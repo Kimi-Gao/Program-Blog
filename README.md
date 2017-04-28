@@ -182,13 +182,14 @@
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Program-Blog/issues/6)             | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-24 |
 | 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Program-Blog/issues/12)        | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-31 |
 | 3    | [package.json-node项目的设计图纸](https://github.com/muwenzi/Program-Blog/issues/22) | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-09-12 |
-| 4    | [V8引擎介绍](https://github.com/muwenzi/Program-Blog/issues/33) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-10-11 |
-| 5    | [Chrome背后的故事（一）稳定性、严格和多任务架构](https://github.com/muwenzi/Program-Blog/issues/47) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 6    | [Chrome背后的故事（二）速度：WebKit和V8](https://github.com/muwenzi/Program-Blog/issues/48) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 7    | [Chrome背后的故事（三）搜索和用户体验](https://github.com/muwenzi/Program-Blog/issues/49) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 8    | [Chrome背后的故事（四）安全性、沙盒模式和没有危险的浏览体验](https://github.com/muwenzi/Program-Blog/issues/51) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 9    | [Chrome背后的故事（五）Gears，标准和开放源代码](https://github.com/muwenzi/Program-Blog/issues/50) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 10    | [V8内存机制](https://github.com/muwenzi/Program-Blog/issues/61) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
+| 4    | [浅析NodeJS模块加载机制](https://github.com/muwenzi/Program-Blog/issues/94) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2017-04-28 |
+| 5    | [V8引擎介绍](https://github.com/muwenzi/Program-Blog/issues/33) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-10-11 |
+| 6    | [Chrome背后的故事（一）稳定性、严格和多任务架构](https://github.com/muwenzi/Program-Blog/issues/47) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 7    | [Chrome背后的故事（二）速度：WebKit和V8](https://github.com/muwenzi/Program-Blog/issues/48) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 8    | [Chrome背后的故事（三）搜索和用户体验](https://github.com/muwenzi/Program-Blog/issues/49) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 9    | [Chrome背后的故事（四）安全性、沙盒模式和没有危险的浏览体验](https://github.com/muwenzi/Program-Blog/issues/51) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 10    | [Chrome背后的故事（五）Gears，标准和开放源代码](https://github.com/muwenzi/Program-Blog/issues/50) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 11    | [V8内存机制](https://github.com/muwenzi/Program-Blog/issues/61) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
 
 ### 2. DataBase
 
