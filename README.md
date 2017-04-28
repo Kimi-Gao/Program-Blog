@@ -2,6 +2,8 @@
 
 :point_right: [留言板块](https://github.com/muwenzi/Program-Blog/issues/91)
 
+:point_right: [署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+
 ## 目录结构
 
 ```
