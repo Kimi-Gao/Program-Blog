@@ -1,8 +1,10 @@
-文章均发布在issue中，仓库仅作为备份，欢迎阅读、交流和:star:
+文章均发布在[issues](https://github.com/muwenzi/Program-Blog/issues)中，仓库仅作为备份，欢迎阅读、交流和:star:
 
 :point_right: [留言板块](https://github.com/muwenzi/Program-Blog/issues/91)
 
-:point_right: [署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+:envelope: mrgaonju@gmail.com
+
+:copyright: [署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 
 ## 目录结构
 
@@ -40,15 +42,17 @@
 | 2    | [iTerm2快捷键](https://github.com/muwenzi/Program-Blog/issues/21)               | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
 | 3    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Program-Blog/issues/1) | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
 | 4    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Program-Blog/issues/4)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
-| 5    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Program-Blog/issues/15)          | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
-| 6    | [Mac系统问题和命令汇总](https://github.com/muwenzi/Program-Blog/issues/11)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
-| 7    | [Git生成SSH密匙](https://github.com/muwenzi/Program-Blog/issues/5)              | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-24 |
-| 8    | [Git常用操作小结](https://github.com/muwenzi/Program-Blog/issues/13)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
-| 9    | [Git合并多个commit](https://github.com/muwenzi/Program-Blog/issues/60)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-11-25 |
-| 10    | [用emoji表情提交代码指南](https://github.com/muwenzi/Program-Blog/issues/71)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-12-20 |
-| 11    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Program-Blog/issues/54)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
-| 12    | [初识常见的开源许可证](https://github.com/muwenzi/Program-Blog/issues/65)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-12-07 |
-| 13    | [vi/vim 快捷键小结](https://github.com/muwenzi/Program-Blog/issues/85)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-02-15 |
+| 5    | [oh-my-zsh常用插件](https://github.com/muwenzi/Program-Blog/issues/105)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2017-06-30 |
+| 6    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Program-Blog/issues/15)          | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
+| 7    | [Mac系统问题和命令汇总](https://github.com/muwenzi/Program-Blog/issues/11)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
+| 8    | [Git生成SSH密匙](https://github.com/muwenzi/Program-Blog/issues/5)              | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-24 |
+| 9    | [Git常用操作小结](https://github.com/muwenzi/Program-Blog/issues/13)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
+| 10    | [Git合并多个commit](https://github.com/muwenzi/Program-Blog/issues/60)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-11-25 |
+| 11    | [用emoji表情提交代码指南](https://github.com/muwenzi/Program-Blog/issues/71)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-12-20 |
+| 12    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Program-Blog/issues/54)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
+| 13    | [初识常见的开源许可证](https://github.com/muwenzi/Program-Blog/issues/65)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-12-07 |
+| 14    | [vi/vim 快捷键小结](https://github.com/muwenzi/Program-Blog/issues/85)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-02-15 |
+| 15    | [JS 程序员常用英语单词](https://github.com/muwenzi/Program-Blog/issues/97)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-06-13 |
 
 ### 2. 网络基础知识
 
@@ -139,6 +143,7 @@
 | 4   | [textarea禁用拖动和固定大小的方法](https://github.com/muwenzi/Program-Blog/issues/84) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-02-15|
 | 5   | [用CSS画一个三角形](https://github.com/muwenzi/Program-Blog/issues/89) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-03-09|
 | 6   | [CSS中特殊字符转Unicode](https://github.com/muwenzi/Program-Blog/issues/92) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-03-16|
+| 7   | [浏览器页面渲染错位问题追踪与解决](https://github.com/muwenzi/Program-Blog/issues/102) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS3)      | 2017-06-21|
 
 ### 2. DOM
 
@@ -147,8 +152,9 @@
 | 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
 | 1   | [明析相对路径、绝对路径以及base](https://github.com/muwenzi/Program-Blog/issues/58) | [HTML](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
-| 2   | [事件流](https://github.com/muwenzi/Program-Blog/issues/55) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
-| 3   | [JS滚动 scroll (1): 自动滚动到底部](https://github.com/muwenzi/Program-Blog/issues/86) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2017-02-19 |
+| 2   | [HTML Cheat Sheet](https://github.com/muwenzi/Program-Blog/issues/95) | [HTML](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2017-05-26 |
+| 3   | [事件流](https://github.com/muwenzi/Program-Blog/issues/55) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
+| 4   | [JS滚动 scroll (1): 自动滚动到底部](https://github.com/muwenzi/Program-Blog/issues/86) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2017-02-19 |
 
 ### 3. 前端框架
 
@@ -184,14 +190,15 @@
 | 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Program-Blog/issues/6)             | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-24 |
 | 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Program-Blog/issues/12)        | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-31 |
 | 3    | [package.json-node项目的设计图纸](https://github.com/muwenzi/Program-Blog/issues/22) | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-09-12 |
-| 4    | [浅析NodeJS模块加载机制](https://github.com/muwenzi/Program-Blog/issues/94) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2017-04-28 |
-| 5    | [V8引擎介绍](https://github.com/muwenzi/Program-Blog/issues/33) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-10-11 |
-| 6    | [Chrome背后的故事（一）稳定性、严格和多任务架构](https://github.com/muwenzi/Program-Blog/issues/47) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 7    | [Chrome背后的故事（二）速度：WebKit和V8](https://github.com/muwenzi/Program-Blog/issues/48) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 8    | [Chrome背后的故事（三）搜索和用户体验](https://github.com/muwenzi/Program-Blog/issues/49) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 9    | [Chrome背后的故事（四）安全性、沙盒模式和没有危险的浏览体验](https://github.com/muwenzi/Program-Blog/issues/51) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 10    | [Chrome背后的故事（五）Gears，标准和开放源代码](https://github.com/muwenzi/Program-Blog/issues/50) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 11    | [V8内存机制](https://github.com/muwenzi/Program-Blog/issues/61) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
+| 4    | [Node Packaged Modules (npm) 基础命令和介绍](https://github.com/muwenzi/Program-Blog/issues/104) | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2017-06-30 |
+| 5    | [浅析NodeJS模块加载机制](https://github.com/muwenzi/Program-Blog/issues/94) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2017-04-28 |
+| 6    | [V8引擎介绍](https://github.com/muwenzi/Program-Blog/issues/33) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-10-11 |
+| 7    | [Chrome背后的故事（一）稳定性、严格和多任务架构](https://github.com/muwenzi/Program-Blog/issues/47) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 8    | [Chrome背后的故事（二）速度：WebKit和V8](https://github.com/muwenzi/Program-Blog/issues/48) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 9    | [Chrome背后的故事（三）搜索和用户体验](https://github.com/muwenzi/Program-Blog/issues/49) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 10    | [Chrome背后的故事（四）安全性、沙盒模式和没有危险的浏览体验](https://github.com/muwenzi/Program-Blog/issues/51) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 11    | [Chrome背后的故事（五）Gears，标准和开放源代码](https://github.com/muwenzi/Program-Blog/issues/50) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 12    | [V8内存机制](https://github.com/muwenzi/Program-Blog/issues/61) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
 
 ### 2. DataBase
 
