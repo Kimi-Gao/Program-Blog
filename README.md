@@ -1,4 +1,4 @@
-文章均发布在[issues](https://github.com/muwenzi/Program-Blog/issues)中，仓库仅作为备份，欢迎阅读、交流和:star:
+文章均发布在[issues](https://github.com/muwenzi/Program-Blog/issues)中，仓库仅作为备份，欢迎阅读、交流和 :star:
 
 :point_right: [留言板块](https://github.com/muwenzi/Program-Blog/issues/91)
 
@@ -217,9 +217,9 @@
 | 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
 | 1    | [《编写可维护的JavaScript》读书笔记（一）编程风格](https://github.com/muwenzi/Program-Blog/issues/59)             | [技术类书籍](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A技术类书籍) | 2016-11-23 |
-| 2    | [《玫瑰的名字》读书笔记](https://github.com/muwenzi/Program-Blog/issues/63)             | [小说类书籍](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A小说类书籍) | 2016-11-30 |
-| 3    | [梁文道《一千零一夜》第四十九夜：古文观止（一）](https://github.com/muwenzi/Program-Blog/issues/64)             | [古诗文类书籍](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A古诗文类书籍) | 2016-12-04 |
-| 4    | [《老南京·旧影秦淮》读书笔记](https://github.com/muwenzi/Program-Blog/issues/66)             | [历史类书籍](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A历史类书籍) | 2016-12-08 |
+| 2    | [《玫瑰的名字》读书笔记](https://github.com/muwenzi/Program-Blog/issues/63)             | [文学书籍](https://github.com/muwenzi/Program-Blog/labels/%E6%96%87%E5%AD%A6%E4%B9%A6%E7%B1%8D) | 2016-11-30 |
+| 3    | [梁文道《一千零一夜》第四十九夜：古文观止（一）](https://github.com/muwenzi/Program-Blog/issues/64)             | [文学书籍](https://github.com/muwenzi/Program-Blog/labels/%E6%96%87%E5%AD%A6%E4%B9%A6%E7%B1%8D) | 2016-12-04 |
+| 4    | [《老南京·旧影秦淮》读书笔记](https://github.com/muwenzi/Program-Blog/issues/66)             | [文学书籍](https://github.com/muwenzi/Program-Blog/labels/%E6%96%87%E5%AD%A6%E4%B9%A6%E7%B1%8D) | 2016-12-08 |
 
 ## License
 
