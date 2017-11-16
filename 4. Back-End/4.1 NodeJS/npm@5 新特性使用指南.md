@@ -21,10 +21,7 @@ npm@5 的一些变化：
 ### package-lock.json
 重新安装模块之所以快，是因为 `package-lock.json` 文件中已经记录了整个 node_modules 文件夹的**树状结构**，甚至连模块的**下载地址**都记录了，再重新安装的时候只需要直接下载文件即可
 
-1. 第一次`npm install`会自动生成一份`package-lock.json` 文件
-1. 此后再进行`npm install`， 它只会根据 `package-lock.json` 文件指定的结构来下载模块，并不会理会 `package.json` 文件
-1. 只能通过`npm install xxx@yyy`更新`package.json`，然后它会自动更新 `package-lock.json` 文件
-1. 删除`package-lock.json` 文件再`npm i`会根据安装模块后的 `node_modules `目录结构来创建，而不是`package.json`
+详细机制注意事项请看：[npm 命令和机制指南 3. 新增包](https://github.com/muwenzi/Program-Blog/issues/104#3)
 
 ### npm-shrinkwrap.json
 npm@5 新增的 `package-lock.json` 文件和之前通过 `npm shrinkwrap` 命令生成的 `npm-shrinkwrap.json` 文件的格式完全相同，文件内记录了**版本，来源，树结构等所有依赖的 metadata**。
@@ -57,35 +54,6 @@ npm@5重写了整个缓存系统，缓存将由 npm 来全局维护不用用户�
 npm 的缓存是使用 [pacote](https://www.npmjs.com/package/pacote) 模块进行下载和管理，基于 [cacache](https://www.npmjs.com/package/cacache) 缓存存储。由于 npm 会维护缓存数据的完整性，一旦数据发生错误，就回重新获取。因此不推荐手动清理缓存，除非需要释放磁盘空间，这也是要强制加上` --force` 参数的原因。
 
 目前没有提供用户自己管理缓存数据的命令，随着你不断安装新的模块，缓存数据也会越来越多，因为 npm 不会自己删除数据。
-
-### 缓存命令
-[npm cache](https://docs.npmjs.com/cli/cache) 提供了三个命令，分别是`npm cache add`, `npm cache clean`, `npm cache verify`。
-
-#### `npm cache add`
-
-官方解释说这个命令主要是 npm 内部使用，但是也可以用来手动给一个指定的 package 添加缓存。(This command is primarily intended to be used internally by npm, but it can provide a way to add data to the local installation cache explicitly.)
-
-#### `npm cache clean --force`
-
-删除缓存目录下的所有数据。从 npm@5 开始，为了保证缓存数据的有效性和完整性，必须要加上 `--force` 参数。
-
-#### `npm cache verify`
-
-验证缓存数据的有效性和完整性，清理垃圾数据。
-
-### 离线安装
-npm 提供了离线安装模式，使用 `--offline`, `--prefer-offline`, `--prefer-online` 可以指定离线模式。
-
-#### `--prefer-offline / --prefer-online`
-
-“离线优先/网络优先”模式。
-
-如果设置为 --prefer-offline 则优先使用缓存数据，如果没有匹配的缓存数据，则从远程仓库下载。
-如果设置为 --prefer-online 则优先使用网络数据，忽略缓存数据，这种模式可以及时获取最新的模块。
-
-#### `--offline`
-
-完全离线模式，安装过程不需要网络，直接使用匹配的缓存数据，一旦缓存数据不存在，则安装失败。
 
 ## 特性三：文件依赖优化
 在之前的版本，如果将本地目录作为依赖来安装，将会把文件目录作为副本拷贝到 node_modules 中。而在 npm@5 中，将改为使用创建 symlinks 的方式来实现（使用本地 tarball 包除外），而不再执行文件拷贝。这将会提升安装速度：
