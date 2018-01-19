@@ -1,229 +1,295 @@
-文章均发布在[issues](https://github.com/muwenzi/Program-Blog/issues)中，仓库仅作为备份，欢迎阅读、交流和 :star:
+English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/master/README.zh-CN.md)
 
-:point_right: [留言板块](https://github.com/muwenzi/Program-Blog/issues/91)
+> PS: Articles are rewriting by English and most of articles are Chinese now.
+
+# Program-Blog
+
+All articles published on those [issues](https://github.com/muwenzi/Program-Blog/issues), repo is only for backup, welcome to read, discuss and :star:
+
+:point_right: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
 
 :envelope: mrgaonju@gmail.com
 
-:copyright: [署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+:copyright: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 
-## 目录结构
+## Content
 
 ```
 .
-├── Dev Basic
-│   ├── Tools                         # Shell、Git、IDE、Tips
-│   └── Network                       # HTTP、Ajax、RESTful
-├── Javascript
-│   ├── Grammar                       # ES5、ES2015+、Babel、Webpack
-│   ├── Data Structure & Algorithm    # 数据结构和算法
-│   ├── Design Patterns               # 设计模式
-│   └── Functional Programming        # 函数式编程
-├── Front-End
-│   ├── CSS                           # 盒模型、定位、字体图标、布局、动画
-│   ├── DOM                           # HTML、Event、jQuery
-│   ├── Frameworks                    # Angular、React、Vue
-│   └── Mobile                        # Cordova、ReactNative、H5
-├── Back-End
-│   ├── NodeJS                        # npm、Koa、V8 Engine、微服务
-│   └── DataBase                      # MySQL、MongoDB、Redis
+├── Basic
+│   ├── Tools                                   # Command, Git, IDE, Tips
+│   ├── Network                                 # Basic Theory, HTTP, Ajax, RESTful
+│   ├── Computer Organization & Design          # 
+│   └── Operation System                        # 
+├── Language
+│   ├── Shell                                   # Shell Script
+│   ├── C/C++                                   # 
+│   ├── JavaScript                              # ES5, 6/2015, 2016 and later, Babel
+│   ├── TypeScript                              # Typed superset of JavaScript
+│   └── Python                                  # 
+├── Programming
+│   ├── Data Structure                          # 
+│   ├── Algorithm                               # 
+│   ├── Design Patterns                         # 
+│   └── Functional Programming                  # 
+├── Client
+│   ├── CSS                                     # Basic CSS, Animation
+│   ├── DOM                                     # HTML, Event, jQuery
+│   ├── FE Frameworks                           # Angular, React/Redux, Vue
+│   ├── Mobile                                  # ReactNative, H5
+│   └── Client Security                         # XSS, CSRF
+├── Server
+│   ├── NodeJS                                  # npm/yarn, Koa, V8 Engine
+│   ├── MicroService                            # 
+│   ├── DevOps                                  # Linux deploy, Docker
+│   ├── DataBase                                # MySQL, Redis, MongoDB
+│   └── Server Security                         # SQL injection
 │
-└── Book Notes                        # 读书笔记
+└── Books Reading                               # Technical books recommendation/feelings
 ```
 
-<h2 align="center">Part 1 Dev Basic</h2>
+<h2 align="center">Part 1 Basic</h2>
 
-### 1. 基础工具
+### 1.1 Tools
 
-包括Shell、Git、IDE、Tips等
+Command, Git, IDE, Tips
 
-| 序号  | 标题                                                                   | 标签                                                                                  | 发布日期    |
-| :--- | :--------------------------------------------------------------------- | :----------------------------------------------------------------------------------- | ---------- |
-| 1    | [Shell命令小结](https://github.com/muwenzi/Program-Blog/issues/7)               | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
-| 2    | [iTerm2快捷键](https://github.com/muwenzi/Program-Blog/issues/21)               | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
-| 3    | [iTerm之Solarized颜色主题配置](https://github.com/muwenzi/Program-Blog/issues/1) | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
-| 4    | [oh-my-zsh常用git命令](https://github.com/muwenzi/Program-Blog/issues/4)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
-| 5    | [oh-my-zsh常用插件](https://github.com/muwenzi/Program-Blog/issues/105)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2017-06-30 |
-| 6    | [oh-my-zsh问题汇总](https://github.com/muwenzi/Program-Blog/issues/15)          | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
-| 7    | [Mac系统问题和命令汇总](https://github.com/muwenzi/Program-Blog/issues/11)        | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
-| 8    | [Git生成SSH密匙](https://github.com/muwenzi/Program-Blog/issues/5)              | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-24 |
-| 9    | [Git常用操作小结](https://github.com/muwenzi/Program-Blog/issues/13)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
-| 10    | [Git合并多个commit](https://github.com/muwenzi/Program-Blog/issues/60)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-11-25 |
-| 11    | [用emoji表情提交代码指南](https://github.com/muwenzi/Program-Blog/issues/71)             | [Git](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-12-20 |
-| 12    | [Google 和 Baidu 搜索技巧](https://github.com/muwenzi/Program-Blog/issues/54)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
-| 13    | [初识常见的开源许可证](https://github.com/muwenzi/Program-Blog/issues/65)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-12-07 |
-| 14    | [vi/vim 快捷键小结](https://github.com/muwenzi/Program-Blog/issues/85)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-02-15 |
-| 15    | [JS 程序员常用英语单词](https://github.com/muwenzi/Program-Blog/issues/97)    | [Tips](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-06-13 |
-
-### 2. 网络基础知识
-
-包括HTTP/Ajax/OAuth/RESTful等
-
-| 序号  | 标题                                                   | 标签                                                                                   | 发布日期 |
+| ID   | Title                                                 | Tag                                                                                    | Date    |
 | :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
-| 1    | [HTTP协议的前身今世](https://github.com/muwenzi/Program-Blog/issues/35)  | [HTTP](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-17    |
-| 2    | [常见HTTP响应状态码](https://github.com/muwenzi/Program-Blog/issues/40)  | [HTTP](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-30    |
-| 3    | [localhost和127.0.0.1的异同](https://github.com/muwenzi/Program-Blog/issues/52)  | [HTTP](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-11-14    |
-| 4    | [PUT 和 POST的区别](https://github.com/muwenzi/Program-Blog/issues/88)  | [HTTP](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2017-03-02    |
-| 5    | [RESTful入门指南录](https://github.com/muwenzi/Program-Blog/issues/20)  | [RESTful](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
+| 1    | [Shell command summary](https://github.com/muwenzi/Program-Blog/issues/7)               | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+| 2    | [iTerm2 hotkeys](https://github.com/muwenzi/Program-Blog/issues/21)               | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-09 |
+| 3    | [The config of iTerm solarized theme](https://github.com/muwenzi/Program-Blog/issues/1) | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-07-25 |
+| 4    | [Common git commands of oh-my-zsh](https://github.com/muwenzi/Program-Blog/issues/4)        | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-16 |
+| 5    | [Common plugins of oh-my-zsh](https://github.com/muwenzi/Program-Blog/issues/105)        | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2017-06-30 |
+| 6    | [oh-my-zsh issue summary](https://github.com/muwenzi/Program-Blog/issues/15)          | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-09-06 |
+| 7    | [MacOS issue and command summary](https://github.com/muwenzi/Program-Blog/issues/11)        | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-29 |
+| 8    | [The method of generating git SSH key](https://github.com/muwenzi/Program-Blog/issues/5)              | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-24 |
+| 9    | [Common operation summary of Git](https://github.com/muwenzi/Program-Blog/issues/13)             | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-08-31 |
+| 10    | [Squash git commits](https://github.com/muwenzi/Program-Blog/issues/60)             | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-11-25 |
+| 11    | [The guide of committing code by emoji](https://github.com/muwenzi/Program-Blog/issues/71)             | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AGit)     | 2016-12-20 |
+| 12    | [Search tips of Google and Baidu](https://github.com/muwenzi/Program-Blog/issues/54)    | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-11-16 |
+| 13    | [Learn about common open source licenses](https://github.com/muwenzi/Program-Blog/issues/65)    | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2016-12-07 |
+| 14    | [vi/vim hotkeys summary](https://github.com/muwenzi/Program-Blog/issues/85)    | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-02-15 |
+| 15    | [Common specialized words for JS coder](https://github.com/muwenzi/Program-Blog/issues/97)    | [Tools](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ATips)     | 2017-06-13 |
 
-<h2 align="center">Part 2 JavaScript</h2>
+### 1.2 Network
 
-### 1. Grammar
+Basic Theory, HTTP, Ajax, RESTful
 
-包括ES5/ES2015+/Babel/Webpack等
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [The histry of HTTP protocol](https://github.com/muwenzi/Program-Blog/issues/35)  | [Network](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-17    |
+| 2    | [Common HTTP response code](https://github.com/muwenzi/Program-Blog/issues/40)  | [Network](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-10-30    |
+| 3    | [The diff between localhost and 127.0.0.1](https://github.com/muwenzi/Program-Blog/issues/52)  | [Network](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2016-11-14    |
+| 4    | [The diff between PUT and POST](https://github.com/muwenzi/Program-Blog/issues/88)  | [Network](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTTP) | 2017-03-02    |
+| 5    | [The quickStart guide of RESTful](https://github.com/muwenzi/Program-Blog/issues/20)  | [Network](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ARESTful) | 2016-09-06    |
 
-| 序号  | 标题                                                                     | 标签                                                                                        | 发布日期    |
-| :--- | :----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
-| 1   | [ES2015+语言规范](https://github.com/muwenzi/Program-Blog/issues/38)    | [ES2015](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015)           | 2016-10-26       |
-| 2   | [JavaScript History](https://github.com/muwenzi/Program-Blog/issues/43)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-30       |
-| 3   | [Babel Plugin](https://github.com/muwenzi/Program-Blog/issues/39)    | [Babel](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ABabel)           | 2016-10-26       |
-| 4    | [ES2015箭头函数初探](https://github.com/muwenzi/Program-Blog/issues/2)                | [ES2015](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015) | 2016-07-26 |
-| 5    | [const装逼指法精解](https://github.com/muwenzi/Program-Blog/issues/72)                | [ES2015](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015) | 2017-01-05 |
-| 6    | [setTimeout黑魔法](https://github.com/muwenzi/Program-Blog/issues/3)              | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-07-27 |
-| 7    | [JS中奇葩的假值](https://github.com/muwenzi/Program-Blog/issues/14)                | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-01 |
-| 8    | [JS中的数据类型及判断](https://github.com/muwenzi/Program-Blog/issues/17)           | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
-| 9    | [Math对象中一些常用和奇葩的方法](https://github.com/muwenzi/Program-Blog/issues/19)   | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
-| 10    | [Array数组相关操作小结](https://github.com/muwenzi/Program-Blog/issues/18)          | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-10 |
-| 11    | [JSON对象的使用](https://github.com/muwenzi/Program-Blog/issues/25)                | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-23 |
-| 12    | [JS拼接HTML字符串的方法及效率](https://github.com/muwenzi/Program-Blog/issues/24)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
-| 13    | [JS是动态弱类型语言的理解](https://github.com/muwenzi/Program-Blog/issues/34)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
-| 14   | [JavaScript Error Types](https://github.com/muwenzi/Program-Blog/issues/36)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
-| 15   | [剖析JS的浅拷贝与深拷贝](https://github.com/muwenzi/Program-Blog/issues/62)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-11-30       |
-| 16   | [slice 和 splice 的区别备忘](https://github.com/muwenzi/Program-Blog/issues/83)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2017-02-13       |
-| 17   | [对===运算符的理解](https://github.com/muwenzi/Program-Blog/issues/93)    | [ES5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2017-03-16       |
+### 1.3 Computer Organization & Design
 
-### 2. Data Structure & Algorithm
+Including Shell, Git, IDE, Tips etc.
 
-数据结构和算法
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [TODO](https://github.com/muwenzi/Program-Blog/issues/7)               | [Computer Organization & Design](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
 
-| 序号  | 标题                                             | 标签                                                                                     | 发布日期 |
-| :--- | :----------------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
-| 1    | [数据结构概述](https://github.com/muwenzi/Program-Blog/issues/28)                 | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-30 |
-| 2    | [Array 数组](https://github.com/muwenzi/Program-Blog/issues/23)                 | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
-| 3    | [Stack 栈](https://github.com/muwenzi/Program-Blog/issues/56)                      | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-11-19 |
-| 4    | [Queue 队列](https://github.com/muwenzi/Program-Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 5    | [Graph 图](https://github.com/muwenzi/Program-Blog/issues/)                      | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 6    | [LinkedList 链表](https://github.com/muwenzi/Program-Blog/issues/)               | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 7    | [Tree 树](https://github.com/muwenzi/Program-Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 8    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Program-Blog/issues/)    | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 9   | [B Tree B树](https://github.com/muwenzi/Program-Blog/issues/)                    | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 10   | [Heap 堆](https://github.com/muwenzi/Program-Blog/issues/)                       | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 11    | [HashTable 哈希表](https://github.com/muwenzi/Program-Blog/issues/)              | [数据结构](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
-| 12   | [算法概述](https://github.com/muwenzi/Program-Blog/issues/30)                       | [算法](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
-| 13   | [深入探讨两个整数的交换问题](https://github.com/muwenzi/Program-Blog/issues/31)                       | [算法](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
-| 14   | [Bubble Sort 冒泡排序](https://github.com/muwenzi/Program-Blog/issues/26)         | [算法](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
-| 15   | [Selection Sort 选择排序](https://github.com/muwenzi/Program-Blog/issues/110)         | [算法](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2017-08-15 |
-| 16   | [Insertion Sort 插入排序](https://github.com/muwenzi/Program-Blog/issues/111)         | [算法](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2017-08-16 |
+### 1.4 Operation System
 
-### 3. Design Patterns
+Including Shell, Git, IDE, Tips etc.
 
-常用设计模式
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [TODO](https://github.com/muwenzi/Program-Blog/issues/7)               | [Operation System](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
 
-| 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
-| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
-| 1  | [Singleton 单例模式](https://github.com/muwenzi/Program-Blog/issues/45)         | [设计模式](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A设计模式)                | 2016-11-03 |
+<h2 align="center">Part 2 Language</h2>
 
-### 4. Functional Programming
+### 2.1 Shell
 
-函数式编程
+Shell Script.
 
-| 序号  | 标题                                                                     | 标签                                                                                            | 发布日期    |
-| :--- | :---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
-| 1   | [JS中的非可变性 (Immutability)](https://github.com/muwenzi/Program-Blog/issues/29) | [函数式编程](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A函数式编程)      | 2016-09-30 |
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [TODO](https://github.com/muwenzi/Program-Blog/issues/38)    | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
 
-<h2 align="center">Part 3 Front-End</h2>
+### 2.2 C/C++
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [TODO](https://github.com/muwenzi/Program-Blog/issues/38)    | [C/C++](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+
+### 2.3 JavaScript
+
+ES5, 6/2015, 2016 and later, Babel
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [ES2015+ style guide](https://github.com/muwenzi/Program-Blog/issues/38)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015)           | 2016-10-26       |
+| 2   | [JavaScript History](https://github.com/muwenzi/Program-Blog/issues/43)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-30       |
+| 3   | [Babel Plugin](https://github.com/muwenzi/Program-Blog/issues/39)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ABabel)           | 2016-10-26       |
+| 4    | [Learn about ES2015 arrow function](https://github.com/muwenzi/Program-Blog/issues/2)                | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015) | 2016-07-26 |
+| 5    | [How to use const](https://github.com/muwenzi/Program-Blog/issues/72)                | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES2015) | 2017-01-05 |
+| 6    | [Black magic of setTimeout](https://github.com/muwenzi/Program-Blog/issues/3)              | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-07-27 |
+| 7    | [Some strange flase value in JS](https://github.com/muwenzi/Program-Blog/issues/14)                | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-01 |
+| 8    | [How confim the type of data in JS](https://github.com/muwenzi/Program-Blog/issues/17)           | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
+| 9    | [Some common and odd methods in Math object](https://github.com/muwenzi/Program-Blog/issues/19)   | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-06 |
+| 10    | [Summary of Array](https://github.com/muwenzi/Program-Blog/issues/18)          | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-10 |
+| 11    | [Usage of JSON object](https://github.com/muwenzi/Program-Blog/issues/25)                | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-23 |
+| 12    | [The efficiency of concating HTML string in JS](https://github.com/muwenzi/Program-Blog/issues/24)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-09-20 |
+| 13    | [Understanding of JS is dynamic and weak language](https://github.com/muwenzi/Program-Blog/issues/34)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-16       |
+| 14   | [JavaScript Error Types](https://github.com/muwenzi/Program-Blog/issues/36)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-10-24       |
+| 15   | [Shallow clone and deep clone in JS](https://github.com/muwenzi/Program-Blog/issues/62)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2016-11-30       |
+| 16   | [Note about the diff of slice and splice](https://github.com/muwenzi/Program-Blog/issues/83)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2017-02-13       |
+| 17   | [Understanding of ===](https://github.com/muwenzi/Program-Blog/issues/93)    | [JavaScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AES5)           | 2017-03-16       |
+
+### 2.4 TypeScript
+
+Typed superset of JavaScript
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [TODO](https://github.com/muwenzi/Program-Blog/issues/38)    | [TypeScript](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+
+### 2.5 Python
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [TODO](https://github.com/muwenzi/Program-Blog/issues/38)    | [Python](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+
+<h2 align="center">Part 3 Programming</h2>
+
+### 3.1 Data Structure
+
+Including basic data structure, some common algorithm etc.
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [Data structure summary](https://github.com/muwenzi/Program-Blog/issues/28)                 | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-30 |
+| 2    | [Array](https://github.com/muwenzi/Program-Blog/issues/23)                 | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-09-13 |
+| 3    | [Stack](https://github.com/muwenzi/Program-Blog/issues/56)                      | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | 2016-11-19 |
+| 4    | [Queue](https://github.com/muwenzi/Program-Blog/issues/)                    | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 5    | [Graph](https://github.com/muwenzi/Program-Blog/issues/)                      | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 6    | [LinkedList](https://github.com/muwenzi/Program-Blog/issues/)               | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 7    | [Tree](https://github.com/muwenzi/Program-Blog/issues/)                       | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 8    | [BinarySearchTree](https://github.com/muwenzi/Program-Blog/issues/)    | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 9    | [B Tree](https://github.com/muwenzi/Program-Blog/issues/)                    | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 10   | [Heap](https://github.com/muwenzi/Program-Blog/issues/)                       | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+| 11   | [HashTable](https://github.com/muwenzi/Program-Blog/issues/)              | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A数据结构)         | TODO       |
+
+### 3.2 Algorithm
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [Algorithm summary](https://github.com/muwenzi/Program-Blog/issues/30)                       | [Algorithm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
+| 2   | [Discuss more of the exchange of two integers](https://github.com/muwenzi/Program-Blog/issues/31)                       | [Algorithm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)         | 2016-10-09       |
+| 3   | [Bubble Sort](https://github.com/muwenzi/Program-Blog/issues/26)         | [Algorithm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2016-09-28 |
+| 4   | [Selection Sort](https://github.com/muwenzi/Program-Blog/issues/110)         | [Algorithm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2017-08-15 |
+| 5   | [Insertion Sort](https://github.com/muwenzi/Program-Blog/issues/111)         | [Algorithm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A算法)                | 2017-08-16 |
+
+### 3.3 Design Patterns
+
+Including design patterns...
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1  | [Singleton pattern](https://github.com/muwenzi/Program-Blog/issues/45)         | [Design Patterns](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A设计模式)                | 2016-11-03 |
+
+### 3.4 Functional Programming
+
+Including currying, high-order function etc.
+
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [The immutability of JS](https://github.com/muwenzi/Program-Blog/issues/29) | [Functional Programming](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A函数式编程)      | 2016-09-30 |
+
+<h2 align="center">Part 4 Client</h2>
 
 ### 1. CSS
 
-包括CSS基础/CSS3等
+Including Box, Position, font icon, layout, animation etc.
 
-| 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
-| :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
-| 1   | [伪类和伪元素](https://github.com/muwenzi/Program-Blog/issues/67) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-09 |
-| 2   | [去除inline-block元素间间距](https://github.com/muwenzi/Program-Blog/issues/69) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-17 |
-| 3   | [css基础样式表](https://github.com/muwenzi/Program-Blog/issues/70) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2016-12-19|
-| 4   | [textarea禁用拖动和固定大小的方法](https://github.com/muwenzi/Program-Blog/issues/84) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-02-15|
-| 5   | [用CSS画一个三角形](https://github.com/muwenzi/Program-Blog/issues/89) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-03-09|
-| 6   | [CSS中特殊字符转Unicode](https://github.com/muwenzi/Program-Blog/issues/92) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)      | 2017-03-16|
-| 7   | [从position: relative说起CSS中的定位和文档流(normal flow)](https://github.com/muwenzi/Program-Blog/issues/107) | [CSS基础](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS基础)   | 2017-07-18|
-| 8   | [浏览器页面渲染错位问题追踪与解决](https://github.com/muwenzi/Program-Blog/issues/102) | [CSS3](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS3)      | 2017-06-21|
-
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [Pseudo-classes and pseudo-elements](https://github.com/muwenzi/Program-Blog/issues/67) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)      | 2016-12-09 |
+| 2   | [Remove the space of inline-block elements](https://github.com/muwenzi/Program-Blog/issues/69) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)      | 2016-12-17 |
+| 3   | [The basic style of CSS](https://github.com/muwenzi/Program-Blog/issues/70) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)      | 2016-12-19|
+| 4   | [The method of disabling drag and fixed size in textarea](https://github.com/muwenzi/Program-Blog/issues/84) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)      | 2017-02-15|
+| 5   | [How to draw a triangle by CSS](https://github.com/muwenzi/Program-Blog/issues/89) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)      | 2017-03-09|
+| 6   | [How to transform special character to unicode in CSS](https://github.com/muwenzi/Program-Blog/issues/92) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)      | 2017-03-16|
+| 7   | [Start with `position: relative`, the position and normal flow in CSS](https://github.com/muwenzi/Program-Blog/issues/107) | [CSS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS)   | 2017-07-18|
+| 8   | [The tracking and resolution of unmatched problem when browser page rendering](https://github.com/muwenzi/Program-Blog/issues/102) | [CSS3](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ACSS3)      | 2017-06-21|
 
 ### 2. DOM
 
-包括HTML/Event/jQuery
+Including HTML, Event, jQuery etc.
 
-| 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
-| :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
-| 1   | [明析相对路径、绝对路径以及base](https://github.com/muwenzi/Program-Blog/issues/58) | [HTML](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1   | [Distinguish relative path, absolute path and base](https://github.com/muwenzi/Program-Blog/issues/58) | [HTML](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2016-11-22 |
 | 2   | [HTML Cheat Sheet](https://github.com/muwenzi/Program-Blog/issues/95) | [HTML](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AHTML)      | 2017-05-26 |
-| 3   | [事件流](https://github.com/muwenzi/Program-Blog/issues/55) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
-| 4   | [JS滚动 scroll (1): 自动滚动到底部](https://github.com/muwenzi/Program-Blog/issues/86) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2017-02-19 |
+| 3   | [Event Stream](https://github.com/muwenzi/Program-Blog/issues/55) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
+| 4   | [JS scroll (1): auto scroll to bottom](https://github.com/muwenzi/Program-Blog/issues/86) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2017-02-19 |
 
-### 3. 前端框架
+### 3. Frameworks
 
-包括Angular/React/Vue等
+Including Angular, React, Vue etc.
 
-| 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
-| :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
-| 1    | [用ES6/7语法来写兼容IE8的Angular1应用](https://github.com/muwenzi/Program-Blog/issues/8)       | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-26 |
-| 2    | [Angular's jqLite API汇总](https://github.com/muwenzi/Program-Blog/issues/9)                | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-27 |
-| 3    | [angular.element和$document的使用方法分析](https://github.com/muwenzi/Program-Blog/issues/10) | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-28 |
-| 4    | [Angular中$timeout与window.setTimeout的区别](https://github.com/muwenzi/Program-Blog/issues/87) | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2017-02-20 |
-| 5    | [React基本思想](https://github.com/muwenzi/Program-Blog/issues/32) | [React](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-09 |
-| 6    | [React ES6 class 中的this 绑定问题](https://github.com/muwenzi/Program-Blog/issues/37) | [React](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-24 |
-| 7    | [用ng-cloak/v-cloak 解决 Angular/Vue 初始化闪烁问题](https://github.com/muwenzi/Program-Blog/issues/46) | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) [Vue](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AVue)| 2016-11-08 |
-
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [How to devlop Angular1 app compatible IE8 by ES6/7](https://github.com/muwenzi/Program-Blog/issues/8)       | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-26 |
+| 2    | [The summary of Angular's jqLite API](https://github.com/muwenzi/Program-Blog/issues/9)                | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-27 |
+| 3    | [The usage of angular.element and $document analysis](https://github.com/muwenzi/Program-Blog/issues/10) | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2016-08-28 |
+| 4    | [The diff between $timeout and window.setTimeout in Angular](https://github.com/muwenzi/Program-Blog/issues/87) | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) | 2017-02-20 |
+| 5    | [Basic thought of React](https://github.com/muwenzi/Program-Blog/issues/32) | [React](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-09 |
+| 6    | [Talking about of the binding of this in React ES6 class](https://github.com/muwenzi/Program-Blog/issues/37) | [React](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AReact) | 2016-10-24 |
+| 7    | [Use ng-cloak/v-cloak to solve the initializing the flicker problem in Angular/Vue](https://github.com/muwenzi/Program-Blog/issues/46) | [Angular](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AAngular) [Vue](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AVue)| 2016-11-08 |
 
 ### 4. Mobile
 
-包括Cordova/ReactNative/H5
+Including ReactNative, H5 etc.
 
-| 序号  | 标题                                                                                | 标签                                                                                       | 发布日期     |
-| :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | ---------- |
-| 1    | [移动端浏览器上下滚动露出底色问题](https://github.com/muwenzi/Program-Blog/issues/42)       | [H5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AH5) | 2016-10-31 |
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [Move the browser up and down to reveal the underlying color problem](https://github.com/muwenzi/Program-Blog/issues/42)       | [H5](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AH5) | 2016-10-31 |
 
-<h2 align="center">Part 4 Back-End</h2>
+<h2 align="center">Part 5 Server</h2>
 
 ### 1. NodeJS
 
-包括npm/Koa/V8 Engine/微服务等
+Including npm/yarn, Koa, V8 Engine, MicroService etc.
 
-| 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
-| :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
-| 1    | [用n管理不同版本的Node](https://github.com/muwenzi/Program-Blog/issues/6)             | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-24 |
-| 2    | [如何发布node模块到npm社区](https://github.com/muwenzi/Program-Blog/issues/12)        | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-31 |
-| 3    | [package.json-node项目的设计图纸](https://github.com/muwenzi/Program-Blog/issues/22) | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-09-12 |
-| 4    | [npm 命令和机制指南](https://github.com/muwenzi/Program-Blog/issues/104) | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2017-06-30 |
-| 5    | [npm@5 新特性使用指南](https://github.com/muwenzi/Program-Blog/issues/112) | [npm](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2017-11-07 |
-| 6    | [浅析NodeJS模块加载机制](https://github.com/muwenzi/Program-Blog/issues/94) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2017-04-28 |
-| 7    | [V8引擎介绍](https://github.com/muwenzi/Program-Blog/issues/33) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-10-11 |
-| 8    | [Chrome背后的故事（一）稳定性、严格和多任务架构](https://github.com/muwenzi/Program-Blog/issues/47) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 9    | [Chrome背后的故事（二）速度：WebKit和V8](https://github.com/muwenzi/Program-Blog/issues/48) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 10    | [Chrome背后的故事（三）搜索和用户体验](https://github.com/muwenzi/Program-Blog/issues/49) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 11    | [Chrome背后的故事（四）安全性、沙盒模式和没有危险的浏览体验](https://github.com/muwenzi/Program-Blog/issues/51) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 12    | [Chrome背后的故事（五）Gears，标准和开放源代码](https://github.com/muwenzi/Program-Blog/issues/50) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
-| 13    | [V8内存机制](https://github.com/muwenzi/Program-Blog/issues/61) | [V8 Engine](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [How to manage many versions of node by n](https://github.com/muwenzi/Program-Blog/issues/6)             | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-24 |
+| 2    | [How to publish node modules to npm community](https://github.com/muwenzi/Program-Blog/issues/12)        | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-08-31 |
+| 3    | [Design drawing of the node project: package.json](https://github.com/muwenzi/Program-Blog/issues/22) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2016-09-12 |
+| 4    | [Command and mechanism guide of npm](https://github.com/muwenzi/Program-Blog/issues/104) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2017-06-30 |
+| 5    | [The usage guide of npm@5 new feature](https://github.com/muwenzi/Program-Blog/issues/112) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Anpm) | 2017-11-07 |
+| 6    | [Simple analysis of module loading mechanism in NodeJS](https://github.com/muwenzi/Program-Blog/issues/94) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3ANodeJS) | 2017-04-28 |
+| 7    | [Intro. to V8 Engine](https://github.com/muwenzi/Program-Blog/issues/33) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-10-11 |
+| 8    | [The story behind Chrome（一）Stability, rigor, and multitask architecture](https://github.com/muwenzi/Program-Blog/issues/47) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 9    | [The story behind Chrome（二）Speed：WebKit and V8](https://github.com/muwenzi/Program-Blog/issues/48) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 10    | [The story behind Chrome（三）Search and user experience](https://github.com/muwenzi/Program-Blog/issues/49) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 11    | [The story behind Chrome（四）Security, sandbox mode, and no dangerous browsing experience](https://github.com/muwenzi/Program-Blog/issues/51) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 12    | [The story behind Chrome（五）Gears, standard and open source code](https://github.com/muwenzi/Program-Blog/issues/50) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-11-10 |
+| 13    | [The mechanism of memery in V8](https://github.com/muwenzi/Program-Blog/issues/61) | [NodeJS](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A"V8+Engine") | 2016-12-06 |
 
 ### 2. DataBase
 
-包括MySQL/MongoDB/Redis等
+Including MySQL, MongoDB, Redis etc.
 
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [How to config MySQLon MacOS](https://github.com/muwenzi/Program-Blog/issues/44)             | [DataBase](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMySQL) | 2016-11-01 |
+| 2    | [Quick start of MongoDB](https://github.com/muwenzi/Program-Blog/issues/90)             | [DataBase](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMongoDB) | 2017-03-09 |
 
-| 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
-| :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
-| 1    | [MySQL在Mac上的基本配置](https://github.com/muwenzi/Program-Blog/issues/44)             | [MySQL](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMySQL) | 2016-11-01 |
-| 2    | [了解MongoDB](https://github.com/muwenzi/Program-Blog/issues/90)             | [MongoDB](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AMongoDB) | 2017-03-09 |
+<h2 align="center">Part 6 Books Reading</h2>
 
-<h2 align="center">Part 5 Book Notes</h2>
-
-| 序号  | 标题                                                                        | 标签                                                                             | 发布日期    |
-| :--- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | ---------- |
-| 1    | [《编写可维护的JavaScript》读书笔记（一）编程风格](https://github.com/muwenzi/Program-Blog/issues/59)             | [技术类书籍](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A技术类书籍) | 2016-11-23 |
+| ID   | Title                                                 | Tag                                                                                    | Date    |
+| :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
+| 1    | [Maintainable JavaScript [Nicholas C. Zakas]](https://github.com/muwenzi/Program-Blog/issues/59)             | [Books](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3A技术类书籍) | 2016-11-23 |
 
 ## License
 
 [![license][license-image]][license-url]
 
-[license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+[license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg
