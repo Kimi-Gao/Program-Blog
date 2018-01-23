@@ -1,12 +1,10 @@
 # Program-Blog
 
-English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/master/README.zh-CN.md)
+English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/zh-CN/README.md)
 
 > PS: Articles are rewriting by English and most of articles are Chinese now.
 
 All articles published on those [issues](https://github.com/muwenzi/Program-Blog/issues), repo is only for backup, welcome to read, discuss and :star:
-
-:point_right: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
 
 ## Structure
 
@@ -47,12 +45,36 @@ All articles published on those [issues](https://github.com/muwenzi/Program-Blog
 
 ## Quick Links
 
-1. [Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.Basic/index.md)
-1. [Language](https://github.com/muwenzi/Program-Blog/blob/master/2.Language/index.md)
-1. [Programming](https://github.com/muwenzi/Program-Blog/blob/master/3.Programming/index.md)
-1. [Client](https://github.com/muwenzi/Program-Blog/blob/master/4.Client/index.md)
-1. [Server](https://github.com/muwenzi/Program-Blog/blob/master/5.Server/index.md)
-1. [Others](https://github.com/muwenzi/Program-Blog/blob/master/6.Others/index.md)
+- [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.Basic/index.md)
+  - [1.1 Tools]()
+  - [1.2 Network]()
+  - [1.3 Computer Organization & Design]()
+  - [1.4 Operation System]()
+- [2. Language](https://github.com/muwenzi/Program-Blog/blob/master/2.Language/index.md)
+  - [2.1 Shell]()
+  - [2.2 JavaScript]()
+  - [2.3 TypeScript]()
+  - [2.4 Python]()
+- [3. Programming](https://github.com/muwenzi/Program-Blog/blob/master/3.Programming/index.md)
+  - [3.1 Data Structure]()
+  - [3.2 Algorithm]()
+  - [3.3 Design Patterns]()
+  - [3.4 Functional Programming]()
+- [4. Client](https://github.com/muwenzi/Program-Blog/blob/master/4.Client/index.md)
+  - [4.1 CSS]()
+  - [4.2 DOM]()
+  - [4.3 React/Redux]()
+  - [4.4 Mobile]()
+  - [4.5 Client Security]()
+- [5. Server](https://github.com/muwenzi/Program-Blog/blob/master/5.Server/index.md)
+  - [5.1 NodeJS]()
+  - [5.2 DataBase]()
+  - [5.3 MicroService]()
+  - [5.4 DevOps]()
+  - [5.5 Server Security]()
+- [Others](https://github.com/muwenzi/Program-Blog/blob/master/6.Others/index.md)
+  - [Books Reading]()
+  - [Annual Summary]()
 
 ## Tips
 
@@ -62,6 +84,7 @@ You can download this browser plugin to preview the blog gracefully:
 
 ## Contact
 
+:busts_in_silhouette: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
 :envelope: mrgaonju@gmail.com
 
 ## License
