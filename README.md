@@ -1,16 +1,12 @@
+# Program-Blog
+
 English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/master/README.zh-CN.md)
 
 > PS: Articles are rewriting by English and most of articles are Chinese now.
 
-# Program-Blog
-
 All articles published on those [issues](https://github.com/muwenzi/Program-Blog/issues), repo is only for backup, welcome to read, discuss and :star:
 
 :point_right: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
-
-:envelope: mrgaonju@gmail.com
-
-:copyright: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 
 ## Structure
 
@@ -45,8 +41,8 @@ All articles published on those [issues](https://github.com/muwenzi/Program-Blog
 │   └── Server Security                         # SQL injection
 │
 └── Others
-    ├── Books Reading                         # Technical books recommendation/feelings
-    └── Annual Summary                        # 
+    ├── Books Reading                           # Technical books recommendation/feelings
+    └── Annual Summary                          # 
 ```
 
 ## Quick Links
@@ -63,6 +59,10 @@ All articles published on those [issues](https://github.com/muwenzi/Program-Blog
 You can download this browser plugin to preview the blog gracefully:
 
 - [octotree](https://github.com/buunguyen/octotree)
+
+## Contact
+
+:envelope: mrgaonju@gmail.com
 
 ## License
 
