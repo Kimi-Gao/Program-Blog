@@ -1,12 +1,12 @@
 # Program-Blog
 
-English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/master/README.md)
+[English](https://github.com/muwenzi/Program-Blog/blob/english/README.md) | 简体中文
 
-> PS: Articles are rewriting by English and most of articles are Chinese now.
+> PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
 
-All articles are also published on those [issues](?q=is%3Aissue+is%3Aopen+label%3AEnglish), welcome to read, discuss and :star:
+所有文章也发布在 [issues](?q=is%3Aissue+is%3Aopen+label%3Azh-CN) 上，欢迎阅读、讨论和 :star:
 
-## Structure
+## 目录结构
 
 ```text
 .
@@ -43,7 +43,7 @@ All articles are also published on those [issues](?q=is%3Aissue+is%3Aopen+label%
     └── Annual Summary                          # 
 ```
 
-## Quick Links
+## 快速链接
 
 - [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.Basic/index.md)
   - [1.1 Tools]()
@@ -76,19 +76,19 @@ All articles are also published on those [issues](?q=is%3Aissue+is%3Aopen+label%
   - [Books Reading]()
   - [Annual Summary]()
 
-## Tips
+## 小提示
 
-You can download this browser plugin to preview the blog gracefully:
+为了方便地浏览博客目录结构和文字，可以下载这个浏览器插件:
 
 - [octotree](https://github.com/buunguyen/octotree)
 
-## Contact
+## 联系
 
 :busts_in_silhouette: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
 
 :envelope: mrgaonju@gmail.com
 
-## License
+## 协议
 
 [![license][license-image]][license-url]
 
