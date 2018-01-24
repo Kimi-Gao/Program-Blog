@@ -1,6 +1,6 @@
 # Program-Blog
 
-[English](https://github.com/muwenzi/Program-Blog/blob/english/README.md) | 简体中文
+[English](https://github.com/muwenzi/Program-Blog/blob/english) | 简体中文
 
 > PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
 
@@ -78,7 +78,7 @@
 
 ## 小提示
 
-为了方便地浏览博客目录结构和文字，可以下载这个浏览器插件:
+为了方便地浏览博客目录结构和文章，可以下载这个浏览器插件:
 
 - [octotree](https://github.com/buunguyen/octotree)
 
