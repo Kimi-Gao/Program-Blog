@@ -1,6 +1,6 @@
 # Program-Blog
 
-[English](https://github.com/muwenzi/Program-Blog/blob/english) | 简体中文
+[English](https://github.com/muwenzi/Program-Blog/tree/english) | 简体中文
 
 > PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
 
@@ -45,34 +45,34 @@
 
 ## 快速链接
 
-- [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.Basic/index.md)
+- [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md)
   - [1.1 Tools]()
   - [1.2 Network]()
   - [1.3 Computer Organization & Design]()
   - [1.4 Operation System]()
-- [2. Language](https://github.com/muwenzi/Program-Blog/blob/master/2.Language/index.md)
+- [2. Language](https://github.com/muwenzi/Program-Blog/blob/master/2.%20Language/index.md)
   - [2.1 Shell]()
   - [2.2 JavaScript]()
   - [2.3 TypeScript]()
   - [2.4 Python]()
-- [3. Programming](https://github.com/muwenzi/Program-Blog/blob/master/3.Programming/index.md)
+- [3. Programming](https://github.com/muwenzi/Program-Blog/blob/master/3.%20Programming/index.md)
   - [3.1 Data Structure]()
   - [3.2 Algorithm]()
   - [3.3 Design Patterns]()
   - [3.4 Functional Programming]()
-- [4. Client](https://github.com/muwenzi/Program-Blog/blob/master/4.Client/index.md)
+- [4. Client](https://github.com/muwenzi/Program-Blog/blob/master/4.%20Client/index.md)
   - [4.1 CSS]()
   - [4.2 DOM]()
   - [4.3 React & Redux]()
   - [4.4 Mobile]()
   - [4.5 Client Security]()
-- [5. Server](https://github.com/muwenzi/Program-Blog/blob/master/5.Server/index.md)
+- [5. Server](https://github.com/muwenzi/Program-Blog/blob/master/5.%20Server/index.md)
   - [5.1 NodeJS]()
   - [5.2 DataBase]()
   - [5.3 MicroService]()
   - [5.4 DevOps]()
   - [5.5 Server Security]()
-- [Others](https://github.com/muwenzi/Program-Blog/blob/master/6.Others/index.md)
+- [Others](https://github.com/muwenzi/Program-Blog/blob/master/6.%20Others/index.md)
   - [Books Reading]()
   - [Annual Summary]()
 
