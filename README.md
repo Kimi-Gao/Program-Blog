@@ -4,7 +4,7 @@ English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/zh-CN/READ
 
 > PS: Articles are rewriting by English and most of articles are Chinese now.
 
-All articles published on those [issues](https://github.com/muwenzi/Program-Blog/issues), repo is only for backup, welcome to read, discuss and :star:
+All articles are also published on those [issues](?q=is%3Aissue+is%3Aopen+label%3AEnglish), welcome to read, discuss and :star:
 
 ## Structure
 
@@ -85,6 +85,7 @@ You can download this browser plugin to preview the blog gracefully:
 ## Contact
 
 :busts_in_silhouette: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
+
 :envelope: mrgaonju@gmail.com
 
 ## License
