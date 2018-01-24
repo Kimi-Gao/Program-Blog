@@ -1,7 +1,9 @@
+> https://github.com/muwenzi/Program-Blog/issues/7
+
 - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [Linux命令大全](http://man.linuxde.net/)
 
-## mkdir——创建目录
+## mkdir/rmdir——创建/删除目录
 
 创建单个目录
 
@@ -26,6 +28,8 @@ $ mkdir -p dir1/dir2/dir3
 ```
 $ mkdir -p Project/{a,b,c,d}/src
 ```
+rmdir 删除目录
+
 ## cat
 
 **cat主要有三大功能**
@@ -58,43 +62,12 @@ $ cat <选项> <参数>
 ```
 文件列表：指定要连接的文件列表。
 ```
-## lsof
+## lsof -i:端口号——查看端口号对应的进程id
 
-lsof命令用于查看你进程开打的文件，打开文件的进程，进程打开的端口(TCP、UDP)。找回/恢复删除的文件。是十分方便的系统监视工具，因为lsof命令需要访问核心内存和各种文件，所以需要root用户执行。 在linux环境下，任何事物都以文件的形式存在，通过文件不仅仅可以访问常规数据，还可以访问网络连接和硬件。所以如传输控制协议 (TCP) 和用户数据报协议 (UDP) 套接字等，系统在后台都为该应用程序分配了一个文件描述符，无论这个文件的本质如何，该文件描述符为应用程序与基础操作系统之间的交互提供了通用接口。因为应用程序打开文件的描述符列表提供了大量关于这个应用程序本身的信息，因此通过lsof工具能够查看这个列表对系统监测以及排错将是很有帮助的。
-
-**语法**
-
-``` shell
-lsof(选项)
-```
-
-**选项**
-
-``` shell
--a：列出打开文件存在的进程； 
--c<进程名>：列出指定进程所打开的文件； 
--g：列出GID号进程详情； 
--d<文件号>：列出占用该文件号的进程； 
-+d<目录>：列出目录下被打开的文件； 
-+D<目录>：递归列出目录下被打开的文件； 
--n<目录>：列出使用NFS的文件； 
--i<条件>：列出符合条件的进程。（4、6、协议、:端口、 @ip ） 
--p<进程号>：列出指定进程号所打开的文件； 
--u：列出UID号进程详情； 
--h：显示帮助信息； 
--v：显示版本信息。
-```
-
-lsof输出各列信息的意义如下： 
-- COMMAND：进程的名称 
-- PID：进程标识符 
-- PPID：父进程标识符（需要指定-R参数） 
-- USER：进程所有者 
-- PGID：进程所属组 
-- FD：文件描述符，应用程序通过文件描述符识别该文件。
+lsof命令用于查看你进程开打的文件，打开文件的进程，进程打开的端口(TCP、UDP)。因为lsof命令需要访问核心内存和各种文件，所以需要root用户执行。
 
 ## curl——文件上传和下载
-curl命令是一个利用URL规则在命令行下工作的文件传输工具。它支持文件的上传和下载，所以是综合传输工具，但按传统，习惯称curl为下载工具。作为一款强力工具，curl支持包括HTTP、HTTPS、ftp等众多协议，还支持POST、cookies、认证、从指定偏移处下载部分文件、用户代理字符串、限速、文件大小、进度条等特征。做网页处理流程和数据检索自动化，curl可以祝一臂之力。
+curl命令是一个利用URL规则在命令行下工作的文件传输工具。它支持文件的上传和下载，所以是综合传输工具，但按传统，习惯称curl为下载工具。作为一款强力工具，curl支持包括HTTP、HTTPS、ftp等众多协议，还支持POST、cookies、认证等。
 
 ### 语法
 ```sh
@@ -115,10 +88,23 @@ curl -O URL
 
 [see more](http://man.linuxde.net/curl)
 
+## chown 修改权限
+```sh
+sudo chown -R $USER:$USER .
+```
+比如：
+
+![image](https://user-images.githubusercontent.com/12554487/34808549-8f8ef9ce-f6ca-11e7-8a9b-fbc849360110.png)
+```sh
+sudo chown root:admin 路径
+```
 // TODO
 ## grep、touch、open、rm -rf、ln -s、cmd z
 [cp命令](http://man.linuxde.net/cp)
 kill -9 processId
+更新shell命令
+(权限 端口 下载等)
 
 **参考资料**
 - [lsof命令](http://man.linuxde.net/lsof)
+- [osx下关于目录wheel和admin权限的问题](http://blog.csdn.net/qdujunjie/article/details/33713293)

@@ -28,7 +28,7 @@ All articles are also published on those [issues](?q=is%3Aissue+is%3Aopen+label%
 ├── Client
 │   ├── CSS                                     # Basic CSS, Animation
 │   ├── DOM                                     # HTML, Event, jQuery
-│   ├── React/Redux                             # 
+│   ├── React & Redux                           # 
 │   ├── Mobile                                  # ReactNative, H5
 │   └── Client Security                         # XSS, CSRF
 ├── Server
@@ -63,7 +63,7 @@ All articles are also published on those [issues](?q=is%3Aissue+is%3Aopen+label%
 - [4. Client](https://github.com/muwenzi/Program-Blog/blob/master/4.Client/index.md)
   - [4.1 CSS]()
   - [4.2 DOM]()
-  - [4.3 React/Redux]()
+  - [4.3 React & Redux]()
   - [4.4 Mobile]()
   - [4.5 Client Security]()
 - [5. Server](https://github.com/muwenzi/Program-Blog/blob/master/5.Server/index.md)

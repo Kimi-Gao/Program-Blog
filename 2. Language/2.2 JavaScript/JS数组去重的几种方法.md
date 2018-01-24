@@ -1,0 +1,6 @@
+#99
+
+## Reference 
+1. [JavaScript数组去重](https://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650839791&idx=1&sn=a21dced844a2ad992a811e30c0800c37&chksm=80d3b186b7a43890bf91ea5ac740ce49885f9b23de0010b902a3d7aefc9de811c22a2ab7b1cc&scene=0&key=89dde3aab298770e000c4b52dcc4c45bf40c99239514a7ece928838678cf327810442d02f16c6910134e364d1653a23e9b8a4933bb64c22ac038e93253bcfaf1736b12f8ac9eb2175a2633fd77403493&ascene=0&uin=MjYzMTM3MDAyMA%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.12.4+build(16E195)&version=12020810&nettype=WIFI&fontScale=100&pass_ticket=FgZN8Evm%2FchwLesDzotiHJLvJ1BBuWNowSUQL5s7sRT%2F1VRDpcr4XFS6rN%2Bq5yup)
+1. [也谈JavaScript数组去重](https://zhuanlan.zhihu.com/p/24753549?utm_medium=social&utm_source=wechat_session)
+1. [也谈面试必备问题之 JavaScript 数组去重](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651550928&idx=1&sn=0912e56c7ccbb68cf36562e723e29da0&scene=0&key=c32c17d7706c6e2679eddd971a84befd0d3d7410927950d502ef54ca34fb49d28c17a1ef79b35e153a20d6ddf91379a9ed35c83f90b20c93b50d124486b49d96f634672c1d6f1615c7d70c85552b404b&ascene=0&uin=MjYzMTM3MDAyMA%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.12.4+build(16E195)&version=12020810&nettype=WIFI&fontScale=100&pass_ticket=FgZN8Evm%2FchwLesDzotiHJLvJ1BBuWNowSUQL5s7sRT%2F1VRDpcr4XFS6rN%2Bq5yup)

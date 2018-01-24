@@ -26,7 +26,7 @@ Including HTML, Event, jQuery etc.
 | 3   | [Event Stream](https://github.com/muwenzi/Program-Blog/issues/55) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2016-11-18 |
 | 4   | [JS scroll (1): auto scroll to bottom](https://github.com/muwenzi/Program-Blog/issues/86) | [Event](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AEvent)      | 2017-02-19 |
 
-## 3. Frameworks
+## 3. React & Redux
 
 Including Angular, React, Vue etc.
 

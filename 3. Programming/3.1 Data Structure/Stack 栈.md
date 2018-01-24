@@ -1,3 +1,5 @@
+> https://github.com/muwenzi/Program-Blog/issues/23
+
 ## 前言
 
 几乎所有的编程语言都原生支持数组类型，因为数组是最简单的内存数据结构。javascript也有数组类型，而数组呢，其实就是一种特殊的栈或是队列，利用Javascript Array所内置的API可以很方便的模拟栈和队列。
@@ -65,7 +67,7 @@ class Stack {
     this.items = []
   }
   push(...values) {
-    values.forEach(v => this.items.push(v))
+    this.items.push(...values)
   }
   pop() {
     return this.items.pop()
@@ -94,5 +96,5 @@ let stack = new Stack()
 stack.push(3, 9, 5)
 console.log(stack.peek())   // 5
 stack.pop()
-stack.print()  //  "3, 9"
+stack.print()  //  3, 9
 ```
