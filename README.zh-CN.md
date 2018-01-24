@@ -1,10 +1,10 @@
 # Program-Blog
 
-[English](https://github.com/muwenzi/Program-Blog/blob/master/README.md) | 简体中文
+[English](https://github.com/muwenzi/Program-Blog/blob/english/README.md) | 简体中文
 
-> PS: Articles are rewriting by English and most of articles are Chinese now.
+> PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
 
-所有文章也发布在 [issues](?q=is%3Aissue+is%3Aopen+label%3Azh-CN) 上, 欢迎阅读、讨论和 :star:
+所有文章也发布在 [issues](?q=is%3Aissue+is%3Aopen+label%3Azh-CN) 上，欢迎阅读、讨论和 :star:
 
 ## 目录结构
 
@@ -78,7 +78,7 @@
 
 ## 小提示
 
-You can download this browser plugin to preview the blog gracefully:
+为了方便地浏览博客目录结构和文字，可以下载这个浏览器插件:
 
 - [octotree](https://github.com/buunguyen/octotree)
 
