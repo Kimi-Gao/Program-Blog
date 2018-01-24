@@ -6,7 +6,7 @@ Shell Script.
 
 | ID   | Title                                                 | Tag                                                                                    | Date    |
 | :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
-| 1   | [TODO](https://github.com/muwenzi/Program-Blog/issues/38)    | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
+| 1   | [how to write shell script: basic](https://github.com/muwenzi/Program-Blog/issues/38)    | [Shell](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AShell) | 2016-08-24 |
 
 ## 2.2 JavaScript
 
