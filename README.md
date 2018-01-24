@@ -1,6 +1,6 @@
 # Program-Blog
 
-English | [简体中文](https://github.com/muwenzi/Program-Blog/blob/master)
+English | [简体中文](https://github.com/muwenzi/Program-Blog)
 
 > PS: Articles are rewriting by English and most of articles are Chinese now.
 
