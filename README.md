@@ -1,11 +1,12 @@
 # Program-Blog
+
 ![discuss][discuss-image] [![license][license-image]][license-url] ![issues][issues-image] ![last-commit][last-commit-image]
 
-[English](https://github.com/muwenzi/Program-Blog/tree/english) | 简体中文
+[English][englisg-url] | 简体中文
 
 > PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
 
-所有文章也发布在 [issues](?q=is%3Aissue+is%3Aopen+label%3Azh-CN) 上，欢迎阅读、讨论和 :star:
+所有文章也发布在 [issues][issues-url] 上，欢迎阅读、讨论和 :star:
 
 ## 目录结构
 
@@ -37,7 +38,7 @@
 │   ├── DataBase                                # MySQL, Redis, MongoDB
 │   ├── MicroService                            # 
 │   ├── DevOps                                  # Linux deploy, Docker
-│   └── Server Security                         # SQL injection
+│   └── Server Security                         # 
 │
 └── Others
     ├── Books Reading                           # Technical books recommendation/feelings
@@ -81,16 +82,21 @@
 
 为了方便地浏览博客目录结构和文章，可以下载这个浏览器插件:
 
-- [octotree](https://github.com/buunguyen/octotree)
+- [octotree][octotree-url]
 
 ## 联系
 
-:busts_in_silhouette: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
+:busts_in_silhouette: [Message board][message-board-url]
 
 :envelope: mrgaonju@gmail.com
 
-[license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
 [issues-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square
 [last-commit-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square
+
+[license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+[englisg-url]: https://github.com/muwenzi/Program-Blog/tree/english
+[issues-url]: ?q=is%3Aissue+is%3Aopen+label%3Azh-CN
+[octotree-url]: https://github.com/buunguyen/octotree
+[message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
