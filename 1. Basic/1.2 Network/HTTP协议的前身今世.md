@@ -227,6 +227,6 @@ Facebook对各方案进行了评价并最终推荐了 SPDY 协议
 
 **参考资料**
 
-[1] [HTTP 协议简介](http://techlog.cn/article/list/10182870)
-[2] [HTTP 协议介绍](http://blog.qiji.tech/archives/1506)
-[3] [HTTP 协议入门 by 阮一峰](http://www.ruanyifeng.com/blog/2016/08/http.html)
+1. [HTTP 协议简介](http://techlog.cn/article/list/10182870)
+1. [HTTP 协议介绍](http://blog.qiji.tech/archives/1506)
+1. [HTTP 协议入门 by 阮一峰](http://www.ruanyifeng.com/blog/2016/08/http.html)

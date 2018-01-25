@@ -1,4 +1,5 @@
 # Program-Blog
+![discuss][discuss-image] ![issues][issues-image] ![last-commit][last-commit-image]
 
 [English](https://github.com/muwenzi/Program-Blog/tree/english) | 简体中文
 
@@ -94,3 +95,6 @@
 
 [license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
+[discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
+[issues-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square
+[last-commit-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square
