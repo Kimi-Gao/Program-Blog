@@ -1,5 +1,5 @@
 # Program-Blog
-![discuss][discuss-image] ![issues][issues-image] ![last-commit][last-commit-image]
+![discuss][discuss-image] [![license][license-image]][license-url] ![issues][issues-image] ![last-commit][last-commit-image]
 
 [English](https://github.com/muwenzi/Program-Blog/tree/english) | 简体中文
 
@@ -88,10 +88,6 @@
 :busts_in_silhouette: [Message board](https://github.com/muwenzi/Program-Blog/issues/91)
 
 :envelope: mrgaonju@gmail.com
-
-## 协议
-
-[![license][license-image]][license-url]
 
 [license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
