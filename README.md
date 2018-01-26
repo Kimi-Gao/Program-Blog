@@ -2,7 +2,7 @@
 
 ![discuss][discuss-image] [![license][license-image]][license-url] ![issues][issues-image] ![last-commit][last-commit-image]
 
-[English][englisg-url] | 简体中文
+[English][english-url] | 简体中文
 
 > PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
 
@@ -96,7 +96,7 @@
 [last-commit-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square
 
 [license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
-[englisg-url]: https://github.com/muwenzi/Program-Blog/tree/english
-[issues-url]: ?q=is%3Aissue+is%3Aopen+label%3Azh-CN
+[english-url]: https://github.com/muwenzi/Program-Blog/tree/english
+[issues-url]: https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Azh-CN
 [octotree-url]: https://github.com/buunguyen/octotree
 [message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
