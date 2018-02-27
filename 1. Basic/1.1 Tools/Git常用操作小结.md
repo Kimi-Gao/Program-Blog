@@ -16,7 +16,7 @@
 | 10 | [git rebase](#10) `grb` |
 | 11 | [git stash](#11) `gsta` |
 | 12 | [git clean](#12) |
-| 13 | [清除远端冗余分支](#13)|
+| 13 | [git remote](#13)|
 
 [zsh-git](https://github.com/muwenzi/Blog/issues/4)
 
@@ -452,11 +452,34 @@ git clean -fdx
 
 小结： git reset --hard和git clean -f是一对好基友. 结合使用他们能让你的工作目录完全回退到最近一次commit的时候. 
 
-<h2 id="13">清除远端冗余分支</h2>
+<h2 id="13">git remote</h2>
+
+### 查看远端仓库的地址
+
+```sh
+git remote -v
+```
+
+### 修改远端仓库地址
+
+```sh
+git remote set-url 名称 git@github.com:muwenzi/Program-Blog.git
+```
+
+### 拉取上游仓库的代码
+
+```sh
+git pull upstream 分支名
+```
+
+`upstream`为上游仓库名
+
+### 清除远端冗余分支
 
 ```sh
 git remote show origin
 ```
+
 可以查看本地与远端的分支是否还关联或者已经过时（远端已经不存在了）
 
 然后就会提示另一条命令
@@ -464,9 +487,13 @@ git remote show origin
 ```sh
 git remote prune origin
 ```
+
 用来清除已经失效的
 
-**参考资料**
+[完整git-remote命令](https://www.git-scm.com/docs/git-remote)
+
+## 参考资料
+
 1. [Git远程操作详解（阮一峰）](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 1. [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki)
 1. [回滚错误的修改](https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9)
@@ -477,4 +504,5 @@ git remote prune origin
 1. [git clean 小结](http://blog.csdn.net/wh_19910525/article/details/8233858)
 1. [How do I force “git pull” to overwrite local files?](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
 1. [[译]git clean](http://www.cnblogs.com/irocker/p/git-clean.html)
+1. [git-remote - Manage set of tracked repositories](https://www.git-scm.com/docs/git-remote)
 
