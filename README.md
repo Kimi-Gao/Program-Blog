@@ -2,10 +2,6 @@
 
 ![discuss][discuss-image] [![license][license-image]][license-url] ![issues][issues-image] ![last-commit][last-commit-image]
 
-[English][english-url] | 简体中文
-
-> PS: 文章正在用英文重写， 目前大部分文章都是简体中文。
-
 所有文章也发布在 [issues][issues-url] 上，欢迎阅读、讨论和 :star:
 
 ## 目录结构
@@ -21,6 +17,7 @@
 │   ├── Shell                                   # Shell Script
 │   ├── JavaScript                              # ES5, 6/2015, 2016 and later, Babel
 │   ├── TypeScript                              # Typed superset of JavaScript
+│   ├── Java                                    #
 │   └── Python                                  # 
 ├── Programming
 │   ├── Data Structure                          # 
