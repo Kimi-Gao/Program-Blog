@@ -17,8 +17,7 @@
 │   ├── Shell                                   # Shell Script
 │   ├── JavaScript                              # ES5, 6/2015, 2016 and later, Babel
 │   ├── TypeScript                              # Typed superset of JavaScript
-│   ├── Java                                    #
-│   └── Python                                  # 
+│   └── Java                                    #
 ├── Programming
 │   ├── Data Structure                          # 
 │   ├── Algorithm                               # 
@@ -31,15 +30,15 @@
 │   ├── Mobile                                  # ReactNative, H5
 │   └── Client Security                         # XSS, CSRF
 ├── Server
-│   ├── NodeJS                                  # npm/yarn, Koa, V8 Engine
+│   ├── NodeJS                                  # npm/yarn, Koa, Nest, V8 Engine
 │   ├── DataBase                                # MySQL, Redis, MongoDB
 │   ├── MicroService                            # 
 │   ├── DevOps                                  # Linux deploy, Docker
 │   └── Server Security                         # 
 │
 └── Others
-    ├── Books Reading                           # Technical books recommendation/feelings
-    └── Annual Summary                          # 
+    ├── Books Reading                           # Technical books recommendation
+    └── Life & Career                           # 
 ```
 
 ## 快速链接
@@ -53,7 +52,7 @@
   - [2.1 Shell]()
   - [2.2 JavaScript]()
   - [2.3 TypeScript]()
-  - [2.4 Python]()
+  - [2.4 Java]()
 - [3. Programming](https://github.com/muwenzi/Program-Blog/blob/master/3.%20Programming/index.md)
   - [3.1 Data Structure]()
   - [3.2 Algorithm]()
