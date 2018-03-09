@@ -6,17 +6,17 @@ Including basic data structure, some common algorithm etc.
 
 | ID   | Title                                                 | Tag                                                                                    | Date    |
 | :--- | :---------------------------------------------------- | :------------------------------------------------------------------------------------- | ------- |
-| 1    | [数据结构概述](https://github.com/muwenzi/Program-Blog/issues/28)                 | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | 2016-09-30 |
-| 2    | [Array 数组](https://github.com/muwenzi/Program-Blog/issues/23)                 | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | 2016-09-13 |
-| 3    | [Stack 栈](https://github.com/muwenzi/Program-Blog/issues/56)                      | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | 2016-11-19 |
-| 4    | [Queue 队列](https://github.com/muwenzi/Program-Blog/issues/)                    | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 5    | [Graph 图](https://github.com/muwenzi/Program-Blog/issues/)                      | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 6    | [LinkedList 链表](https://github.com/muwenzi/Program-Blog/issues/)               | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 7    | [Tree 树](https://github.com/muwenzi/Program-Blog/issues/)                       | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 8    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Program-Blog/issues/)    | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 9   | [B Tree B树](https://github.com/muwenzi/Program-Blog/issues/)                    | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 10   | [Heap 堆](https://github.com/muwenzi/Program-Blog/issues/)                       | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
-| 11    | [HashTable 哈希表](https://github.com/muwenzi/Program-Blog/issues/)              | [Data Structure](https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3AData Structure)         | TODO       |
+| 1    | [数据结构概述](https://github.com/muwenzi/Program-Blog/issues/28)                 | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | 2016-09-30 |
+| 2    | [Array 数组](https://github.com/muwenzi/Program-Blog/issues/23)                 | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | 2016-09-13 |
+| 3    | [Stack 栈](https://github.com/muwenzi/Program-Blog/issues/56)                      | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | 2016-11-19 |
+| 4    | [Queue 队列](https://github.com/muwenzi/Program-Blog/issues/)                    | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 5    | [Graph 图](https://github.com/muwenzi/Program-Blog/issues/)                      | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 6    | [LinkedList 链表](https://github.com/muwenzi/Program-Blog/issues/)               | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 7    | [Tree 树](https://github.com/muwenzi/Program-Blog/issues/)                       | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 8    | [BinarySearchTree 二叉搜索树](https://github.com/muwenzi/Program-Blog/issues/)    | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 9   | [B Tree B树](https://github.com/muwenzi/Program-Blog/issues/)                    | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 10   | [Heap 堆](https://github.com/muwenzi/Program-Blog/issues/)                       | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
+| 11    | [HashTable 哈希表](https://github.com/muwenzi/Program-Blog/issues/)              | [Data Structure](https://github.com/muwenzi/Program-Blog/labels/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)         | TODO       |
 
 ## 3.2 Algorithm
 

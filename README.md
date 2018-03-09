@@ -4,6 +4,10 @@
 
 所有文章也发布在 [issues][issues-url] 上，欢迎阅读、讨论和 :star:
 
+## 前言
+
+> 不积跬步，无以至千里；不积小流，无以成江海。——《荀子 · 劝学》
+
 ## 目录结构
 
 ```text
@@ -70,7 +74,7 @@
   - [5.4 MicroService]()
   - [5.5 DevOps]()
   - [5.6 Server Security]()
-- [Others](https://github.com/muwenzi/Program-Blog/blob/master/6.%20Others/index.md)
+- [6. Others](https://github.com/muwenzi/Program-Blog/blob/master/6.%20Others/index.md)
   - [Books Reading]()
   - [Annual Summary]()
 
