@@ -1,0 +1,6 @@
+# OS
+.DS_STORE
+
+# IDE
+.vscode/
+.idea/
