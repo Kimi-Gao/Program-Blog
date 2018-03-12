@@ -1,7 +1,7 @@
 > https://github.com/muwenzi/Program-Blog/issues/11
 
 不定期更新
-// todo 三指触控
+
 ## Homebrew安装的时候自动更新太慢
 主要是国内brew update有点龟速，可以先临时禁用自动更新
 ```sh
@@ -69,10 +69,29 @@ sudo xcode-select -switch /
 ![image](https://cloud.githubusercontent.com/assets/12554487/25262997/df803f2c-268e-11e7-8ec1-245411119544.png)
 需要说明的是，如果在系统偏好设置的“安全与隐私”中重新选中允许 App Store 和被认可的开发者 App，即重新打开 Gatekeeper 后，允许“任何来源”App 的选项会再次消失，可运行上述命令再次关闭 Gatekeeper。
 
+## Mac 下禁止 Adobe Creative Cloud 开机启动的方法
+
+禁止开机启动：
+```bash
+launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist
+```
+
+恢复开机启动：
+```bash
+launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist
+```
+
+## 启用Mac三指拖动的窗口
+
+设置-->辅助功能-->左菜单栏下滑，找到鼠标与触控板-->点选触控板选项，勾选启用拖移：三指拖移
+![image](https://bbsimg.fengimg.com/2015/08/25/10478577_%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-08-25%20%E4%B8%8B%E5%8D%889.42.26.png)
+
 **Reference**
 1. [mac-xcrun-error](http://elfxp.com/mac-xcrun-error/)
 1. [macOS Sierra 来了，升级需知和 8 大新变化都在这里](http://sspai.com/35529)
 1. [锋友分享：找回Sierra允许“任何来源” 的应用](http://www.feng.com/iPhone/news/2016-06-27/Feng-friends-sharing-find-Sierra-allows-the-application-of-any-source-_650342.shtml)
 1. [Homebrew有比较快的源（mirror）吗](https://www.zhihu.com/question/31360766/answer/132082951)
+1. [Mac 下禁止 Adobe Creative Cloud 开机启动的方法](https://amdyxu.com/mac-adobe-photoshop-creative-cloud-autostart/)
+1. [EI Captain OS X10.11Beta7如何使用三指拖动应用窗口](https://bbs.feng.com/forum.php?mod=viewthread&tid=9809561&page=1&extra=#pid151071333)
 
-  
+ 
