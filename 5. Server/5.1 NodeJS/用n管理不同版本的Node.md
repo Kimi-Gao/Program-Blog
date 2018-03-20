@@ -118,6 +118,13 @@ $ ~/.n/n/versions/node/7.1.0/bin/npm i -g npm@4
 
 - [填坑原地址](https://github.com/npm/npm/issues/14438)
 
-**更多**
+## 设置 nvm 的默认版本
+
+```bash
+nvm alias default 6.1.0
+```
+
+## 参考资料
 - [n-install](https://github.com/mklement0/n-install#uninstalling-n)
 - [利用n和nvm管理Node的版本](http://www.hi-linux.com/2016/04/07/%E5%88%A9%E7%94%A8n%E5%92%8Cnvm%E7%AE%A1%E7%90%86Node%E7%9A%84%E7%89%88%E6%9C%AC/)
+- [Set default node version with NVM](https://eric.blog/2016/08/23/set-default-node-version-with-nvm/)
