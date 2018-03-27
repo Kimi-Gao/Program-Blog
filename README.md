@@ -2,14 +2,16 @@
     <img width="460" src="https://github.com/muwenzi/Program-Blog/blob/next/resource/img/logo.svg" alt="Blog Logo">
 </h1>
 
-> 不积跬步，无以至千里；不积小流，无以成江海。——《荀子 · 劝学》
-
 ![discuss][discuss-image]
 [![license][license-image]][license-url]
 ![issues][issues-image]
 ![last-commit][last-commit-image]
 
 所有文章也发布在 [issues][issues-url] 上，欢迎阅读、讨论和 :star:
+
+## 前言
+
+> 不积跬步，无以至千里；不积小流，无以成江海。——《荀子 · 劝学》
 
 ## 目录结构
 
