@@ -1,8 +1,8 @@
 <h1 align="center">
-    <img width="460" src="https://github.com/muwenzi/Program-Blog/tree/next/resource/img/logo.svg" alt="Blog Logo">
+    <img width="460" src="https://github.com/muwenzi/Program-Blog/blob/next/resource/img/logo.svg" alt="Blog Logo">
 </h1>
 
-> Program-Blog
+> Program Blog: Summarizing, thinking and reading
 
 ![discuss][discuss-image]
 [![license][license-image]][license-url]
