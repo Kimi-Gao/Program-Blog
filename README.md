@@ -105,7 +105,7 @@ mrgaonju@gmail.com
 
 ## License
 
-[CC BY-NC-SA](https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square)
+[CC BY-NC-SA][license-url]
 
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
