@@ -7,13 +7,13 @@
 ![issues][issues-image]
 ![last-commit][last-commit-image]
 
-所有文章也发布在 [issues][issues-url] 上，欢迎阅读、讨论和 :star:
+All articles are also published on those [issues][issues-url], welcome to read, discuss and :star:
 
-## 前言
+## Preface
 
 > 不积跬步，无以至千里；不积小流，无以成江海。——《荀子 · 劝学》
 
-## 目录结构
+## Content
 
 ```text
 .
@@ -53,7 +53,9 @@
     └── Career                                  # Something about career
 ```
 
-## 快速链接
+> Tips: You can download [this browser plugin](octotree-url) to preview gracefully.
+
+## Quick Links
 
 - [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md)
   - [1.1 Tools]()
@@ -89,27 +91,21 @@
   - [6.2 Books Reading]()
   - [6.3 Career]()
 
-## 技术周刊
+## Weekly
 
-每周一次文章推荐，包括技术基础、实践、生态、感悟和吐槽等
+Recommended articles about frontend tech and developer once a week.
 
-- [周刊文章列表][weekly-url]
+- [Weekly Articles List][weekly-url]
 
-## 小提示
+## Contact
 
-为了方便地浏览博客目录结构和文章，可以下载这个浏览器插件:
-
-- [octotree][octotree-url]
-
-## 联系
-
-[留言板][message-board-url]
+[Message Board][message-board-url]
 
 mrgaonju@gmail.com
 
-## 许可
+## License
 
-[署名-非商业性使用-相同方式共享](https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square)
+[CC BY-NC-SA](https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square)
 
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
