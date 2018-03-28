@@ -4,10 +4,10 @@
 
 ![discuss][discuss-image]
 [![license][license-image]][license-url]
-![issues][issues-image]
-![last-commit][last-commit-image]
+[![articles][articles-image]][articles-url]
+[![update][update-image]][update-url]
 
-All articles are also published on those [issues][issues-url], welcome to read, discuss and :star:
+All articles are also published on those [issues][articles-url], welcome to read, discuss and :star:
 
 ## Preface
 
@@ -54,7 +54,7 @@ All articles are also published on those [issues][issues-url], welcome to read, 
     └── Career                                  # Something about career
 ```
 
-> Tips: You can download [this browser plugin](octotree-url) to preview gracefully.
+> Tips: You can download [this browser plugin][octotree-url] to preview gracefully.
 
 ## Quick Links
 
@@ -113,12 +113,13 @@ mrgaonju@gmail.com
 
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
-[issues-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square
-[last-commit-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square
+[articles-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square&label=articles
+[update-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square&label=update
 
 [license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
 [english-url]: https://github.com/muwenzi/Program-Blog/tree/english
-[issues-url]: https://github.com/muwenzi/Program-Blog/issues
+[articles-url]: https://github.com/muwenzi/Program-Blog/issues
+[update-url]: https://github.com/muwenzi/Program-Blog/commits/master
 [octotree-url]: https://github.com/buunguyen/octotree
 [message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
 [weekly-url]: https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Aweekly
