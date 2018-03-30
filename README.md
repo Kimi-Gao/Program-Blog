@@ -58,6 +58,8 @@ All articles are also published on those [issues][articles-url], welcome to read
 
 ## Quick Links
 
+- [All Labels][labels-url]
+
 - [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md)
   - [1.1 Tools][1.1-url]
   - [1.2 Network][1.2-url]
@@ -124,6 +126,7 @@ mrgaonju@gmail.com
 [message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
 [weekly-url]: https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Aweekly
 [books-url]: https://github.com/muwenzi/Program-Blog/labels/Books
+[labels-url]: https://github.com/muwenzi/Program-Blog/labels
 
 [1.1-url]: https://github.com/muwenzi/Program-Blog/labels/1.1%20Tools
 [1.2-url]: https://github.com/muwenzi/Program-Blog/labels/1.2%20Network
