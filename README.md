@@ -59,7 +59,6 @@ All articles are also published on those [issues][articles-url], welcome to read
 ## Quick Links
 
 - [All Labels][labels-url]
-
 - [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md)
   - [1.1 Tools][1.1-url]
   - [1.2 Network][1.2-url]
