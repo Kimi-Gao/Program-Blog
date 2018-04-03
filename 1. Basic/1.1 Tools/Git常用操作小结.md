@@ -24,6 +24,8 @@
 
 ![image](https://cloud.githubusercontent.com/assets/12554487/18863263/fba7d124-84c2-11e6-9c12-5ae4e8f55cdd.png)
 
+**结合IDE讲解各个仓库区域之间的扭转过程**
+
 <h2 id="2">git fetch</h2>
 
 用于拉取远程的更新，只是取回本地，并不会进行`合并(merge)`。

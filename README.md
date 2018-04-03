@@ -29,10 +29,10 @@ All articles are also published on those [issues][articles-url], welcome to read
 │   ├── JavaScript                              # ES5, 6/2015, 2016 and later, Babel
 │   └── TypeScript                              # Typed superset of JavaScript
 ├── Programming
-│   ├── Data Structure                          # 
-│   ├── Algorithm                               # 
-│   ├── Design Patterns                         # 
-│   └── Functional Programming                  # 
+│   ├── Data Structure                          # List, Stack, Queue, Tree, Graph
+│   ├── Algorithm                               # Sort, Search, Graph theory, DP
+│   ├── Design Patterns                         # Factory, Singleton, Strategy, etc.
+│   └── Functional Programming                  # Lambda, Currying, etc.
 ├── Browser
 │   ├── CSS                                     # Basic CSS, Animation
 │   ├── DOM                                     # HTML, Event, jQuery
@@ -44,7 +44,7 @@ All articles are also published on those [issues][articles-url], welcome to read
 │   ├── Spring                                  # SpringMVC, Spring boot
 │   ├── WebServer                               # Tomcat, Jetty, Nginx
 │   ├── DataBase                                # MySQL, Redis, MongoDB
-│   ├── MicroService                            # 
+│   ├── MicroService                            # Spring Cloud
 │   ├── DevOps                                  # Linux deploy, Docker
 │   └── Server Security                         # 
 │
@@ -59,29 +59,29 @@ All articles are also published on those [issues][articles-url], welcome to read
 ## Quick Links
 
 - [All Labels][labels-url]
-- [1. Basic](https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md)
+- [1. Basic][1-url]
   - [1.1 Tools][1.1-url]
   - [1.2 Network][1.2-url]
   - [1.3 Computer Organization][1.3-url]
   - [1.4 Operation System][1.4-url]
   - [1.5 Compilers][1.5-url]
-- [2. Language](https://github.com/muwenzi/Program-Blog/blob/master/2.%20Language/index.md)
+- [2. Language][2-url]
   - [2.1 Shell][2.1-url]
   - [2.2 Java][2.2-url]
   - [2.3 JavaScript][2.3-url]
   - [2.4 TypeScript][2.4-url]
-- [3. Programming](https://github.com/muwenzi/Program-Blog/blob/master/3.%20Programming/index.md)
+- [3. Programming][3-url]
   - [3.1 Data Structure][3.1-url]
   - [3.2 Algorithm][3.2-url]
   - [3.3 Design Patterns][3.3-url]
   - [3.4 Functional Programming][3.4-url]
-- [4. Browser](https://github.com/muwenzi/Program-Blog/blob/master/4.%20Client/index.md)
+- [4. Browser][4-url]
   - [4.1 CSS][4.1-url]
   - [4.2 DOM][4.2-url]
   - [4.3 React Stack][4.3-url]
-  - [4.4 Other Skills]()
-  - [4.5 Client Security][4.5-url]
-- [5. Server](https://github.com/muwenzi/Program-Blog/blob/master/5.%20Server/index.md)
+  - [4.4 Browser Skills][4.4-url]
+  - [4.5 Browser Security][4.5-url]
+- [5. Server][5-url]
   - [5.1 NodeJS][5.1-url]
   - [5.2 Spring][5.2-url]
   - [5.3 WebServer][5.3-url]
@@ -95,6 +95,12 @@ All articles are also published on those [issues][articles-url], welcome to read
 Recommended articles about tech and developer once a week.
 
 - [Weekly Articles List][weekly-url]
+
+## Presentations
+
+PPT sharing about tech.
+
+- [Presentations List][presentations-url]
 
 ## Books
 
@@ -123,9 +129,16 @@ mrgaonju@gmail.com
 [update-url]: https://github.com/muwenzi/Program-Blog/commits/master
 [octotree-url]: https://github.com/buunguyen/octotree
 [message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
+[labels-url]: https://github.com/muwenzi/Program-Blog/labels
 [weekly-url]: https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Aweekly
 [books-url]: https://github.com/muwenzi/Program-Blog/labels/Books
-[labels-url]: https://github.com/muwenzi/Program-Blog/labels
+[presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentations
+
+[1-url]: https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md
+[2-url]: https://github.com/muwenzi/Program-Blog/blob/master/2.%20Language/index.md
+[3-url]: https://github.com/muwenzi/Program-Blog/blob/master/3.%20Programming/index.md
+[4-url]: https://github.com/muwenzi/Program-Blog/blob/master/4.%20Client/index.md
+[5-url]: https://github.com/muwenzi/Program-Blog/blob/master/5.%20Server/index.md
 
 [1.1-url]: https://github.com/muwenzi/Program-Blog/labels/1.1%20Tools
 [1.2-url]: https://github.com/muwenzi/Program-Blog/labels/1.2%20Network
@@ -143,7 +156,8 @@ mrgaonju@gmail.com
 [4.1-url]: https://github.com/muwenzi/Program-Blog/labels/4.1%20CSS
 [4.2-url]: https://github.com/muwenzi/Program-Blog/labels/4.2%20DOM
 [4.3-url]: https://github.com/muwenzi/Program-Blog/labels/4.3%20React%20Stack
-[4.5-url]: https://github.com/muwenzi/Program-Blog/labels/4.5%20Client%20Security
+[4.4-url]: https://github.com/muwenzi/Program-Blog/labels/4.4%20Browser%20Skills
+[4.5-url]: https://github.com/muwenzi/Program-Blog/labels/4.5%20Browser%20Security
 [5.1-url]: https://github.com/muwenzi/Program-Blog/labels/5.1%20NodeJS
 [5.2-url]: https://github.com/muwenzi/Program-Blog/labels/5.2%20Spring
 [5.3-url]: https://github.com/muwenzi/Program-Blog/labels/5.3%20WebServer

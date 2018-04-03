@@ -99,12 +99,23 @@ sudo chown -R $USER:$USER .
 sudo chown root:admin 路径
 ```
 // TODO
-## grep、touch、open、rm -rf、ln -s、cmd z
+## grep、touch、open、rm -rf、ln -s、cmd z、lsof
+```bash
+lsof -i:{port}
+```
 [cp命令](http://man.linuxde.net/cp)
-kill -9 processId
+kill -9 {processId}
 更新shell命令
 (权限 端口 下载等)
 
-**参考资料**
-- [lsof命令](http://man.linuxde.net/lsof)
-- [osx下关于目录wheel和admin权限的问题](http://blog.csdn.net/qdujunjie/article/details/33713293)
+## mv
+移动、重命名文件，例如：
+```bash
+mv ~/.npmrc.bak ~/.npmrc
+```
+
+## ps aux | grep 搜索内容
+
+## 参考资料
+1. [lsof命令](http://man.linuxde.net/lsof)
+1. [osx下关于目录wheel和admin权限的问题](http://blog.csdn.net/qdujunjie/article/details/33713293)
