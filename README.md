@@ -26,7 +26,7 @@ All articles are also published on those [issues][articles-url], welcome to read
 ├── Language
 │   ├── Shell                                   # Shell Script
 │   ├── Java                                    # Classic OOP, Java7/8/9/10
-│   ├── JavaScript                              # ES5, 6/2015, 2016 and later, Babel
+│   ├── JavaScript                              # ES5, 6/2015, 2016 and later
 │   └── TypeScript                              # Typed superset of JavaScript
 ├── Programming
 │   ├── Data Structure                          # List, Stack, Queue, Tree, Graph
@@ -37,8 +37,8 @@ All articles are also published on those [issues][articles-url], welcome to read
 │   ├── CSS                                     # Basic CSS, Animation
 │   ├── DOM                                     # HTML, Event, jQuery
 │   ├── React Stack                             # React, Redux, Immutable, Jest
-│   ├── Other Skills                            # Debug, Tips
-│   └── Client Security                         # XSS, CSRF
+│   ├── Browser Skills                          # Debug, Webpack, Babel, Performace
+│   └── Browser Security                        # XSS, CSRF
 ├── Server
 │   ├── NodeJS                                  # npm/yarn, Koa, Nest, V8 Engine
 │   ├── Spring                                  # SpringMVC, Spring boot
@@ -46,7 +46,7 @@ All articles are also published on those [issues][articles-url], welcome to read
 │   ├── DataBase                                # MySQL, Redis, MongoDB
 │   ├── MicroService                            # Spring Cloud
 │   ├── DevOps                                  # Linux deploy, Docker
-│   └── Server Security                         # 
+│   └── Server Security                         # JWT
 │
 └── Others
     ├── Weekly                                  # Technical articles recommendation
