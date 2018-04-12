@@ -134,11 +134,11 @@ mrgaonju@gmail.com
 [books-url]: https://github.com/muwenzi/Program-Blog/labels/Books
 [presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentations
 
-[1-url]: https://github.com/muwenzi/Program-Blog/blob/master/1.%20Basic/index.md
-[2-url]: https://github.com/muwenzi/Program-Blog/blob/master/2.%20Language/index.md
-[3-url]: https://github.com/muwenzi/Program-Blog/blob/master/3.%20Programming/index.md
-[4-url]: https://github.com/muwenzi/Program-Blog/blob/master/4.%20Client/index.md
-[5-url]: https://github.com/muwenzi/Program-Blog/blob/master/5.%20Server/index.md
+[1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20Basic
+[2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20Language
+[3-url]: https://github.com/muwenzi/Program-Blog/labels/3.%20Programming
+[4-url]: https://github.com/muwenzi/Program-Blog/labels/4.%20Browser
+[5-url]: https://github.com/muwenzi/Program-Blog/labels/5.%20Server
 
 [1.1-url]: https://github.com/muwenzi/Program-Blog/labels/1.1%20Tools
 [1.2-url]: https://github.com/muwenzi/Program-Blog/labels/1.2%20Network
