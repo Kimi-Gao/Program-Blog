@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="460" src="https://github.com/muwenzi/Program-Blog/blob/next/resource/img/logo.svg" alt="Blog Logo">
+    <img width="460" src="https://github.com/muwenzi/Program-Blog/blob/master/resource/img/logo.svg" alt="Blog Logo">
 </h1>
 
 ![discuss][discuss-image]
@@ -20,9 +20,9 @@ All articles are also published on those [issues][articles-url], welcome to read
 ├── Basic
 │   ├── Tools                                   # Command, Git, IDE, Tips
 │   ├── Network                                 # Basic Theory, HTTP, Ajax, RESTful
-│   ├── Computer Organization                   # 
-│   ├── Operation System                        # 
-│   └── Compilers                               # 
+│   ├── Computer Organization                   # ALU, CPU, I/O, IEEE 754
+│   ├── Operation System                        # Process/Thread, File System, Deadlock
+│   └── Compilers                               # Lexical/Syntax analysis, Type checking
 ├── Language
 │   ├── Shell                                   # Shell Script
 │   ├── Java                                    # Classic OOP, Java7/8/9/10
@@ -51,7 +51,7 @@ All articles are also published on those [issues][articles-url], welcome to read
 └── Others
     ├── Weekly                                  # Technical articles recommendation
     ├── Books                                   # Technical books recommendation
-    └── Career                                  # Something about career
+    └── Thinking                                # Something about career, life, etc.
 ```
 
 > Tips: You can download [this browser plugin][octotree-url] to preview gracefully.
