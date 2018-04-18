@@ -9,4 +9,4 @@
 
 > ssh -T git@github.com
 
-**注意：**不要在root权限下测试连接，否则会报“Permission denied (publickey).”
+**注意**：不要在root权限下测试连接，否则会报“Permission denied (publickey).”
