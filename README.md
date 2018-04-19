@@ -134,9 +134,9 @@ mrgaonju@gmail.com
 [octotree-url]: https://github.com/buunguyen/octotree
 [message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
 [labels-url]: https://github.com/muwenzi/Program-Blog/labels
-[weekly-url]: https://github.com/muwenzi/Program-Blog/issues?q=is%3Aissue+is%3Aopen+label%3Aweekly
-[books-url]: https://github.com/muwenzi/Program-Blog/labels/Books
-[presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentations
+[weekly-url]: https://github.com/muwenzi/Program-Blog/labels/Weekly
+[books-url]: https://github.com/muwenzi/Program-Blog/labels/Book
+[presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentation
 
 [1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20Basic
 [2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20Language
