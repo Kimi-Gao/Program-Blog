@@ -52,7 +52,7 @@ All articles are also published on those [issues][articles-url], welcome to read
 │
 └── Others
     ├── Weekly                                  # Technical articles recommendation
-    ├── Books                                   # Technical books recommendation
+    ├── Book                                    # Technical books recommendation
     └── Thinking                                # Something about career, life, etc.
 ```
 
@@ -100,13 +100,13 @@ Recommended articles about tech and developer once a week.
 
 - [Weekly Articles List][weekly-url]
 
-## Presentations
+## Presentation
 
 PPT sharing about tech.
 
 - [Presentations List][presentations-url]
 
-## Books
+## Book
 
 Recommended books about tech.
 
