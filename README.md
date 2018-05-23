@@ -7,9 +7,9 @@
 [![articles][articles-image]][articles-url]
 [![update][update-image]][update-url]
 
-| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ |
-| :--------: | :---------: | :---------: | :---------: | :---------: |:---------: |:---------: |:---------: |
-| Preface<br>[:scroll:](#preface) | Content<br>[:book:](#content) | Quick Links<br>[:point_up_2:](#quick-links) | Weekly<br>[:newspaper:](#weekly)| Presentation<br>[:movie_camera:](#presentation) | Book<br>[:books:](#book) | Contact<br>[:envelope:](#contact)| License<br>[:copyright:](#license)|
+| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
+| :--------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |:---------: | :---------: | :---------: |
+| Preface<br>[:scroll:](#preface) | Content<br>[:book:](#content) | Labels<br>[:bookmark:](#labels) | Weekly<br>[:newspaper:](#weekly)| Presentation<br>[:movie_camera:](#presentation) | Document<br>[:memo:](#document) | Book<br>[:books:](#book) | Contact<br>[:envelope:](#contact)| License<br>[:copyright:](#license)| Bounty<br>[:thumbsup:](#bounty)|
 
 All articles are also published on those [issues][articles-url], welcome to read, discuss and :star:
 
@@ -62,7 +62,7 @@ All articles are also published on those [issues][articles-url], welcome to read
 
 > Tips: You can download [this browser plugin][octotree-url] to preview gracefully.
 
-## Quick Links
+## Labels
 
 - [All Labels][labels-url]
 - [1. Basic][1-url]
@@ -106,9 +106,15 @@ Recommended articles about tech and developer once a week.
 
 ## Presentation
 
-PPT sharing about tech.
+Google PPT sharing about tech.
 
 - [Presentations List][presentations-url]
+
+## Document
+
+Google Document sharing about tech.
+
+- [JavaScript in Depth][javascript-in-depth-url]
 
 ## Book
 
@@ -126,6 +132,12 @@ mrgaonju@gmail.com
 
 [CC BY-NC-SA][license-url]
 
+## Bounty
+
+Thank you for your bounties.
+
+<img width="123" alt="Wechat Reward" src="https://user-images.githubusercontent.com/12554487/40411114-12f878dc-5ea2-11e8-929f-5b7334b76b64.png" >
+
 [license-image]: https://img.shields.io/badge/license-CC%20BY--NC--SA-green.svg?style=flat-square
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
 [articles-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square&label=articles
@@ -141,6 +153,7 @@ mrgaonju@gmail.com
 [weekly-url]: https://github.com/muwenzi/Program-Blog/labels/Weekly
 [books-url]: https://github.com/muwenzi/Program-Blog/labels/Book
 [presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentation
+[javascript-in-depth-url]: https://docs.google.com/document/d/1CCKa3a56rOHPrQkjEljbPUlTl9bWDYNnyHXTI9Tp_tI/edit?usp=sharing
 
 [1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20Basic
 [2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20Language
