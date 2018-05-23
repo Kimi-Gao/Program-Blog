@@ -17,14 +17,13 @@
 | 11 | [git stash](#11) `gsta` |
 | 12 | [git clean](#12) |
 | 13 | [git remote](#13)|
+| 14 | [git tag](#14)|
 
 [zsh-git](https://github.com/muwenzi/Blog/issues/4)
 
 <h2 id="1">总体流程图</h2>
 
 ![image](https://cloud.githubusercontent.com/assets/12554487/18863263/fba7d124-84c2-11e6-9c12-5ae4e8f55cdd.png)
-
-**结合IDE讲解各个仓库区域之间的扭转过程**
 
 <h2 id="2">git fetch</h2>
 
@@ -74,15 +73,22 @@ $ git branch -a
 **删除分支**
 方式一：安全删除，Git会阻止你删除包含未合并更改的分支。
 
-```
-$ git branch -d <branch>
+```sh
+$ git branch -d branchname
 ```
 
 方式二：强制删除，即使包含`未合并更改`，如果你对那条分支看都不想看一眼立马删除的话。
 
+```sh
+$ git branch -D branchname
 ```
-$ git branch -D <branch>
+
+删除远程分支:
+
+```sh
+git push origin :branchname
 ```
+
 
 **新建分支**
 
@@ -490,9 +496,34 @@ git remote show origin
 git remote prune origin
 ```
 
-用来清除已经失效的
+用来清除已经失效的。
 
 [完整git-remote命令](https://www.git-scm.com/docs/git-remote)
+
+<h2 id="14">git tag</h2>
+
+### 打tag
+
+```sh
+git tag -a v1.1 -m "注释"
+git push origin v1.1
+# 查看所有tag
+git tag -l
+```
+
+### 删除本地tag
+
+```sh
+git tag -d v1.1.1
+```
+
+### 删除远程tag
+
+```sh
+git push origin :v1.1.1
+# 也可以这样
+git push origin --delete tag V1.1.1
+```
 
 ## 参考资料
 
@@ -507,4 +538,4 @@ git remote prune origin
 1. [How do I force “git pull” to overwrite local files?](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
 1. [[译]git clean](http://www.cnblogs.com/irocker/p/git-clean.html)
 1. [git-remote - Manage set of tracked repositories](https://www.git-scm.com/docs/git-remote)
-
+1. [git创建、删除分支和tag](https://blog.csdn.net/revitalizing/article/details/49056411)
