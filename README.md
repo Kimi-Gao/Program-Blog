@@ -9,7 +9,7 @@
 
 | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ |
 | :--------: | :---------: | :---------: | :---------: | :---------: |:---------: |:---------: |:---------: |
-| Preface[:scroll:](#Preface) | Content[:bookmark_tabs:](#Content) | Quick Links[:point_up_2:](#Quick-Links) | Weekly[:newspaper:](#Weekly)| Presentation[:movie_camera:](#Presentation) | Book[:books:](#Book) | Contact[:envelope:](#Contact)| License[:copyright:](#License)|
+| Preface<br>[:scroll:](#preface) | Content<br>[:book:](#content) | Quick Links<br>[:point_up_2:](#quick-links) | Weekly<br>[:newspaper:](#weekly)| Presentation<br>[:movie_camera:](#presentation) | Book<br>[:books:](#book) | Contact<br>[:envelope:](#contact)| License<br>[:copyright:](#license)|
 
 All articles are also published on those [issues][articles-url], welcome to read, discuss and :star:
 
