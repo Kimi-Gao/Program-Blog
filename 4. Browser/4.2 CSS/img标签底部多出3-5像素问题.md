@@ -8,7 +8,7 @@ img标签在HTML5和HTML4.0.1的严格模式渲染的时候，下面会有几像
 
 ## 原因
 
-图片默认是行内元素（`inline-block`），行内元素默认是`baseline`对齐的，和底部会有一段距离。如图所示：
+图片默认是行内元素（`inline-block`），行内元素默认是`baseline`(第三条线)对齐的，和底部会有一段距离，如图所示：
 
 ![image](https://user-images.githubusercontent.com/12554487/39394006-d50dd5dc-4afe-11e8-9a76-028b9a2496b8.png)
 
