@@ -10,15 +10,15 @@
 
 | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |:---------: | :---------: | :---------: |
-| Preface<br>[:scroll:](#preface) | Content<br>[:book:](#content) | Labels<br>[:bookmark:](#labels) | Weekly<br>[:newspaper:](#weekly)| Presentation<br>[:movie_camera:](#presentation) | Document<br>[:memo:](#document) | Book<br>[:books:](#book) | Contact<br>[:envelope:](#contact)| License<br>[:copyright:](#license)| Bounty<br>[:thumbsup:](#bounty)|
+| 序言<br>[:scroll:](#序言) | 目录<br>[:book:](#目录) | 标签<br>[:bookmark:](#标签) | 周刊<br>[:newspaper:](#周刊)| 幻灯片<br>[:movie_camera:](#幻灯片) | 文档<br>[:memo:](#文档) | 书籍<br>[:books:](#书籍) | 联系<br>[:envelope:](#联系)| 协议<br>[:copyright:](#协议)| 赞赏<br>[:thumbsup:](#赞赏)|
 
-All articles are also published on those [issues][articles-url], welcome to read, discuss and :star:
+所有文章也均发布在 [issues][articles-url] 中，欢迎阅读、讨论和 :star:
 
-## Preface
+## 序言
 
 > 不积跬步，无以至千里；不积小流，无以成江海。——《荀子 · 劝学》
 
-## Content
+## 目录
 
 ```text
 .
@@ -61,9 +61,9 @@ All articles are also published on those [issues][articles-url], welcome to read
     └── Thinking                                # Something about career, life, etc.
 ```
 
-> Tips: You can download this [browser plugin][octotree-url] to preview gracefully.
+> 小提示: 为了更好地浏览该博客，可以下载这个 [浏览器插件][octotree-url] 。
 
-## Labels
+## 标签
 
 - [All Labels][labels-url]
 - [1. Basic][1-url]
@@ -99,43 +99,43 @@ All articles are also published on those [issues][articles-url], welcome to read
   - [5.6 DevOps][5.6-url]
   - [5.7 Server Security][5.7-url]
 
-## Weekly
+## 周刊
 
-Recommended articles about tech and developer once a week.
+每周发布一次技术周刊，收集技术好文、前沿咨询和感悟吐槽等。
 
-- [Weekly Articles List][weekly-url]
+- [周刊列表][weekly-url]
 
-## Presentation
+## 幻灯片
 
-Google PPT sharing about tech.
+以谷歌幻灯片形式进行的技术分享汇总。
 
-- [Presentations List][presentations-url]
+- [幻灯片列表][presentations-url]
 
-## Document
+## 文档
 
-Google Document sharing about tech.
+以谷歌文档形式进行的技术学习总结。
 
-- [JavaScript in Depth][javascript-in-depth-url]
+- [深入JavaScript][javascript-in-depth-url]
 
-## Book
+## 书籍
 
-Recommended books about tech.
+技术书籍推荐，读书笔记感悟等。
 
-- [Books List][books-url]
+- [书籍列表][books-url]
 
-## Contact
+## 联系
 
-[Message Board][message-board-url]
+[留言版][message-board-url]
 
 mrgaonju@gmail.com
 
-## License
+## 协议
 
-[CC BY-NC-SA][license-url]
+[署名-非商业性使用-相同方式共享 4.0 国际][license-url]
 
-## Bounty
+## 赞赏
 
-Thank you for your bounties.
+谢谢您的赞赏，您的赞赏是我持续开源的动力。
 
 <img width="140" alt="Wechat Reward" src="https://user-images.githubusercontent.com/12554487/40411114-12f878dc-5ea2-11e8-929f-5b7334b76b64.png" >
 
@@ -143,7 +143,7 @@ Thank you for your bounties.
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
 [articles-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square&label=articles
 [update-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square&label=update
-[readme-image]: https://img.shields.io/badge/readme-%E4%B8%AD%E6%96%87-blue.svg?style=flat-square
+[readme-image]: https://img.shields.io/badge/readme-english-blue.svg?style=flat-square
 
 [license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
 [english-url]: https://github.com/muwenzi/Program-Blog/tree/english
@@ -156,7 +156,7 @@ Thank you for your bounties.
 [books-url]: https://github.com/muwenzi/Program-Blog/labels/Book
 [presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentation
 [javascript-in-depth-url]: https://docs.google.com/document/d/1CCKa3a56rOHPrQkjEljbPUlTl9bWDYNnyHXTI9Tp_tI/edit?usp=sharing
-[readme-url]: https://github.com/muwenzi/Program-Blog/blob/master/README.zh_CN.md
+[readme-url]: https://github.com/muwenzi/Program-Blog/blob/master/README.md
 
 [1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20Basic
 [2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20Language
