@@ -80,7 +80,7 @@ Merge branch 'bugfix'
 
 <h4 id="122">1.2.2 master 和 bugfix 新的提交有文件冲突</h4>
 
-如果它们都同时修改了 `README.md` 且导致该文件的有冲突（*修改同一行包括该行的前后一行，都会出现冲突。如果同时修改该行的下一行以及下下一行，那么下下一行也会算是冲突*），执行 `git merge bugfix` 会出现以下错误：
+如果它们都同时修改了 `README.md` 且导致该文件的有冲突（*修改同一行包括该行的前后一行，都会出现冲突。如果连续修改该行的下一行以及下下一行，那么这些连续行也会算是同一个冲突*），执行 `git merge bugfix` 会出现以下错误：
 
 ```sh
 Auto-merging README.md
@@ -155,7 +155,7 @@ git merge --squash bugfix
 
 - git merge 默认是 先 `fast-forward` 模式，如果走不通的情况再 `non fast-forward`。可以手动强制一直使用 `--no-ff` 来保留分支图，也可以使用 `--ff-only`，在不能 `fast-forward` 的时候自动终止。
 - 在两个分支都有新的提交情况下，合并冲突的时候除非全部使用 **当前分支** 的代码，否则都会产生新的 merge 节点，分支分叉图会被保留。
-- 想要完全线性的分支图，可以使用 `squash` ，但会产生一个新的 squash 节点，团队多分支开发的时候可以统一用这个方式，如果使用的是 github 仓库，可以设置 Pull Request 默认 merge 按钮为 `Squash and merge` 。
+- 想要完全线性的分支图，可以使用 `squash` ，但会产生一个新的 squash 节点，团队多分支开发的时候可以统一用这个方式，如果使用的是 github 仓库，可以设置 Pull Request 默认 merge 按钮为 `Squash and merge` ，但 github 的这种方式的前提是要先处理完冲突。
 ![image](https://user-images.githubusercontent.com/12554487/40919264-9a7bbdda-683b-11e8-8516-3e4253ab7874.png)
 
 <h2 id="2">2. rebase</h2>
@@ -206,7 +206,7 @@ git rebase master  # 保持 master 的 commit hash 不变
 >1. D 和 X 比较，处理完冲突，`git rebase --continue` 生成 X'
 >1. X' 和 Y 比较，处理完冲突，`git rebase --continue` 生成 Y'
 
-命令行操作示例：
+如果比较过程中没有冲突则会自动跳过，进入下一轮比较，命令行操作示例：
 
 ![image](https://user-images.githubusercontent.com/12554487/40916102-104b7e02-6831-11e8-8204-bcad775e7278.png)
 
