@@ -1,3 +1,5 @@
+> https://github.com/muwenzi/Program-Blog/issues/129
+
 Visual Studio Code 是我用起来最顺手方便和强大的`文本编辑器`，可以配合IDAE系列进行愉快的coding。
 
 一般稍大的工程项目我会用IDAE系列，而快速地看github上别人库，跑别人代码，写一个代码小片段，运行一段小程序，我通常会选择 `VS Code`。
