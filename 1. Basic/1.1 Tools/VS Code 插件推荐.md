@@ -1,10 +1,10 @@
 > https://github.com/muwenzi/Program-Blog/issues/129
 
-Visual Studio Code 是我用起来最顺手方便和强大的`文本编辑器`，可以配合IDAE系列进行愉快的coding。
+[Visual Studio Code](https://code.visualstudio.com/) 是我用起来最顺手方便和强大的`文本编辑器`，可以配合IDAE系列进行愉快的coding。
 
 一般稍大的工程项目我会用IDAE系列，而快速地看github上别人库，跑别人代码，写一个代码小片段，运行一段小程序，我通常会选择 `VS Code`。
 
-小巧，强大，插件丰富，界面也很优雅，可定制化程度也很高，大厂支持，更新非常快速，别的就不多说，这里给大家推荐一些比较不错实用的插件。
+小巧，强大，插件丰富，界面也很优雅，可定制化程度也很高，大厂支持。更新非常快速，基本上每月一更，[insiders](https://code.visualstudio.com/insiders/) 版更是每日更新。别的就不多说，这里给大家推荐一些比较不错实用的插件。
 
 ## 分类概览
 
@@ -51,7 +51,7 @@ Visual Studio Code 是我用起来最顺手方便和强大的`文本编辑器`�
 
 <h3 id="code-spell-checker">Code Spell Checker</h3>
 
-> 这一工具正如其名，是拼写检查程序。漏洞的的另一个常见来源是变量或函数名。这一拼写检查工具可以查找不常见的单词，而且还可以把我们用JavaScript编写的东西进行有效的审核。
+> 这一工具正如其名，是检查程序拼写。Bug的另一个常见来源是变量或函数名。这一拼写检查工具可以查找不常见的单词，而且还可以把我们用JS编写的东西进行有效的审核。
 
 ## Language Support
 
