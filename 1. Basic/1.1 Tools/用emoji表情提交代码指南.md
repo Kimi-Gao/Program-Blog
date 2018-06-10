@@ -1,12 +1,12 @@
-## Git提交规范
+## Git collaboration workflow
 
 <p align="center"><img width="446"src="https://cloud.githubusercontent.com/assets/12554487/21536530/f7c8e06c-cdbe-11e6-9201-71e48ea681bf.png"></p>
 
-[oh-my-zsh git缩写列表](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+[Git常用操作小结](https://github.com/muwenzi/Program-Blog/issues/13)
 
-经常提交，避免冲突
+经常提交，减少冲突
 
-提交信息，尽量遵循以下规范：
+提交信息类型说明：
 
 ## 开发
 
@@ -20,33 +20,39 @@
 
 🚀 improvement(xxxfile): 重大改进，提升性能如修改某个方法或算法`:rocket:`
 
-## bug
+## Bug
 
 🐛 bugfix(xxxfile): fix some bug`:bug:`
+
+> (optional) 🐞 bugfix(xxxfile): fix some bug`:beetle: `
 
 🚑 hotfix(xxxfile): fix some online bug`:ambulance:`
 
 ## 其他
 
-🔧 config(xxxfile): 修改配置文件
+🔧 config(xxxfile): 修改配置文件 `:wrench:`
 
-📝 docs(xxxfile): 添加文档说明
+📝 docs(xxxfile): 添加文档说明 `:memo:`
 
-✅ test(xxxfile): 添加测试用例
+✅ test(xxxfile): 添加测试用例 `:white_check_mark:`
 
-🔒 security(xxxfile): 提高代码的安全性
+🔒 security(xxxfile): 提高代码的安全性 `:lock:`
 
 ## 版本
 
-🎉 release(xxx): v4.7.0
+🎉 release(xxx): v4.7.0 `:tada:`
 
-📦 build(xxx): for v4.7.0
+📦 build(xxx): for v4.7.0 `:package:`
 
-➕ dependency(npm): add eslint
+➕ dependency(npm): add eslint `:heavy_plus_sign:`
 
 ⬆️ dependency(npm): upgrade react to 15.1.0 升级依赖库`:arrow_up:`
 
 ⬇️ dependency(npm): degrade react to 15.1.0 降级依赖库`:arrow_down:`
+
+## 后记
+
+emoji 表情除了可以用在git commit message，还可以用在写 Release Note，可以参考：[ant-design releases](https://github.com/ant-design/ant-design/releases)
 
 **参考资料**
 - [EMOJI CHEAT SHEET](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
