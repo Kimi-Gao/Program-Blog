@@ -1,6 +1,10 @@
 > https://github.com/muwenzi/Program-Blog/issues/11
 
-不定期更新
+**不定期更新**
+
+## 音量微调
+
+按住 <kbd>shift + option</kbd> ，再按音量调节键。
 
 ## Homebrew安装的时候自动更新太慢
 主要是国内brew update有点龟速，可以先临时禁用自动更新
