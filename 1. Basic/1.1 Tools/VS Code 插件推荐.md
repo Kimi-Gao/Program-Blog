@@ -20,6 +20,8 @@
 - Language Support
   - [Babel ES6/ES7](#babel-es6-es7)
   - [Code Runner](#code-runner)
+- Tips
+  - [explorer区文件颜色](#explorer-file-color)
 
 ## Markdown
 
@@ -71,3 +73,33 @@
 },
 "code-runner.runInTerminal": true
 ```
+
+## Tips
+
+<h3 id="explorer-file-color">explorer区文件颜色</h3>
+
+VSCode 的版本控制系统会自动识别文件的改动给文件加颜色、文件名后面显示`M`（modify）、`U`（untracked）、`A`（add）和显示错误和警告的数量，就像下图这样：
+
+<img width="318" alt="image" src="https://user-images.githubusercontent.com/12554487/41210381-dbf40f60-6d63-11e8-8cba-dd219e392575.png">
+
+有些文件明明没有改动，文件名有时候却也变成绿色，其实是里面有一些错误或者警告而已。
+
+```json
+// Show Errors & Warnings on files and folder.
+"problems.decorations.enabled": true,
+```
+
+把 `true` 改成 `false`，即可将文件名和文件夹名后面的错误警告数量去掉（如+9），且文件名的颜色也回归git本身的颜色，现在颜色的变化只有git，更加容易辨识哪些文件发生了改动。
+
+几个相关的配置说明：
+
+```json
+// git文件改动，文件名后面的U/M等是否显示，默认true
+"git.decorations.enabled": true,
+// git或者错误警告文件名是否用颜色标识，默认true
+"explorer.decorations.colors": true,
+// 文件名或者文件夹名后面是否显示Errors & Warnings的数量，默认true
+"problems.decorations.enabled": false
+```
+
+<img width="318" alt="image" src="https://user-images.githubusercontent.com/12554487/41210327-95c6f85e-6d63-11e8-8516-d0e8894a7ea4.png">
