@@ -1,3 +1,5 @@
+> https://github.com/muwenzi/Program-Blog/issues/71
+
 ## Git collaboration workflow
 
 <p align="center"><img width="446"src="https://cloud.githubusercontent.com/assets/12554487/21536530/f7c8e06c-cdbe-11e6-9201-71e48ea681bf.png"></p>
@@ -10,23 +12,24 @@
 
 ## 开发
 
-⭐️ new feature(xxxfile): add some files 增加新功能比如新增某个模块`:star:`
+⭐️ new feature(xxxfile): add some files 增加新功能比如新增某个模块 `:star:`
 
-🎨 UI update(xxxfile): 界面样式相关更新`:art:`
+🎨 UI update(xxxfile): 界面样式相关更新 `:art:`
 
-🔥 API change(xxxfile): change some API 重大更新提示，比如修改字段等`:fire:`
+🔥 API change(xxxfile): change some API 重大更新提示，比如修改字段等 `:fire:`
 
-👕 refactor(xxxfile): 包括文件代码结构以及代码风格的重构`:shirt:`
+👕 refactor(xxxfile): 包括文件代码结构以及代码风格的重构 `:shirt:`
+> (optional) 🔨 refactor(xxxfile): 包括文件代码结构以及代码风格的重构 `:hammer:`
 
-🚀 improvement(xxxfile): 重大改进，提升性能如修改某个方法或算法`:rocket:`
+🚀 improvement(xxxfile): 重大改进，提升性能如修改某个方法或算法 `:rocket:`
 
 ## Bug
 
-🐛 bugfix(xxxfile): fix some bug`:bug:`
+🐛 bugfix(xxxfile): fix some bug `:bug:`
 
-> (optional) 🐞 bugfix(xxxfile): fix some bug`:beetle: `
+> (optional) 🐞 bugfix(xxxfile): fix some bug `:beetle: `
 
-🚑 hotfix(xxxfile): fix some online bug`:ambulance:`
+🚑 hotfix(xxxfile): fix some online bug `:ambulance:`
 
 ## 其他
 
@@ -44,11 +47,13 @@
 
 📦 build(xxx): for v4.7.0 `:package:`
 
-➕ dependency(npm): add eslint `:heavy_plus_sign:`
+➕ dependency(xxx): add eslint `:heavy_plus_sign:`
 
-⬆️ dependency(npm): upgrade react to 15.1.0 升级依赖库`:arrow_up:`
+➖ dependency(xxx): remove dependency `:heavy_minus_sign:`
 
-⬇️ dependency(npm): degrade react to 15.1.0 降级依赖库`:arrow_down:`
+⬆️ dependency(xxx): upgrade react to 15.1.0 升级依赖库`:arrow_up:`
+
+⬇️ dependency(xxx): degrade react to 15.1.0 降级依赖库`:arrow_down:`
 
 ## 后记
 
