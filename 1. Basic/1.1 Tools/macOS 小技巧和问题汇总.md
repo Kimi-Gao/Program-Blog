@@ -2,11 +2,24 @@
 
 **不定期更新**
 
-## 音量微调
+## 目录
+
+| 序号 | 标题 |
+| :-- | :-- |
+| 1 | [音量微调](#1)|
+| 2 | [Homebrew安装的时候自动更新太慢](#2)|
+| 3 | [显示和隐藏文件/文件夹](#3)|
+| 4 | [mac升级后，出现的 xcrun: error](#4)|
+| 5 | [找回消失的「允许任何来源应用运行」选项](#5)|
+| 6 | [禁止 Adobe Creative Cloud 开机启动](#6)|
+| 7 | [启用mac三指拖动的窗口](#7)|
+
+<h2 id="1">音量微调</h2>
 
 按住 <kbd>shift + option</kbd> ，再按音量调节键。
 
-## Homebrew安装的时候自动更新太慢
+<h2 id="2">Homebrew安装的时候自动更新太慢</h2>
+
 主要是国内brew update有点龟速，可以先临时禁用自动更新
 ```sh
 HOMEBREW_NO_AUTO_UPDATE=1 brew install <package>
@@ -31,19 +44,21 @@ source ~/.zshrc
 brew update
 ```
 
-## 显示隐藏文件和文件夹
+<h2 id="3">显示和隐藏文件/文件夹</h2>
 
 ``` bash
 defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 ```
-## 取消显示隐藏文件和文件夹
+
+取消显示隐藏文件和文件夹
 
 ``` shell
 defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
 ```
 
 PS: 以上命令只适用于OS 10.8+的MAC
-## mac升级后，出现的 xcrun: error
+
+<h2 id="4">mac升级后，出现的 xcrun: error</h2>
 
 ``` shell
 xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
@@ -64,7 +79,8 @@ sudo xcode-select -switch /
 因为帖子标题说是在升级到“冲浪湾”时遇到了这问题，所以看来这问题属于每次升级时候都会碰到的月经型问题了OTL
 
 问题解决后，我又去各处翻了下问题出现的原因，可惜没有找到。个人推断可能是因为git所需的lib关联到了command line tools，升级时改动了lib的路径所致吧。
-## 找回消失的「允许任何来源应用运行」选项
+
+<h2 id="5">找回消失的「允许任何来源应用运行」选项</h2>
 
 不少人在升级之后，发现「系统偏好设置 - 安全与隐私 - 通用」中「允许任何来源应用运行」的选项消失了，这是因为 macOS Sierra 加强了系统安全性，降低不良应用威胁电脑安全的几率，但是这也导致某些未经过开发者签名的应用无法在电脑上正常运行。
 ![image](https://cloud.githubusercontent.com/assets/12554487/25262992/d6fc1e98-268e-11e7-9680-ac9d51c3cb77.png)
@@ -73,7 +89,7 @@ sudo xcode-select -switch /
 ![image](https://cloud.githubusercontent.com/assets/12554487/25262997/df803f2c-268e-11e7-8ec1-245411119544.png)
 需要说明的是，如果在系统偏好设置的“安全与隐私”中重新选中允许 App Store 和被认可的开发者 App，即重新打开 Gatekeeper 后，允许“任何来源”App 的选项会再次消失，可运行上述命令再次关闭 Gatekeeper。
 
-## Mac 下禁止 Adobe Creative Cloud 开机启动的方法
+<h2 id="6">禁止 Adobe Creative Cloud 开机启动</h2>
 
 禁止开机启动：
 ```bash
@@ -85,17 +101,16 @@ launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist
 launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist
 ```
 
-## 启用Mac三指拖动的窗口
+<h2 id="7">启用mac三指拖动的窗口</h2>
 
 设置-->辅助功能-->左菜单栏下滑，找到鼠标与触控板-->点选触控板选项，勾选启用拖移：三指拖移
 ![image](https://bbsimg.fengimg.com/2015/08/25/10478577_%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-08-25%20%E4%B8%8B%E5%8D%889.42.26.png)
 
-**Reference**
+## Reference
+
 1. [mac-xcrun-error](http://elfxp.com/mac-xcrun-error/)
 1. [macOS Sierra 来了，升级需知和 8 大新变化都在这里](http://sspai.com/35529)
 1. [锋友分享：找回Sierra允许“任何来源” 的应用](http://www.feng.com/iPhone/news/2016-06-27/Feng-friends-sharing-find-Sierra-allows-the-application-of-any-source-_650342.shtml)
 1. [Homebrew有比较快的源（mirror）吗](https://www.zhihu.com/question/31360766/answer/132082951)
 1. [Mac 下禁止 Adobe Creative Cloud 开机启动的方法](https://amdyxu.com/mac-adobe-photoshop-creative-cloud-autostart/)
 1. [EI Captain OS X10.11Beta7如何使用三指拖动应用窗口](https://bbs.feng.com/forum.php?mod=viewthread&tid=9809561&page=1&extra=#pid151071333)
-
- 
