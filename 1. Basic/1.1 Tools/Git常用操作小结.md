@@ -27,90 +27,98 @@
 
 <h2 id="2">git fetch</h2>
 
-用于拉取远程的更新，只是取回本地，并不会进行`合并(merge)`。
-默认情况下，git fetch取回所有分支（branch）的更新。
+用于远端仓库和本地仓库的同步，并不会进行本地仓库和工作区的同步（即合并merge）。
+默认情况下，fetch会更新本地仓库中所有 **origin/分支**（包括远端新的分支和现有分支的新commit）。
 
-```
+```bash
 git fetch
 ```
 
 如果只想取回特定分支的更新，可以指定分支名。
 
-```
+```bash
 git fetch <远程主机名> <分支名>
 ```
 
 比如，取回origin主机的master分支。
 
-```
+```bash
 git fetch origin master
 ```
 
 方便的话可以直接
 
-```
+```bash
 git fetch master
+```
+
+> :warning: fetch 的操作只会让本地仓库分支（默认 origin/开头的这些分支）与远端仓库保持同步，但并不会更新工作区的分支代码。
+
+如果还需要让本地仓库和工作区保持同步，fetch 完之后还需要执行一下操作：
+
+```bash
+git merge origin/<分支名>
 ```
 
 <h2 id="3">git branch</h2>
 
-git fetch所取回的更新，在本地主机上要用"远程主机名/分支名"的形式读取。比如origin主机的master，就要用origin/master读取。
+git fetch所取回的更新，在本地主机上要用 `远程主机名/分支名` 的形式读取。比如origin主机的master，就要用 `origin/master` 读取。
 
-**查看分支**
+### 查看分支
+
 git branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支，无选项则查看本地分支。
 
-``` shell
+```bash
 git branch -r
   origin/master
 ```
 
-``` shell
+```bash
 git branch -a
 * master
   remotes/origin/master
 ```
 
-**删除分支**
-方式一：安全删除，Git会阻止你删除包含未合并更改的分支。
+### 删除分支
 
-```sh
-git branch -d branchname
+方式一：安全删除，Git会阻止你删除包含 **未合并更改** 的分支。
+
+```bash
+git branch -d <分支名>
 ```
 
-方式二：强制删除，即使包含`未合并更改`，如果你对那条分支看都不想看一眼立马删除的话。
+方式二：强制删除，即使包含 **未合并更改**，如果你对那条分支看都不想看一眼立马删除的话。
 
-```sh
-git branch -D branchname
+```bash
+git branch -D <分支名>
 ```
 
 删除远程分支:
 
-```sh
-git push origin :branchname
+```bash
+git push origin :<分支名>
 ```
 
+### 新建分支
 
-**新建分支**
-
-```
-git branch <分支名>
-```
-
-注意：新建完后`不会`自动切换到那个分支去，其实就是新建了一个`指针`而已。
-**based on which branch ?**
-
-**修改当前分支名**
-
-```
-git branch -m <newBranchName>
+```bash
+git branch <新分支名> // 基于当前所在分支新建分支
 ```
 
-**手动建立远程分支与本地分支的追踪关系**
+> :warning: 新建完后 **不会** 自动切换到那个分支去，其实就是新建了一个`指针`而已。推荐使用 `git checkout -b <新分支名>` 的方式去建立新分支，会自动切换。
+
+### 修改当前分支名
+
+```bash
+git branch -m <新分支名>
+```
+
+### 手动建立远程分支与本地分支的追踪关系
 
 git clone的时候Git会自动在本地分支与远程分支之间，建立一种追踪关系（tracking）。所有本地分支**默认**与远程主机的**同名分支**，建立追踪关系，也就是说，本地的master分支自动"追踪"origin/master分支。
 Git也允许手动建立追踪关系
 
-```
+```bash
 git branch --set-upstream master origin/next
 ```
 
@@ -123,39 +131,44 @@ git branch --set-upstream master origin/next
 - 创建分支
 - 撤销修改
 
-**创建分支**
+### 创建分支
+
 取回远程主机的更新以后，可以在它的基础上，使用git checkout命令创建一个新的分支。
 
-```sh
-git checkout -b <branchName> origin/master     # gcb newBranch origin/master
+```bash
+git fetch # 本地仓库和远端仓库先进行同步
+git checkout <新分支名> origin/master     # gcb <新分支名> origin/master
 ```
 
-上面命令表示，在origin/master的基础上，创建一个新的`本地`分支。**当切换到远程某个分支，本地没有这个分支的时候就需要这样做。**
+上面命令表示，在 `origin/master` 的基础上，创建一个新的 **本地** 分支(没有origin/开头的分支)。**当切换到远程某个分支，本地没有这个分支的时候就需要这样做。**
+
+> :warning: 如果没有写 `origin/master` 那么将会基于当前所在的分支进行创建。
 
 如果要将新分支推送到远端，还需要执行以下命令：
 
-```sh
+```bash
 # 推送并建立追踪当前分支至远端
-git push --set-upstream origin <branchName>  # gpsup
+git push --set-upstream origin <分支名>  # gpsup
 ```
 
-这时会在远端创建一个与本地同名的 `<branchName>`，加`-u`会自动追踪该分支，不然还要手动 `--set-upstream`，其实这条命令就是去修改`.git`文件夹下`config`的配置。
+这时会在远端创建一个与本地同名的 `<分支名>`，加`-u`会自动追踪该分支，不然还要手动 `--set-upstream`，其实这条命令就是去修改`.git`文件夹下`config`的配置。
 
-如果远端有分支 `<branchName>` 通过一下操作可以将该分支拉取到本地，并与远端自动建立关联：
+如果远端有分支 `<分支名>` 通过一下操作可以将该分支拉取到本地，并与远端自动建立关联：
 
-```sh
+```bash
 git fetch # gf
-git checkout <branchName>  # gco <branchName>
+git checkout <分支名>  # gco <分支名>
 ```
 
-**example: 基于当前本地分支创建一个新分支并推送到远端**
+### example: 基于当前本地分支创建一个新分支并推送到远端
 
 ![image](https://cloud.githubusercontent.com/assets/12554487/25841692/b4bcb9e8-34d3-11e7-8920-746740d0a010.png)
 
-**撤销修改**
+### 撤销修改
+
 修改文件后，使用 status 命令查看一下文件状态：
 
-``` shell
+```bash
 git status
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -164,19 +177,23 @@ Changes not staged for commit:
       modified:   /there/is/a/modified/file
 ```
 
-对于未 add 进暂存区的文件，此时还在工作区，可以使用 git checkout -- <file> 快速撤销本地修改。
+对于未 add 进暂存区的文件，此时还在工作区，可以使用 `git checkout -- <file>` 快速撤销本地修改。
 
-``` shell
-git checkout [some_dir|file.txt] 
+```bash
+git checkout [some_dir|file.txt]
 ```
+
 恢复所有本地未提交的更改（应在项目根目录中执行）：
-```sh
-git checkout .
+
+```bash
+git checkout . // git checkout -- .
 ```
+
+> :warning: "--" 可加可不加
 
 那么，对于已 add 进暂存区的文件，如何撤销本地修改？还是先使用 status 命令查看一下文件状态：
 
-``` shell
+```bash
 git status
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -187,13 +204,13 @@ Changes to be committed:
 先取消暂存修改
 Git 提示我们，可以使用 reset 命令取消暂存：
 
-``` shell
+```bash
 git reset /there/is/a/modified/file
 ```
 
 取消暂存后，文件状态就回到了跟之前一样了：
 
-``` shell
+```bash
 git status
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -205,21 +222,22 @@ Changes not staged for commit:
 再撤销本地修改
 这时按提示使用 `checkout`即可：
 
-``` shell
+```bash
 git checkout -- /there/is/a/modified/file
 ```
 
 这时工作目录就干净了：
 
-``` shell
+```bash
 git status
 nothing to commit, working directory clean
 ```
 
-**一步到位**
+### 一步到位
+
 那么有更便捷的、一步到位的办法吗？有，指定提交即可：
 
-``` shell
+```bash
 git status
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -227,11 +245,11 @@ Changes to be committed:
       modified:   /there/is/a/modified/file
 ```
 
-``` shell
+```bash
 git checkout HEAD -- /there/is/a/modified/file
 ```
 
-``` shell
+```bash
 git status
 nothing to commit, working directory clean
 ```
@@ -250,7 +268,7 @@ checkout 与 reset区别
 
 使用git merge命令或者git rebase命令，在本地分支上合并远程分支。
 
-``` shell
+```bash
 git merge origin/master
 # 或者
 git rebase origin/master
@@ -262,67 +280,67 @@ git rebase origin/master
 
 git pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。它的完整格式稍稍有点复杂。如果当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名
 
-```
+```bash
 git pull origin
 ```
 
 上面命令表示，本地的当前分支自动与对应的origin主机"追踪分支"进行合并。
 如果当前分支只有一个追踪分支，连远程主机名都可以省略。
 
-```
+```bash
 git pull
 ```
 
 上面命令表示，当前分支自动与唯一一个追踪分支进行合并。这条命令也就等于
 
-```
+```bash
 git fetch
 git merge 当前分支
 ```
 
 对于稍复杂的一点情况，比如远程有master, dev, kimi三个分支，本地的分支对应是kimi。如果想将远程的dev分支最新的提交合并到本地的kimi分支中（在kimi分支发起pull request请求合并到dev分支时候会用到），需要执行以下命令：
 
-```
+```bash
 git fetch
 git merge origin/dev
 ```
 
 等价于
 
-```
+```bash
 git pull origin dev:kimi
 ```
 
 因为是取回远程的dev分支再与当前本地所在的kimi分支进行合并可以省略`:后面的命令`
 
-```
+```bash
 git pull origin dev
 ```
 
 如果是取回远程的kimi分支再与当前本地所在的kimi分支进行合并，那就是最常用的场景了
 
-```
+```bash
 git pull
 ```
 
 **PS**: 如果远程主机删除了某个分支，默认情况下，git pull 不会在拉取远程分支的时候，删除对应的本地分支。这是为了防止，由于其他人操作了远程主机，导致git pull不知不觉删除了本地分支。
 但是，你可以改变这个行为，加上参数 -p 就会在本地删除远程已经删除的分支。
 
-```
+```bash
 git pull -p
 ```
 
 Git force pull to overwrite local files
-```
+```bash
 git fetch --all
-git reset --hard origin/<<branchName>>
+git reset --hard origin/<<分支名>>
 ```
 
 <h2 id="7">git revert</h2>
 
 只是删除某一个提交，后面的提交不影响
 
-```
+```bash
 git revert <commit id>
 
 # 撤销刚刚的提交
@@ -332,27 +350,27 @@ git revert HEAD
 <h2 id="8">git reset</h2>
 默认是--mixed模式，不会改变工作区，但是会用指定的commit覆盖暂存区，需要再次commit
 
-```sh
+```bash
 git reset <commit id>
 ```
 
 soft 不会改变暂存区，改变工作区，需要再次add和commit
-```sh
+```bash
 git reset --soft <commit id>
 ```
 
 hard 会使用指定的commit的内容覆盖暂存区和工作区。
-```sh
+```bash
 git reset --hard <commit id>
 ```
 
 <h2 id="9">git cherry-pick</h2>
 
-**合并某个分支上的单个commit**
+### 合并某个分支上的单个commit
 
 git cherry-pick可以选择某一个分支中的一个或几个commit(s)来进行操作。例如，假设我们有个稳定版本的分支，叫v2.0，另外还有个开发版本的分支v3.0，我们不能直接把两个分支合并，这样会导致稳定版本混乱，但是又想增加一个v3.0中的功能到v2.0中，这里就可以使用cherry-pick了。
 
-```
+```bash
 git fetch # gf cherry-pick之前要先进行fetch，拉取到最新的commit
 git cherry-pick <commit id>
 ```
@@ -360,43 +378,44 @@ git cherry-pick <commit id>
 就是对已经存在的commit 进行**再次提交**，然后合并到目前所在的分支。
 **注意**：当执行完 cherry-pick 以后，将会 生成一个新的提交。这个新的提交的哈希值和原来的不同，但标识名一样。
 
-**合并某个分支上的一系列commits**
+### 合并某个分支上的一系列commits
 
 在一些特性情况下，合并单个commit并不够，你需要合并一系列相连的commits。这种情况下就不要选择cherry-pick了，rebase 更适合。还以上例为例，假设你需要合并feature分支的commit`76cada`~`62ecb3` 到master分支。
 首先需要基于feature创建一个新的分支，并指明新分支的最后一个commit：
 
-``` shell
+```bash
 git checkout -bnewbranch 62ecb3 
 ```
 
 然后，rebase这个新分支的commit到master（--ontomaster）。`76cada^` 指明你想从哪个特定的commit开始。
 
-``` shell
+```bash
 git rebase --ontomaster 76cada^  
 ```
 
 得到的结果就是feature分支的commit `76cada` ~`62ecb3` 都被合并到了master分支。
 
 <h2 id="10">git rebase</h2>
-http://gitbook.liuhui998.com/4_2.html
+
+[git merge 和 rebase 的区别](https://github.com/muwenzi/Program-Blog/issues/75)
 
 <h2 id="11">git stash</h2>
 
 用于保存和恢复工作进度
 
-```sh
+```bash
 git stash
 ```
 
 保存当前的工作进度。会分别对暂存区和工作区的状态进行保存
 
-```sh    
+```bash
 git stash list
 ```
 
 显示进度列表。此命令显然暗示了git stash 可以多次保存工作进度，并用在恢复时候进行选择
 
-```sh
+```bash
 git stash pop stash@{1}
 ```
 
@@ -406,13 +425,13 @@ git stash pop stash@{1}
     
 选项--index 除了恢复工作区的文件外，还尝试恢复暂存区。
     
-```sh
+```bash
 git stash apply stash@{1}
 ```
 
 除了不删除恢复的进度之外，其余和 `git stash pop` 命令一样
 
-```sh
+```bash
 git stash clear
 ```
 删除所有存储的进度
@@ -422,70 +441,80 @@ git stash clear
 `git clean`命令用来从你的工作区中删除所有**没有tracked**过的文件. 
 `git clean`经常和`git reset --hard`一起结合使用. 记住reset只影响被track过的文件, 所以需要clean来删除没有track过的文件. 结合使用这两个命令能让你的工作区完全回到一个指定的<commit>的状态.
 
-**QA**
+### QA
 
 1. 什么叫没有tracked？
+
 不考虑`.gitignore`的话：你创建了些文件 或者 IDE自动创建了些文件，但是你从来没有add它们，也没有commit它们，它们就是没有untracked。
 
 2. 与`git checkout .`的区别？
+
 二者都是针对在工作区没有`git add`的情况，但`git checkout .`是对修改文件而言，`git clean`是对新文件而言。
 
+### git clean 参数
 
-git clean 参数
-```
+```bash
 -n 显示 将要 删除的 文件 和  目录（只是一个演习和提醒）
 -f 删除 文件
 -df 删除 文件 和 目录 zsh缩写：gclean
 ```
-```sh
+
+```bash
 git clean -n
 ```
+
 是一次clean的演习, 告诉你哪些文件会被删除. 记住他不会真正的删除文件, 只是一个提醒.
-```sh
+
+```bash
 git clean -f
 ```
-删除当前目录下所有没有track过的文件. 他不会删除.gitignore文件里面指定的文件夹和文件, 不管这些文件有没有被track过.
 
-```sh
+删除当前目录下所有没有track过的文件. 他不会删除 `.gitignore` 文件里面指定的文件夹和文件, 不管这些文件有没有被track过.
+
+```bash
 git clean -f <path>
 ```
+
 删除指定路径下的没有被track过的文件.
 
-```sh
+```bash
 git clean -df
 ```
+
 删除当前目录下没有被track过的文件和文件夹.
 
-```sh
+```bash
 git clean -xf
 ```
+
 删除当前目录下所有没有track过的文件. 不管他是否是.gitignore文件里面指定的文件夹和文件
 
-```sh
+```bash
 git clean -fdx
 ```
+
 这将删除所有本地未跟踪的文件/夹，所以只有 git跟踪的文件保留：
 警告： -x 也将删除所有被忽略的文件！
 
-小结： git reset --hard和git clean -f是一对好基友. 结合使用他们能让你的工作目录完全回退到最近一次commit的时候. 
+小结： `git reset --hard` 和 `git clean -f` 是一对好基友. 结合使用他们能让你的工作目录完全回退到最近一次commit的时候
 
 <h2 id="13">git remote</h2>
 
 ### 查看远端仓库的地址
 
-```sh
+```bash
 git remote -v
 ```
 
 ### 修改远端仓库地址
 
-```sh
+```bash
 git remote set-url 名称 git@github.com:muwenzi/Program-Blog.git
 ```
 
 ### 拉取上游仓库的代码
 
-```sh
+```bash
 git pull upstream 分支名
 ```
 
@@ -493,7 +522,7 @@ git pull upstream 分支名
 
 ### 清除远端冗余分支
 
-```sh
+```bash
 git remote show origin
 ```
 
@@ -501,7 +530,7 @@ git remote show origin
 
 然后就会提示另一条命令
 
-```sh
+```bash
 git remote prune origin
 ```
 
@@ -513,7 +542,7 @@ git remote prune origin
 
 ### 打tag
 
-```sh
+```bash
 git tag -a v1.1 -m "注释"
 git push origin v1.1
 # 查看所有tag
@@ -522,13 +551,13 @@ git tag -l
 
 ### 删除本地tag
 
-```sh
+```bash
 git tag -d v1.1.1
 ```
 
 ### 删除远程tag
 
-```sh
+```bash
 git push origin :v1.1.1
 # 也可以这样
 git push origin --delete tag V1.1.1
