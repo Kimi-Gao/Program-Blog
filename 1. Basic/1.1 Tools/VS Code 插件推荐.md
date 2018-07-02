@@ -12,6 +12,7 @@
   - [markdownlint](#markdownlint)
   - [Markdown Preview Github Styling](#markdown-preview-github-styling)
   - [Markdown Emoji](#markdown-emoji)
+  - [Markdown TOC](#markdown-toc)
 - Code Style
   - [ESLint](#eslint)
   - [TSLint](#tslint)
@@ -36,6 +37,10 @@
 <h3 id="markdown-emoji">Markdown Emoji</h3>
 
 > 使用 `:emoji:` 语法即可在markdown里面加入emoji标签，preview的时候即可见，搭配 `Markdown Preview Github Styling` 插件更赞。
+
+<h3 id="markdown-toc">Markdown TOC</h3>
+
+> 按照 markdown 语法自动生成目录，右击选择 `Markdown Sections: Insert/Update` 会自动更新标题前面的编号，再 `cmd + s` 的时候会自动更新目录。github 语法可用，但 issue 中无效，wiki 有效。
 
 ## Code Style
 
