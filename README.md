@@ -1,141 +1,86 @@
 <h1 align="center">
-    <img width="460" src="https://github.com/muwenzi/Program-Blog/blob/master/resource/img/logo.svg" alt="Blog Logo">
+    <img width="460" src="https://github.com/muwenzi/Program-Blog/blob/master/%e8%b5%84%e6%ba%90/img/logo.svg" alt="Blog Logo">
 </h1>
 
 ![discuss][discuss-image]
 [![license][license-image]][license-url]
 [![articles][articles-image]][articles-url]
 [![update][update-image]][update-url]
-[![readme][readme-image]][readme-url]
 
-| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |:---------: | :---------: | :---------: |
-| Preface<br>[:scroll:](#preface) | Content<br>[:book:](#content) | Labels<br>[:bookmark:](#labels) | Weekly<br>[:newspaper:](#weekly)| Presentation<br>[:movie_camera:](#presentation) | Document<br>[:memo:](#document) | Book<br>[:books:](#book) | Contact<br>[:envelope:](#contact)| License<br>[:copyright:](#license)| Bounty<br>[:thumbsup:](#bounty)|
+所有文章也均发布在 [issues][articles-url] 中，欢迎阅读、讨论和 :star:
 
-All articles are also published on those [issues][articles-url], welcome to read, discuss and :star:
-
-## Preface
+# 序言
 
 > 不积跬步，无以至千里；不积小流，无以成江海。——《荀子 · 劝学》
 
-## Content
+# 目录
 
-```text
-.
-├── Basic
-│   ├── Tools                                   # Command, Git, IDE, Tips
-│   ├── Network                                 # Basic Theory, HTTP, Ajax, RESTful
-│   ├── Computer Organization                   # ALU, CPU, I/O, IEEE 754
-│   ├── Operation System                        # Process/Thread, File System, Deadlock
-│   └── Compilers                               # Lexical/Syntax analysis, Type checking
-├── Language
-│   ├── Shell                                   # Shell Script
-│   ├── Java                                    # Classic OOP, Java7/8/9/10
-│   ├── JavaScript                              # ES5, 6/2015, 2016 and later
-│   └── TypeScript                              # Typed superset of JavaScript
-├── Programming
-│   ├── Data Structure                          # List, Stack, Queue, Tree, Graph
-│   ├── Algorithm                               # Sort, Search, Graph theory, DP
-│   ├── Design Patterns                         # Factory, Singleton, Strategy, etc.
-│   └── Functional Programming                  # Lambda, Currying, etc.
-├── Browser
-│   ├── HTML                                    # HTML, HTML5
-│   ├── CSS                                     # Basic CSS, Animation
-│   ├── DOM                                     # Event, jQuery
-│   ├── React Stack                             # React, Redux, Immutable, Jest
-│   ├── MVVM Stack                              # Angular, Vue
-│   ├── Browser Skills                          # Debug, Webpack, Babel, Performace
-│   └── Browser Security                        # XSS, CSRF
-├── Server
-│   ├── NodeJS                                  # npm/yarn, Koa, Nest, V8 Engine
-│   ├── Spring                                  # SpringMVC, Spring boot
-│   ├── WebServer                               # Tomcat, Jetty, Nginx
-│   ├── DataBase                                # MySQL, Redis, MongoDB
-│   ├── MicroService                            # Spring Cloud
-│   ├── DevOps                                  # Linux deploy, Docker
-│   └── Server Security                         # JWT
-│
-└── Others
-    ├── Weekly                                  # Technical articles recommendation
-    ├── Book                                    # Technical books recommendation
-    └── Thinking                                # Something about career, life, etc.
-```
+- [1. 开发工具][1-url]
+  - [1.1 Git][1.1-url]
+  - [1.2 IDE][1.2-url]
+  - [1.3 macOS][1.3-url]
+  - [1.4 Tips][1.4-url]
+- [2. 理论基础][2-url]
+  - [2.1 网络][2.1-url]
+  - [2.2 计算机组成][2.2-url]
+  - [2.3 操作系统][2.3-url]
+  - [2.4 编译原理][2.4-url]
+- [3. 编程语言][3-url]
+  - [3.1 Shell][3.1-url]
+  - [3.2 Java][3.2-url]
+  - [3.3 JavaScript][3.3-url]
+  - [3.4 TypeScript][3.4-url]
+- [4. 程序设计][4-url]
+  - [4.1 数据结构][4.1-url]
+  - [4.2 算法][4.2-url]
+  - [4.3 设计模式][4.3-url]
+  - [4.4 函数式编程][4.4-url]
+- [5. 客户端][5-url]
+  - [5.1 HTML][5.1-url]
+  - [5.2 CSS][5.2-url]
+  - [5.3 DOM][5.3-url]
+  - [5.4 React][5.4-url]
+  - [5.5 MVVM][5.5-url]
+  - [5.6 调试与优化][5.6-url]
+  - [5.7 客户端安全][5.7-url]
+- [6. 服务器端][6-url]
+  - [6.1 NodeJS][6.1-url]
+  - [6.2 Spring][6.2-url]
+  - [6.3 WebServer][6.3-url]
+  - [6.4 数据库][6.4-url]
+  - [6.5 微服务][6.5-url]
+  - [6.6 DevOps][6.6-url]
+  - [6.7 服务器端安全][6.7-url]
+- [其他][others-url]
+  - [周刊][weekly-url]
+  - [PPT][ppt-url]
+  - [读书笔记][books-url]
+  - [思考与总结][thinking-url]
+- [In Progress][wip-url]
 
-> Tips: You can download this [browser plugin][octotree-url] to preview gracefully.
+> Tips: 为了更好地浏览该博客，可以下载这个 [浏览器插件][octotree-url] 。
 
-## Labels
+# 关于
 
-- [All Labels][labels-url]
-- [1. Basic][1-url]
-  - [1.1 Tools][1.1-url]
-  - [1.2 Network][1.2-url]
-  - [1.3 Computer Organization][1.3-url]
-  - [1.4 Operation System][1.4-url]
-  - [1.5 Compilers][1.5-url]
-- [2. Language][2-url]
-  - [2.1 Shell][2.1-url]
-  - [2.2 Java][2.2-url]
-  - [2.3 JavaScript][2.3-url]
-  - [2.4 TypeScript][2.4-url]
-- [3. Programming][3-url]
-  - [3.1 Data Structure][3.1-url]
-  - [3.2 Algorithm][3.2-url]
-  - [3.3 Design Patterns][3.3-url]
-  - [3.4 Functional Programming][3.4-url]
-- [4. Browser][4-url]
-  - [4.1 HTML][4.1-url]
-  - [4.2 CSS][4.2-url]
-  - [4.3 DOM][4.3-url]
-  - [4.4 React Stack][4.4-url]
-  - [4.5 MVVM Stack][4.5-url]
-  - [4.6 Browser Skills][4.6-url]
-  - [4.7 Browser Security][4.7-url]
-- [5. Server][5-url]
-  - [5.1 NodeJS][5.1-url]
-  - [5.2 Spring][5.2-url]
-  - [5.3 WebServer][5.3-url]
-  - [5.4 DataBase][5.4-url]
-  - [5.5 MicroService][5.5-url]
-  - [5.6 DevOps][5.6-url]
-  - [5.7 Server Security][5.7-url]
+## 初衷
 
-## Weekly
+博客的文章大部分来自于笔者的积累与总结，其中也不乏参考了前辈和同行的实践总结与分享，文章最后会附有参考链接，统一遵循 [CC BY-NC-SA 4.0][license-url] 协议，如果有侵犯您的权利，请及时联系 mrgaonju@gmail.com 。
 
-Recommended articles about tech and developer once a week.
+文章主要是自我学习的驱动，或许立意并没有那么深远，但也是一些问题的思考与总结，学习本身就是一个日积月累的过程，希望分享的同时对读者也能有所帮助。如有错误，还望指出，三人行必有我师焉，共同进步，欢迎讨论。
 
-- [Weekly Articles List][weekly-url]
+## 版权
 
-## Presentation
+[![license][license-image]][license-url]
 
-Google PPT sharing about tech.
+[署名-非商业性使用-相同方式共享 4.0 国际许可协议][license-url]
 
-- [Presentations List][presentations-url]
-
-## Document
-
-Google Document sharing about tech.
-
-- [JavaScript in Depth][javascript-in-depth-url]
-
-## Book
-
-Recommended books about tech.
-
-- [Books List][books-url]
-
-## Contact
-
-[Message Board][message-board-url]
+## 联系
 
 mrgaonju@gmail.com
 
-## License
+## 赞赏
 
-[CC BY-NC-SA][license-url]
-
-## Bounty
-
-Thank you for your bounties.
+如果觉得文章对你有所帮助，欢迎微信扫一扫赞赏
 
 <img width="140" alt="Wechat Reward" src="https://user-images.githubusercontent.com/12554487/40411114-12f878dc-5ea2-11e8-929f-5b7334b76b64.png" >
 
@@ -143,51 +88,50 @@ Thank you for your bounties.
 [discuss-image]: https://img.shields.io/badge/discuss-welcome-brightgreen.svg?style=flat-square
 [articles-image]: https://img.shields.io/github/issues/muwenzi/program-blog.svg?style=flat-square&label=articles
 [update-image]: https://img.shields.io/github/last-commit/muwenzi/program-blog.svg?style=flat-square&label=update
-[readme-image]: https://img.shields.io/badge/readme-%E4%B8%AD%E6%96%87-blue.svg?style=flat-square
-
 [license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
-[english-url]: https://github.com/muwenzi/Program-Blog/tree/english
 [articles-url]: https://github.com/muwenzi/Program-Blog/issues
 [update-url]: https://github.com/muwenzi/Program-Blog/commits/master
 [octotree-url]: https://github.com/buunguyen/octotree
 [message-board-url]: https://github.com/muwenzi/Program-Blog/issues/91
-[labels-url]: https://github.com/muwenzi/Program-Blog/labels
-[weekly-url]: https://github.com/muwenzi/Program-Blog/labels/Weekly
-[books-url]: https://github.com/muwenzi/Program-Blog/labels/Book
-[presentations-url]: https://github.com/muwenzi/Program-Blog/labels/Presentation
-[javascript-in-depth-url]: https://docs.google.com/document/d/1CCKa3a56rOHPrQkjEljbPUlTl9bWDYNnyHXTI9Tp_tI/edit?usp=sharing
-[readme-url]: https://github.com/muwenzi/Program-Blog/blob/master/README.zh_CN.md
-
-[1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20Basic
-[2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20Language
-[3-url]: https://github.com/muwenzi/Program-Blog/labels/3.%20Programming
-[4-url]: https://github.com/muwenzi/Program-Blog/labels/4.%20Browser
-[5-url]: https://github.com/muwenzi/Program-Blog/labels/5.%20Server
-
-[1.1-url]: https://github.com/muwenzi/Program-Blog/labels/1.1%20Tools
-[1.2-url]: https://github.com/muwenzi/Program-Blog/labels/1.2%20Network
-[1.3-url]: https://github.com/muwenzi/Program-Blog/labels/1.3%20Computer%20Organization
-[1.4-url]: https://github.com/muwenzi/Program-Blog/labels/1.4%20Operation%20System
-[1.5-url]: https://github.com/muwenzi/Program-Blog/labels/1.5%20Compilers
-[2.1-url]: https://github.com/muwenzi/Program-Blog/labels/2.1%20Shell
-[2.2-url]: https://github.com/muwenzi/Program-Blog/labels/2.2%20Java
-[2.3-url]: https://github.com/muwenzi/Program-Blog/labels/2.3%20JavaScript
-[2.4-url]: https://github.com/muwenzi/Program-Blog/labels/2.4%20TypeScript
-[3.1-url]: https://github.com/muwenzi/Program-Blog/labels/3.1%20Data%20Structure
-[3.2-url]: https://github.com/muwenzi/Program-Blog/labels/3.2%20Algorithm
-[3.3-url]: https://github.com/muwenzi/Program-Blog/labels/3.3%20Design%20Patterns
-[3.4-url]: https://github.com/muwenzi/Program-Blog/labels/3.4%20Functional%20Programming
-[4.1-url]: https://github.com/muwenzi/Program-Blog/labels/4.1%20HTML
-[4.2-url]: https://github.com/muwenzi/Program-Blog/labels/4.2%20CSS
-[4.3-url]: https://github.com/muwenzi/Program-Blog/labels/4.3%20DOM
-[4.4-url]: https://github.com/muwenzi/Program-Blog/labels/4.4%20React%20Stack
-[4.5-url]: https://github.com/muwenzi/Program-Blog/labels/4.5%20MVVM%20Stack
-[4.6-url]: https://github.com/muwenzi/Program-Blog/labels/4.6%20Browser%20Skills
-[4.7-url]: https://github.com/muwenzi/Program-Blog/labels/4.7%20Browser%20Security
-[5.1-url]: https://github.com/muwenzi/Program-Blog/labels/5.1%20NodeJS
-[5.2-url]: https://github.com/muwenzi/Program-Blog/labels/5.2%20Spring
-[5.3-url]: https://github.com/muwenzi/Program-Blog/labels/5.3%20WebServer
-[5.4-url]: https://github.com/muwenzi/Program-Blog/labels/5.4%20DataBase
-[5.5-url]: https://github.com/muwenzi/Program-Blog/labels/5.5%20MicroService
-[5.6-url]: https://github.com/muwenzi/Program-Blog/labels/5.6%20DevOps
-[5.7-url]: https://github.com/muwenzi/Program-Blog/labels/5.7%20Server%20Security
+[others-url]: https://github.com/muwenzi/Program-Blog/labels/其他
+[weekly-url]: https://github.com/muwenzi/Program-Blog/labels/周刊
+[ppt-url]: https://github.com/muwenzi/Program-Blog/labels/PPT
+[books-url]: https://github.com/muwenzi/Program-Blog/labels/读书笔记
+[thinking-url]: https://github.com/muwenzi/Program-Blog/labels/思考与总结
+[wip-url]: https://github.com/muwenzi/Program-Blog/labels/In%20Progress
+[1-url]: https://github.com/muwenzi/Program-Blog/labels/开发工具
+[2-url]: https://github.com/muwenzi/Program-Blog/labels/理论基础
+[3-url]: https://github.com/muwenzi/Program-Blog/labels/编程语言
+[4-url]: https://github.com/muwenzi/Program-Blog/labels/程序设计
+[5-url]: https://github.com/muwenzi/Program-Blog/labels/客户端
+[6-url]: https://github.com/muwenzi/Program-Blog/labels/服务器端
+[1.1-url]: https://github.com/muwenzi/Program-Blog/labels/Git
+[1.2-url]: https://github.com/muwenzi/Program-Blog/labels/IDE
+[1.3-url]: https://github.com/muwenzi/Program-Blog/labels/macOS
+[1.4-url]: https://github.com/muwenzi/Program-Blog/labels/Tips
+[2.1-url]: https://github.com/muwenzi/Program-Blog/labels/网络
+[2.2-url]: https://github.com/muwenzi/Program-Blog/labels/计算机组成
+[2.3-url]: https://github.com/muwenzi/Program-Blog/labels/操作系统
+[2.4-url]: https://github.com/muwenzi/Program-Blog/labels/编译原理
+[3.1-url]: https://github.com/muwenzi/Program-Blog/labels/Shell
+[3.2-url]: https://github.com/muwenzi/Program-Blog/labels/Java
+[3.3-url]: https://github.com/muwenzi/Program-Blog/labels/JavaScript
+[3.4-url]: https://github.com/muwenzi/Program-Blog/labels/TypeScript
+[4.1-url]: https://github.com/muwenzi/Program-Blog/labels/数据结构
+[4.2-url]: https://github.com/muwenzi/Program-Blog/labels/算法
+[4.3-url]: https://github.com/muwenzi/Program-Blog/labels/设计模式
+[4.4-url]: https://github.com/muwenzi/Program-Blog/labels/函数式编程
+[5.1-url]: https://github.com/muwenzi/Program-Blog/labels/HTML
+[5.2-url]: https://github.com/muwenzi/Program-Blog/labels/CSS
+[5.3-url]: https://github.com/muwenzi/Program-Blog/labels/DOM
+[5.4-url]: https://github.com/muwenzi/Program-Blog/labels/React
+[5.5-url]: https://github.com/muwenzi/Program-Blog/labels/MVVM
+[5.6-url]: https://github.com/muwenzi/Program-Blog/labels/调试与优化
+[5.7-url]: https://github.com/muwenzi/Program-Blog/labels/客户端安全
+[6.1-url]: https://github.com/muwenzi/Program-Blog/labels/NodeJS
+[6.2-url]: https://github.com/muwenzi/Program-Blog/labels/Spring
+[6.3-url]: https://github.com/muwenzi/Program-Blog/labels/WebServer
+[6.4-url]: https://github.com/muwenzi/Program-Blog/labels/数据库
+[6.5-url]: https://github.com/muwenzi/Program-Blog/labels/微服务
+[6.6-url]: https://github.com/muwenzi/Program-Blog/labels/DevOps
+[6.7-url]: https://github.com/muwenzi/Program-Blog/labels/服务器端安全
