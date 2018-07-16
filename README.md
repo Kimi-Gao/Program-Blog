@@ -20,7 +20,7 @@
   - [1.2 IDE][1.2-url]
   - [1.3 macOS][1.3-url]
   - [1.4 Tips][1.4-url]
-- [2. 理论基础][2-url]
+- [2. 底层理论][2-url]
   - [2.1 网络][2.1-url]
   - [2.2 计算机组成][2.2-url]
   - [2.3 操作系统][2.3-url]
@@ -58,7 +58,7 @@
   - [思考与总结][thinking-url]
 - [In Progress][wip-url]
 
-> Tips: 为了更好地浏览该博客，可以下载这个 [浏览器插件][octotree-url] 。
+> Tips: 为了更好地浏览该博客（包括正在进行中的文章），可以下载这个 [浏览器插件][octotree-url] 。
 
 # 关于
 
@@ -99,39 +99,39 @@ mrgaonju@gmail.com
 [books-url]: https://github.com/muwenzi/Program-Blog/labels/读书笔记
 [thinking-url]: https://github.com/muwenzi/Program-Blog/labels/思考与总结
 [wip-url]: https://github.com/muwenzi/Program-Blog/labels/In%20Progress
-[1-url]: https://github.com/muwenzi/Program-Blog/labels/开发工具
-[2-url]: https://github.com/muwenzi/Program-Blog/labels/理论基础
-[3-url]: https://github.com/muwenzi/Program-Blog/labels/编程语言
-[4-url]: https://github.com/muwenzi/Program-Blog/labels/程序设计
-[5-url]: https://github.com/muwenzi/Program-Blog/labels/客户端
-[6-url]: https://github.com/muwenzi/Program-Blog/labels/服务器端
-[1.1-url]: https://github.com/muwenzi/Program-Blog/labels/Git
-[1.2-url]: https://github.com/muwenzi/Program-Blog/labels/IDE
-[1.3-url]: https://github.com/muwenzi/Program-Blog/labels/macOS
-[1.4-url]: https://github.com/muwenzi/Program-Blog/labels/Tips
-[2.1-url]: https://github.com/muwenzi/Program-Blog/labels/网络
-[2.2-url]: https://github.com/muwenzi/Program-Blog/labels/计算机组成
-[2.3-url]: https://github.com/muwenzi/Program-Blog/labels/操作系统
-[2.4-url]: https://github.com/muwenzi/Program-Blog/labels/编译原理
-[3.1-url]: https://github.com/muwenzi/Program-Blog/labels/Shell
-[3.2-url]: https://github.com/muwenzi/Program-Blog/labels/Java
-[3.3-url]: https://github.com/muwenzi/Program-Blog/labels/JavaScript
-[3.4-url]: https://github.com/muwenzi/Program-Blog/labels/TypeScript
-[4.1-url]: https://github.com/muwenzi/Program-Blog/labels/数据结构
-[4.2-url]: https://github.com/muwenzi/Program-Blog/labels/算法
-[4.3-url]: https://github.com/muwenzi/Program-Blog/labels/设计模式
-[4.4-url]: https://github.com/muwenzi/Program-Blog/labels/函数式编程
-[5.1-url]: https://github.com/muwenzi/Program-Blog/labels/HTML
-[5.2-url]: https://github.com/muwenzi/Program-Blog/labels/CSS
-[5.3-url]: https://github.com/muwenzi/Program-Blog/labels/DOM
-[5.4-url]: https://github.com/muwenzi/Program-Blog/labels/React
-[5.5-url]: https://github.com/muwenzi/Program-Blog/labels/MVVM
-[5.6-url]: https://github.com/muwenzi/Program-Blog/labels/调试与优化
-[5.7-url]: https://github.com/muwenzi/Program-Blog/labels/客户端安全
-[6.1-url]: https://github.com/muwenzi/Program-Blog/labels/NodeJS
-[6.2-url]: https://github.com/muwenzi/Program-Blog/labels/Spring
-[6.3-url]: https://github.com/muwenzi/Program-Blog/labels/WebServer
-[6.4-url]: https://github.com/muwenzi/Program-Blog/labels/数据库
-[6.5-url]: https://github.com/muwenzi/Program-Blog/labels/微服务
-[6.6-url]: https://github.com/muwenzi/Program-Blog/labels/DevOps
-[6.7-url]: https://github.com/muwenzi/Program-Blog/labels/服务器端安全
+[1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20开发工具
+[2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20底层理论
+[3-url]: https://github.com/muwenzi/Program-Blog/labels/3.%20编程语言
+[4-url]: https://github.com/muwenzi/Program-Blog/labels/4.%20程序设计
+[5-url]: https://github.com/muwenzi/Program-Blog/labels/5.%20客户端
+[6-url]: https://github.com/muwenzi/Program-Blog/labels/6.%20服务器端
+[1.1-url]: https://github.com/muwenzi/Program-Blog/labels/1.1%20Git
+[1.2-url]: https://github.com/muwenzi/Program-Blog/labels/1.2%20IDE
+[1.3-url]: https://github.com/muwenzi/Program-Blog/labels/1.3%20macOS
+[1.4-url]: https://github.com/muwenzi/Program-Blog/labels/1.4%20Tips
+[2.1-url]: https://github.com/muwenzi/Program-Blog/labels/2.1%20网络
+[2.2-url]: https://github.com/muwenzi/Program-Blog/labels/2.2%20计算机组成
+[2.3-url]: https://github.com/muwenzi/Program-Blog/labels/2.3%20操作系统
+[2.4-url]: https://github.com/muwenzi/Program-Blog/labels/2.4%20编译原理
+[3.1-url]: https://github.com/muwenzi/Program-Blog/labels/3.1%20Shell
+[3.2-url]: https://github.com/muwenzi/Program-Blog/labels/3.2%20Java
+[3.3-url]: https://github.com/muwenzi/Program-Blog/labels/3.3%20JavaScript
+[3.4-url]: https://github.com/muwenzi/Program-Blog/labels/3.4%20TypeScript
+[4.1-url]: https://github.com/muwenzi/Program-Blog/labels/4.1%20数据结构
+[4.2-url]: https://github.com/muwenzi/Program-Blog/labels/4.2%20算法
+[4.3-url]: https://github.com/muwenzi/Program-Blog/labels/4.3%20设计模式
+[4.4-url]: https://github.com/muwenzi/Program-Blog/labels/4.4%20函数式编程
+[5.1-url]: https://github.com/muwenzi/Program-Blog/labels/5.1%20HTML
+[5.2-url]: https://github.com/muwenzi/Program-Blog/labels/5.2%20CSS
+[5.3-url]: https://github.com/muwenzi/Program-Blog/labels/5.3%20DOM
+[5.4-url]: https://github.com/muwenzi/Program-Blog/labels/5.4%20React
+[5.5-url]: https://github.com/muwenzi/Program-Blog/labels/5.5%20MVVM
+[5.6-url]: https://github.com/muwenzi/Program-Blog/labels/5.6%20调试与优化
+[5.7-url]: https://github.com/muwenzi/Program-Blog/labels/5.7%20客户端安全
+[6.1-url]: https://github.com/muwenzi/Program-Blog/labels/6.1%20NodeJS
+[6.2-url]: https://github.com/muwenzi/Program-Blog/labels/6.2%20Spring
+[6.3-url]: https://github.com/muwenzi/Program-Blog/labels/6.3%20WebServer
+[6.4-url]: https://github.com/muwenzi/Program-Blog/labels/6.4%20数据库
+[6.5-url]: https://github.com/muwenzi/Program-Blog/labels/6.5%20微服务
+[6.6-url]: https://github.com/muwenzi/Program-Blog/labels/6.6%20DevOps
+[6.7-url]: https://github.com/muwenzi/Program-Blog/labels/6.7%20服务器端安全

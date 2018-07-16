@@ -534,7 +534,19 @@ git remote show origin
 git remote prune origin
 ```
 
-用来清除已经失效的。
+这是用来清除 **本地仓库对应的远端** 已经失效的。
+
+如果要删除本地分支，可以进行过滤再批量删除：
+
+```sh
+git branch -D `git branch --list 'fix-'`
+```
+
+删除除 master 以外所有本地分支，执行前需要切换到master分支执行：
+
+```sh
+git branch | grep -v "master" | xargs git branch -D
+```
 
 [完整git-remote命令](https://www.git-scm.com/docs/git-remote)
 
@@ -577,3 +589,5 @@ git push origin --delete tag V1.1.1
 1. [[译]git clean](http://www.cnblogs.com/irocker/p/git-clean.html)
 1. [git-remote - Manage set of tracked repositories](https://www.git-scm.com/docs/git-remote)
 1. [git创建、删除分支和tag](https://blog.csdn.net/revitalizing/article/details/49056411)
+1. [Can you delete multiple branches in one command with Git?](https://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git)
+1. [GIT本地删除除master以外所有分支，作者：风匀坊](https://www.huuinn.com/archives/234)
