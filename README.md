@@ -30,6 +30,7 @@
   - [3.2 Java][3.2-url]
   - [3.3 JavaScript][3.3-url]
   - [3.4 TypeScript][3.4-url]
+  - [3.5 Python][3.5-url]
 - [4. 程序设计][4-url]
   - [4.1 数据结构][4.1-url]
   - [4.2 算法][4.2-url]
@@ -64,7 +65,7 @@
 
 ## 初衷
 
-博客的文章大部分来自于笔者的积累与总结，其中也不乏参考了前辈和同行的实践总结与分享，文章最后会附有参考链接，统一遵循 [CC BY-NC-SA 4.0][license-url] 协议，如果有侵犯您的权利，请及时联系 mrgaonju@gmail.com 。
+博客中已发布的文章大部分来自于笔者的积累与总结，其中也不乏参考了前辈和同行的实践总结与分享，文章最后会附有参考链接，统一遵循 [CC BY-NC-SA 4.0][license-url] 协议，如果有侵犯您的权利，请及时联系 mrgaonju@gmail.com 。
 
 文章主要是自我学习的驱动，或许立意并没有那么深远，但也是一些问题的思考与总结，学习本身就是一个日积月累的过程，希望分享的同时对读者也能有所帮助。如有错误，还望指出，三人行必有我师焉，共同进步，欢迎讨论。
 
@@ -117,6 +118,7 @@ mrgaonju@gmail.com
 [3.2-url]: https://github.com/muwenzi/Program-Blog/labels/3.2%20Java
 [3.3-url]: https://github.com/muwenzi/Program-Blog/labels/3.3%20JavaScript
 [3.4-url]: https://github.com/muwenzi/Program-Blog/labels/3.4%20TypeScript
+[3.5-url]: https://github.com/muwenzi/Program-Blog/labels/3.5%20Python
 [4.1-url]: https://github.com/muwenzi/Program-Blog/labels/4.1%20数据结构
 [4.2-url]: https://github.com/muwenzi/Program-Blog/labels/4.2%20算法
 [4.3-url]: https://github.com/muwenzi/Program-Blog/labels/4.3%20设计模式
