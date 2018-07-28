@@ -234,10 +234,17 @@ merge 和 rebase都是合并历史记录，但是各自的特征不同：
 
 可以根据开发团队的需要分别使用 merge 和 rebase 。
 
-例如，**想简化历史记录** ：
+> QA: 什么时候用 merge 或 rebase?
 
-- feature 分支中导入 master 分支的最新代码，使用 rebase。
-- master 分支导入 hotfix 分支的话，先使用 `rebase master`，再使用 `merge hotfix`。
+通过上面 rebase 的比较过程示意图你会发现 rebase 的比较次数就是 bugfix 的新的 commit 节点数。所以，节点数越多，可能冲突的概率就会越大，这种情况下推荐使用 merge。
+
+> QA: 平时开发如何减少分叉的 commit 数？
+
+一般对于 **Pull Reuqest** 的粒度要小，一方面方便 review，另一方面可以设置默认的合并操作为 `Squash and merge` ：
+
+<img width="724" alt="image" src="https://user-images.githubusercontent.com/12554487/43260379-ec5b14fe-910b-11e8-99f9-c46a160dc897.png">
+
+将一个 PR 中间小的调整都 squash 成一个大的 commit，也方便了分支间在有需要的时候进行 rebase 操作。
 
 <h2 id="4">参考资料</h2>
 
