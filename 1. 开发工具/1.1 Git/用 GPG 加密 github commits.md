@@ -40,7 +40,7 @@ GPG 有许多用途，比如对文件，邮件的加密。而本文要说的是�
 macOS:
 
 ```sh
-brew install gnupg
+brew install gnupg gnupg2
 ```
 
 Debian / Ubuntu:
