@@ -20,7 +20,7 @@
   - [1.2 IDE][1.2-url]
   - [1.3 macOS][1.3-url]
   - [1.4 Tips][1.4-url]
-- [2. 底层理论][2-url]
+- [2. 基础理论][2-url]
   - [2.1 网络][2.1-url]
   - [2.2 计算机组成][2.2-url]
   - [2.3 操作系统][2.3-url]
@@ -59,7 +59,10 @@
   - [思考与总结][thinking-url]
 - [In Progress][wip-url]
 
-> Tips: 为了更好地浏览该博客（包括正在进行中的文章），可以下载这个 [浏览器插件][octotree-url] 。
+## 说明
+
+- 该目录链接会指向 `issues`，里面的文章可能会有滞后，大部分为已经完成的文章，没有完成的会有 `In Progress` 标签 。
+- 所有文章（包括草稿状态的文章）都在仓库中，可以下载这个 [浏览器插件][octotree-url] 方便浏览。
 
 # 关于
 
@@ -101,7 +104,7 @@ mrgaonju@gmail.com
 [thinking-url]: https://github.com/muwenzi/Program-Blog/labels/思考与总结
 [wip-url]: https://github.com/muwenzi/Program-Blog/labels/In%20Progress
 [1-url]: https://github.com/muwenzi/Program-Blog/labels/1.%20开发工具
-[2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20底层理论
+[2-url]: https://github.com/muwenzi/Program-Blog/labels/2.%20基础理论
 [3-url]: https://github.com/muwenzi/Program-Blog/labels/3.%20编程语言
 [4-url]: https://github.com/muwenzi/Program-Blog/labels/4.%20程序设计
 [5-url]: https://github.com/muwenzi/Program-Blog/labels/5.%20客户端

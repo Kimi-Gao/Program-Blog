@@ -37,3 +37,6 @@ curriedAdd(1); // (y) => 1 + y
 
 - [Favoring Curry](http://fr.umio.us/favoring-curry/)
 - [Hey Underscore, You're Doing It Wrong!](https://www.youtube.com/watch?v=m3svKOdZijA)
+
+
+柯里化与反柯里化 https://juejin.im/post/5b561426518825195f499772

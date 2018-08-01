@@ -6,8 +6,6 @@
 
 - [1. RESTful](#1-restful)
   - [1.1. 什么是 RESTful](#11-什么是-restful)
-  - [1.2. 幂等性](#12-幂等性)
-  - [1.3. 安全方法](#13-安全方法)
   - [1.4. URL Rules](#14-url-rules)
     - [1.4.1. Use nouns, not verbs](#141-use-nouns-not-verbs)
     - [1.4.2. GET and HEAD should always be safe](#142-get-and-head-should-always-be-safe)
@@ -17,12 +15,9 @@
     - [1.4.6. Version your API](#146-version-your-api)
   - [1.5. Response](#15-response)
   - [1.6. 速度限制](#16-速度限制)
-  - [1.7. 缓存](#17-缓存)
-  - [1.8. ETag](#18-etag)
   - [1.9. 覆盖 HTTP 方法](#19-覆盖-http-方法)
   - [1.10. 错误处理](#110-错误处理)
   - [1.11. 认证](#111-认证)
-  - [1.12. HTTP 状态码](#112-http-状态码)
   - [1.13. Hypermedia API](#113-hypermedia-api)
 - [2. Swagger API](#2-swagger-api)
   - [2.1. What can Swagger do?](#21-what-can-swagger-do)
@@ -37,10 +32,6 @@
 # 1. RESTful
 
 ## 1.1. 什么是 RESTful
-
-## 1.2. 幂等性
-
-## 1.3. 安全方法
 
 ## 1.4. URL Rules
 
@@ -60,17 +51,11 @@
 
 ## 1.6. 速度限制
 
-## 1.7. 缓存
-
-## 1.8. ETag
-
 ## 1.9. 覆盖 HTTP 方法
 
 ## 1.10. 错误处理
 
 ## 1.11. 认证
-
-## 1.12. HTTP 状态码
 
 ## 1.13. Hypermedia API
 
