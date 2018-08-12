@@ -13,17 +13,18 @@
 | 5 | [git merge ](#5) `gm` |
 | 6 | [git pull ](#6) `gl` |
 | 7 | [git revert](#7) |
-| 8 | [git reset](#8) |
+| 8 | [git reset](#8)|
 | 9 | [git cherry-pick](#9) `gcp` |
 | 10 | [git rebase](#10) `grb` |
 | 11 | [git stash](#11) `gsta` |
-| 12 | [git clean](#12) |
-| 13 | [git remote](#13)|
+| 12 | [git clean](#12) `gclean`|
+| 13 | [git remote](#13) `gr`|
 | 14 | [git tag](#14)|
+| 15 | [HEAD](#15)|
 
 <h2 id="1">总体流程图</h2>
 
-![image](https://user-images.githubusercontent.com/12554487/40827825-6841de3a-65b1-11e8-9380-3fa1ac068f4e.png)
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/12554487/43994426-2c99e55c-9dcf-11e8-9fb0-0040988b4af4.png">
 
 <h2 id="2">git fetch</h2>
 
@@ -40,7 +41,7 @@ git fetch
 git fetch <远程主机名> <分支名>
 ```
 
-比如，取回origin主机的master分支。
+比如，取回 `origin` 主机的 `master` 分支。
 
 ```bash
 git fetch origin master
@@ -348,21 +349,71 @@ git revert HEAD
 ```
 
 <h2 id="8">git reset</h2>
-默认是--mixed模式，不会改变工作区，但是会用指定的commit覆盖暂存区，需要再次commit
 
-```bash
-git reset <commit id>
+`reset` 是将指定的 `commit id` 之前的提交从本地仓库移除。假设 `git reset` 之前，工作区和暂存区都有内容：
+
+| 模式  | 本地仓库         | 暂存区           | 工作区              | zsh git              |
+| :--    | :--        | :--                | :--                | :--                |
+| soft  | 移出指定 id 之前代码  |  1. 本地仓库移出代码 <br> 2. 当前暂存区代码   | 当前工作区代码 | ~~gru soft~~ |
+| mixed  | 移出指定 id 之前代码 | 清空 | 1. 本地仓库移出代码 <br> 2. 之前暂存区代码 <br> 3. 当前工作区代码 | ~~gru mixed~~ |
+| hard | 移出指定 id 之前代码  | 清空    | 清空 | ~~gru hard~~ |
+
+
+> 上一个区域代码进入下一个区域，代码有冲突的地方会以下一个区域为准。  
+
+- 如果 `本地仓库移出代码` 进入 `暂存区/工作区`，有冲突会以 `暂存区/工作区` 为准。
+- 如果 `之前暂存区代码` 进入 `工作区`，有冲突会以 `工作区` 为准。
+
+> 默认是 `--mixed` 模式。  
+
+这也解释了，为什么 `git reset HEAD <file>` 能将暂存区的代码回退到工作区。
+
+- `HEAD` 可以理解为一个 **游标**，一直指向当前我们所在版本库的地址，就是我们当前所在版本库的 **头指针**。
+- 我们也可以不使用 `HEAD`，可以直接使用版本库的 hash 值。
+- `HEAD` 也可以省略，直接写成 `git reset <file>`。
+- `git reset HEAD <file>`，zsh-git 缩写 `grh`
+
+> `git reset --hard` 的丢失的代码如何找回？
+
+**从代码库移除的代码**
+
+```sh
+$ git reflog
+b7057a9 HEAD@{0}: reset: moving to b7057a9
+98abc5a HEAD@{1}: commit: more stuff added to foo
+b7057a9 HEAD@{2}: commit (initial): initial commit
 ```
 
-soft 不会改变暂存区，改变工作区，需要再次add和commit
-```bash
-git reset --soft <commit id>
+`reflog` 会记录所有 `HEAD` 的历史，也就是说当你做 `reset`，`checkout` 等操作的时候，这些操作会被记录在`reflog`中。
+
+所以，我们要找回我们第二个 commit，只需要做如下操作：
+
+```sh
+git reset --hard 98abc5a
 ```
 
-hard 会使用指定的commit的内容覆盖暂存区和工作区。
-```bash
-git reset --hard <commit id>
+**暂存区丢失的代码**
+
+**据说** `git fsck --lost-found` 可以
+
+```sh
+git fsck --lost-found
 ```
+
+用 `git show` 看一下回来的内容对不对
+
+```sh
+git show ce1b401ce1a3138e66603fa0b751c2eff974cc78
+
+```
+
+也可以到 `.git/lost-found` 目录下找找看有没有你丢失的文件。
+
+详情请参考：[《Git Community Book 中文版：找回丢失的对象》](http://gitbook.liuhui998.com/6_1.html)
+
+**工作区丢失的代码**
+
+<kbd>cmd + z</kbd> 或者到 IDEA 的 Local History 里找找看，也许还能恢复。
 
 <h2 id="9">git cherry-pick</h2>
 
@@ -478,7 +529,7 @@ git clean -f <path>
 删除指定路径下的没有被track过的文件.
 
 ```bash
-git clean -df
+git clean -df # gclean
 ```
 
 删除当前目录下没有被track过的文件和文件夹.
@@ -503,22 +554,34 @@ git clean -fdx
 ### 查看远端仓库的地址
 
 ```bash
-git remote -v
+git remote -v  # grv
 ```
 
 ### 修改远端仓库地址
 
 ```bash
-git remote set-url 名称 git@github.com:muwenzi/Program-Blog.git
+git remote set-url 远端名称 git@github.com:muwenzi/Program-Blog.git
+```
+
+### 添加远端仓库
+
+常用的就是 fork 仓库，用来区分 `pull/push` 的究竟是哪一个远端：
+
+```sh
+git remote add 远端名称 git@github.com:muwenzi/Program-Blog.git # gra
+```
+
+### 删除远端仓库
+
+```sh
+git remote remove 远端名称 git@github.com:muwenzi/Program-Blog.git
 ```
 
 ### 拉取上游仓库的代码
 
 ```bash
-git pull upstream 分支名
+git pull 上游仓库名 分支名
 ```
-
-`upstream`为上游仓库名
 
 ### 清除远端冗余分支
 
@@ -575,6 +638,21 @@ git push origin :v1.1.1
 git push origin --delete tag V1.1.1
 ```
 
+<h2 id="15">HEAD</h2>
+
+> `HEAD~` 是 `HEAD~1` 的缩写，表示当前 commit 的第一个父 commit。  
+> `HEAD~2` 表示当前 commit 的第一个父 commit的第一个父 commit。  
+> `HEAD~3` 表示当前 commit 的第一个父 commit的第一个父 commit的第一个父 commit，以此类推。
+
+> `HEAD^` 是 `HEAD^1` 的缩写，也是表示当前 commit 的第一个父 commit。  
+> 但与 `HEAD^2` 表示当前 commit 的 **第二个** 父 commit (当有分支 merge 操作的时候就会有两个父 commit)。
+
+- `^` and `~` 可以组合去写。
+
+-  `HEAD` 也可以换成任意一个 `commit id`。
+
+![image](https://user-images.githubusercontent.com/12554487/43994118-12211088-9dca-11e8-8229-4289455c532c.png)
+
 ## 参考资料
 
 1. [Git远程操作详解（阮一峰）](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
@@ -591,3 +669,9 @@ git push origin --delete tag V1.1.1
 1. [git创建、删除分支和tag](https://blog.csdn.net/revitalizing/article/details/49056411)
 1. [Can you delete multiple branches in one command with Git?](https://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git)
 1. [GIT本地删除除master以外所有分支，作者：风匀坊](https://www.huuinn.com/archives/234)
+1. [Git docs: git-remote - Manage set of tracked repositories](https://git-scm.com/docs/git-remote)
+1. [Git 初接触 （三） Git的撤销操作 git reset HEAD -- <file>，作者：上官二狗](https://blog.csdn.net/qq_36431213/article/details/78858848)
+1. [找回Git中丢失的Commit，作者：drybeans](https://www.jianshu.com/p/8b4c95677ee0)
+1. [git reset 后代码丢失 代码未commit](https://www.oschina.net/question/255789_155537)
+1. [在 git 中找回丢失的 commit，作者：alsotang](https://cnodejs.org/topic/546e0512c4922d383a82970f)
+1. [What's the difference between HEAD^ and HEAD~ in Git? 作者：dr01](https://cnodejs.org/topic/546e0512c4922d383a82970f)
