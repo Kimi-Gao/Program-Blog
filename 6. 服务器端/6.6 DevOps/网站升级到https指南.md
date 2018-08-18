@@ -1,14 +1,31 @@
 > https://github.com/muwenzi/Program-Blog/issues/126
 
-## Q&A
+<!-- TOC -->
 
-### 为什么要使用https?
+- [1. Q&A](#1-qa)
+  - [1.1. 为什么要使用https?](#11-为什么要使用https)
+  - [1.2. 为什么要使用`Let's Encrypt V2`?](#12-为什么要使用lets-encrypt-v2)
+- [2. 获取证书](#2-获取证书)
+  - [2.1. 填写域名](#21-填写域名)
+  - [2.2. 填写邮箱，选择证书类型，验证类型和CSR生成方式](#22-填写邮箱选择证书类型验证类型和csr生成方式)
+  - [2.3. 进行DNS验证](#23-进行dns验证)
+  - [2.4. 下载证书](#24-下载证书)
+- [3. 配置nginx](#3-配置nginx)
+- [4. 验证](#4-验证)
+- [5. 维护](#5-维护)
+- [6. 参考资料](#6-参考资料)
+
+<!-- /TOC -->
+
+# 1. Q&A
+
+## 1.1. 为什么要使用https?
 
 - https可以有效避免无良运营商的DNS劫持，可以显著提升网站逼格。
 - 使用https已经是大势所趋，人心所向，iOS甚至强制要求开发者使用https。
 - Chrome 70 之后当用户输入数据时，HTTP 站点将显示一个红色的“不安全”警告。
 
-### 为什么要使用`Let's Encrypt V2`?
+## 1.2. 为什么要使用`Let's Encrypt V2`?
 
 - 对于个人开发者而言，https证书太贵，一般都好几千一年。
 - `Let's Encrypt V2`免费开源无疑是一个不错的选择。
@@ -16,9 +33,9 @@
 
 生成证书可以直接借助 https://freessl.org/ 来生成证书，方便快捷，当然你也可以使用[certbot](https://github.com/certbot/certbot) (Let’s Encrypt项目的自动化工具) 来生成证书。
 
-## 获取证书
+# 2. 获取证书
 
-### 1.填写域名
+## 2.1. 填写域名
 
 打开网站 https://freessl.org/ 填写自己的域名，你将看到下图。这里我们填入 `*.muwenzi.com,muwenzi.com`, 同时在下方勾选 `Let's Encrypt V2`, 然后点击"**创建免费的SSL证书**"按钮即可。
 
@@ -26,7 +43,7 @@
 
 > :warning: 中间逗号不要有空格
 
-### 2.填写邮箱，选择证书类型，验证类型和CSR生成方式
+## 2.2. 填写邮箱，选择证书类型，验证类型和CSR生成方式
 
 - 填写自己的邮箱
 - 证书品牌只能选择 `Let's Encrypt`
@@ -50,7 +67,7 @@
 
 ![image](https://user-images.githubusercontent.com/12554487/40354847-7962622e-5de7-11e8-82bc-3a043ec76a75.png)
 
-### 3.进行DNS验证
+## 2.3. 进行DNS验证
 
 - 3.1 在第2步中点击按钮后，会弹出下图内容：
 
@@ -62,13 +79,13 @@
 
 完成解析后，点击3.1中的**点击验证**按钮
 
-### 4.下载证书
+## 2.4. 下载证书
 
 在点击第3步的按钮后，会弹出证书文件下载的按钮，此时点击**下载证书**即可获得证书文件 `full_chain.pem` 和私钥文件 `private.key`。
 
 ![image](https://user-images.githubusercontent.com/12554487/40374951-d9c312c8-5e1c-11e8-8ca8-3f3edfeadff0.jpg)
 
-## 配置nginx
+# 3. 配置nginx
 
 查看nginx的配置路径：
 
@@ -119,13 +136,17 @@ service nginx restart
 
 其他二级域名类似进行配置即可。
 
-## 验证
+# 4. 验证
 
 打开网页`https://blog.muwenzi.com`，即可看到地址栏中绿色的小锁，证明https已经成功开启。即时你输入`http://blog.muwenzi.com`也会自动转跳到https下的，如此便保证了兼容性。
 
-## 维护
+# 5. 维护
 
-`Let's Encrypt V2` 证书的有效期只有三个月，过期后可以免费重新生成证书，这就需要我们每隔一段时间就去更新一下证书，好在`https://freessl.org/`可以帮我们管理证书，注册登录之后在**证书列表**中可以进行`重新生成证书`的操作(当证书到期距离**少于30天**时才会看到该按钮)。
+`Let's Encrypt V2` 证书的有效期只有三个月，过期后可以免费重新生成证书，这就需要我们每隔一段时间就去更新一下证书。~~好在`https://freessl.org/`可以帮我们管理证书，注册登录之后在**证书列表**中可以进行`重新生成证书`的操作(当证书到期距离**少于30天**时才会看到该按钮)。~~
+
+> :warning: 注意  
+> - 目前用 freessl 网站不支持重新更新证书，需要自己手动重新生成，重复以上第 2 部分内容即可。
+> - freessl 网站不稳定，有时候会出现用户无法登录/生成证书，服务器挂掉的情况，非个人网站慎用。
 
 也可以添加一个crond脚本即可(好像每天生成证书有次数限制,一般也用不着如此频繁的操作)。
 
@@ -172,8 +193,8 @@ No renewals were attempted.
 >
 > :warning: 为确保证书永不过期，需要增加一个cron的定期执行任务，由于更新证书脚本首先会检查证书的到期日期，并且仅当证书距离**少于30天**时才会执行更新，因此可以安全的创建每周甚至每天运行的cron任务。
 
-## 参考资料
+# 6. 参考资料
 
-1. [快速使用Let's Encrypt开启个人网站的https](https://blog.eyeblue.cn/home/article/9f580b3f-5679-4a9d-be6f-4d9f0dd417af)
+1. [快速使用Let's Encrypt开启个人网站的https，作者：李爽](https://blog.eyeblue.cn/home/article/9f580b3f-5679-4a9d-be6f-4d9f0dd417af)
 1. [使用Let's Encrypt 给网站加 HTTPS](https://blog.haohtml.com/archives/17422)
-1. [Chrome 将不再标记 HTTPS 页面为安全站点](https://www.oschina.net/news/96200/chrome-will-stop-tag-https-site-secure)
+1. [Chrome 将不再标记 HTTPS 页面为安全站点，作者：h4cd](https://www.oschina.net/news/96200/chrome-will-stop-tag-https-site-secure)
