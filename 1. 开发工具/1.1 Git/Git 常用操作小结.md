@@ -617,22 +617,30 @@ git branch | grep -v "master" | xargs git branch -D
 
 ### 打tag
 
-```bash
+```sh
 git tag -a v1.1 -m "注释"
+```
+
+### 推送tag
+
+git push不会推送标签（tag），除非使用--tags选项。
+
+```sh
+git push origin --tags
+# or
+git tag -l # 查看所有tag
 git push origin v1.1
-# 查看所有tag
-git tag -l
 ```
 
 ### 删除本地tag
 
-```bash
+```sh
 git tag -d v1.1.1
 ```
 
 ### 删除远程tag
 
-```bash
+```sh
 git push origin :v1.1.1
 # 也可以这样
 git push origin --delete tag V1.1.1
