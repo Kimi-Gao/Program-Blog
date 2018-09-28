@@ -643,7 +643,7 @@ git tag -d v1.1.1
 ```sh
 git push origin :v1.1.1
 # 也可以这样
-git push origin --delete tag V1.1.1
+git push origin --delete tag v1.1.1
 ```
 
 <h2 id="15">HEAD</h2>
