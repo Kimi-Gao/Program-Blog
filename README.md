@@ -1,9 +1,7 @@
 <h1 align="center">
   <br />
   <br />
-  <br />
   <img width="453" alt="logo" src="https://user-images.githubusercontent.com/12554487/46184759-a7ac2980-c309-11e8-8db1-89cb6bd1e0c5.png">
-  <br />
   <br />
   <br />
   <br />

@@ -6,23 +6,61 @@
 
 小巧，强大，插件丰富，界面也很优雅，可定制化程度也很高，大厂支持。更新非常快速，基本上每月一更，[insiders](https://code.visualstudio.com/insiders/) 版更是每日更新。别的就不多说，这里给大家推荐一些比较不错实用的插件。
 
+（2018年10月4日更新）目前由于在支持正版，jetbrains 系列的售价略贵，正逐步向 vscode 去迁移。另外一些相对小众的框架/库，vscode 有较为丰富的插件支持，而 jetbrains 支持比较慢，也是导致我向 vscode 迁移的原因之一。 Github 与 vscode 的集成越来越好，功能也越来越强大，毕竟现在都是微软麾下，vscode 也越来越流行，也坚信开源的力量会让 vscode 越来越好。
+
+不过要装很多插件，配置插件，这点个人认为没有 webstorm 一站式服务爽，能让你少点折腾，安心写代码。还好有可以同步配置的插件，也算是不错了。
+
 ## 分类概览
 
-- Markdown
+- **Git**
+  - [GitLens](#gitlens)
+  - [Git Tags](#git-tags)
+  - [GitHub Pull Requests](#github-pull-requests)
+- **Markdown**
   - [markdownlint](#markdownlint)
   - [Markdown Preview Github Styling](#markdown-preview-github-styling)
   - [Markdown Emoji](#markdown-emoji)
   - [Markdown TOC](#markdown-toc)
-- Code Style
+- **Code Style**
   - [ESLint](#eslint)
   - [TSLint](#tslint)
   - [Prettier](#prettier)
   - [Code Spell Checker](#code-spell-checker)
-- Language Support
+- **Language Support**
   - [Babel ES6/ES7](#babel-es6-es7)
   - [Code Runner](#code-runner)
-- Tips
+- **Test**
+  - [Jest](#jest)
+  - [AVA](#ava)
+- **Theme**
+  - [Darcula IntelliJ Theme](#darcula-intellij-theme)
+  - [Material Icon Theme](#material-icon-theme)
+  - [Webstorm Icon Theme](#webstorm-icon-theme)
+- **Tools**
+  - [Excel Viewer](#excel-viewer)
+  - [Settings Sync](#settings-sync)
+- **Tips**
   - [explorer 区文件颜色](#explorer-file-color)
+
+## Git
+
+<h3 id="gitlens">GitLens</h3>
+
+> 对 vscode 自带的 git 一个增强，可以方便查看history, stash, remote, branch, tags, annotate 等，比较方便，但其配置也比较繁琐。相比于 webstorm，annotate 功能没有其简洁，排版也略显粗糙，resolve conflict 功能也没有 webtorm 直观便捷，用户体验上面还有待优化。
+
+![gitlens](https://user-images.githubusercontent.com/12554487/46478240-19f79f00-c81f-11e8-9f78-ac1da5a6500e.png)
+
+<h3 id="git-tags">Git Tags</h3>
+
+> 可以快速地创建、查看和删除 git tag, 删除 tag 的时候会有对话框确认是否从远端也删除对应的 tag， 比 gitlens 里面的 tag 命令行式的管理更显可视化一点。
+
+![images](https://raw.githubusercontent.com/leftstick/vscode-git-tags/master/images/git-tags.gif)
+
+<h3 id="github-pull-requests">GitHub Pull Requests</h3>
+
+> 微软官方出的一个新插件，使用 github token 登录后可以直接在 vscode 里面进行 github 的 codereview，对于 reviewer 还算比较实用。目前还是 preview 版本，checkout 和 exit review mode 会进场卡住，体验不是很好，但是能在代码里面加 comment 并且和 github 同步这点确实很酷炫，这也是目前相比于 webstorm 的一个亮点，功能还需完善，就像官方所说这是一个抛砖引玉，估计后面 gitlab 应该也会有类似的插件。
+
+![image](https://github.com/Microsoft/vscode-pull-request-github/raw/master/.readme/demo.gif?raw=true)
 
 ## Markdown
 
@@ -80,6 +118,45 @@
 },
 "code-runner.runInTerminal": true
 ```
+
+## Test
+
+<h3 id="jest">Jest</h3>
+
+> 写 jest 测试必装的一个插件，可以自动跑测试，debug测试。从webstorm切换过来的时候我还找了半天怎么跑测试，原来是自动读取配置跑的，但是有个问题就是如果我项目的jest配置是放在`node_modules`的一个包里的，那么读取配置就会失效，如果我手动配置的话，那我换一个工程怎么办？捂脸:)，如果哪位小伙伴知道的话，也不妨留言告诉我，学习一下。个人觉得，这个jest插件相比webstorm的jest，是要差一点。
+
+<h3 id="ava">AVA</h3>
+
+> 喜欢 sindresorhus 大神的 ava 可以装这个插件玩玩，webstorm里面目前还不支持ava测试，当然真的写ava测试的人也不需要我推荐这个插件。
+
+## Theme
+
+<h3 id="darcula-intellij-theme">Darcula IntelliJ Theme</h3>
+
+> 因为我喜欢 webstorm 的暗色主题，所以vscode也用了同样的主题。总的来说，这个插件的主题还原度还是比较高的，甚至某些颜色搭配比 webstorm 原生看起来的还更舒服一点。但是注释里面 `@param` 这些不是绿色，感觉有点乱，还是喜欢原生的全部绿色的注释。
+
+<h3 id="material-icon-theme">Material Icon Theme</h3>
+
+> 试过很多款 icon，个人最喜欢这款，只不过默认的文件夹颜色很多很花哨，我把它调整成单一的颜色，舒服多了。`classic theme` 就是比较单一的文件夹颜色，没事别整那么多花里胡哨的幺蛾子。
+
+![image](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/set-folder-theme.gif)
+
+
+<h3 id="webstorm-icon-theme">Webstorm Icon Theme</h3>
+
+> 一直很喜欢webstorm的文件夹小字小图标，图标也比较系统，不像 vscode 里面花里胡哨的，当然各有各的好处，只不过这个插件的 icon 比较老了，希望作者能更新到最新的webstorm的icon那就完美了。
+
+## Tools
+
+<h3 id="excel-viewer">Excel Viewer</h3>
+
+> 主要不是为了在 vscode 里面使用 excel，而是开发中遇到 `csv` 文件可以快速地用 vscode 打开还能切换成表格的方式显示。
+
+![image](https://github.com/jjuback/gc-excelviewer/raw/master/img/csv-preview-2.gif)
+
+<h3 id="settings-sync">Settings Sync</h3>
+
+> 不得不说 vscode 的插件多，但配置也非常繁琐，现在的配置支持可视化了，相对好一点了。这个插件可以减少你换个设备重复配置的问题，它会将你的配置自动上传到你的 github gist(secret)，下次换一个设备，验证一下token权限和 gistid 即可，非常方便。另外建议不要将配置public，因为你的插件里面可能是配置了token的，这样你的token也会暴露。
 
 ## Tips
 
