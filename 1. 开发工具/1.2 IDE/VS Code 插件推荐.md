@@ -13,6 +13,7 @@
 - **Git**
   - [GitLens](#gitlens)
   - [Git Tags](#git-tags)
+  - [Gist Extension](#gist-extension)
   - [GitHub Pull Requests](#github-pull-requests)
 - **Markdown**
   - [markdownlint](#markdownlint)
@@ -53,6 +54,12 @@
 > 可以快速地创建、查看和删除 git tag, 删除 tag 的时候会有对话框确认是否从远端也删除对应的 tag， 比 gitlens 里面的 tag 命令行式的管理更显可视化一点。
 
 ![images](https://raw.githubusercontent.com/leftstick/vscode-git-tags/master/images/git-tags.gif)
+
+<h3 id="gist-extension">Gist Extension</h3>
+
+> 可以很方便地查看gist，创建gist，用户名不输回车的时候就可以用token的方式登录。
+
+![gist](https://github.com/kenhowardpdx/vscode-gist/raw/master/images/login-access-token.gif)
 
 <h3 id="github-pull-requests">GitHub Pull Requests</h3>
 
