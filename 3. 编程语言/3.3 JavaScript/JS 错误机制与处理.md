@@ -187,6 +187,8 @@ const makeRequest = async () => {
 };
 ```
 
+> :warning: 注意: `JSON.parse(undefined)` 会报错，`JSON.parse(null) -> null`
+
 还有一种是 ES2015 的 `Promise` 语法：
 
 ```js
