@@ -653,13 +653,18 @@ git push origin --delete tag v1.1.1
 > `HEAD~3` 表示当前 commit 的第一个父 commit的第一个父 commit的第一个父 commit，以此类推。
 
 > `HEAD^` 是 `HEAD^1` 的缩写，也是表示当前 commit 的第一个父 commit。  
-> 但与 `HEAD^2` 表示当前 commit 的 **第二个** 父 commit (当有分支 merge 操作的时候就会有两个父 commit)。
+> 但 `HEAD^2` 表示当前 commit 的 **第二个** 父 commit (当有分支 merge 操作的时候就会有两个父 commit)。
 
-- `^` and `~` 可以组合去写。
-
--  `HEAD` 也可以换成任意一个 `commit id`。
+`~1` 和 `~2` 类似树中的父子节点，`^1` 和 `^2` 类似树中的兄弟节点，如下图所示：
+![image](https://user-images.githubusercontent.com/12554487/46857500-ae738a00-ce3b-11e8-9359-5f850ee57bfc.png)
 
 ![image](https://user-images.githubusercontent.com/12554487/43994118-12211088-9dca-11e8-8229-4289455c532c.png)
+
+Others:
+
+- `^` and `~` 可以组合去写。
+-  `HEAD` 也可以换成任意一个 `commit id`。
+
 
 ## 参考资料
 
@@ -682,4 +687,5 @@ git push origin --delete tag v1.1.1
 1. [找回Git中丢失的Commit，作者：drybeans](https://www.jianshu.com/p/8b4c95677ee0)
 1. [git reset 后代码丢失 代码未commit](https://www.oschina.net/question/255789_155537)
 1. [在 git 中找回丢失的 commit，作者：alsotang](https://cnodejs.org/topic/546e0512c4922d383a82970f)
-1. [What's the difference between HEAD^ and HEAD~ in Git? 作者：dr01](https://cnodejs.org/topic/546e0512c4922d383a82970f)
+1. [What's the difference between HEAD^ and HEAD~ in Git? 作者：dr01](https://stackoverflow.com/a/43046393/9287383)
+1. [What's the difference between HEAD^ and HEAD~ in Git? 作者：Alex Janzik](https://stackoverflow.com/a/29120883/9287383)
