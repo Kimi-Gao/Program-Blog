@@ -7,26 +7,34 @@
 | 序号 | 标题 |
 | :-- | :-- |
 | 1 | [总体流程图](#1) |
-| 2 | [git fetch ](#2) `gf` |
-| 3 | [git branch](#3) `gb` |
-| 4 | [git checkout](#4)  `gco` |
-| 5 | [git merge ](#5) `gm` |
-| 6 | [git pull ](#6) `gl` |
-| 7 | [git revert](#7) |
-| 8 | [git reset](#8)|
-| 9 | [git cherry-pick](#9) `gcp` |
-| 10 | [git rebase](#10) `grb` |
-| 11 | [git stash](#11) `gsta` |
-| 12 | [git clean](#12) `gclean`|
-| 13 | [git remote](#13) `gr`|
-| 14 | [git tag](#14)|
-| 15 | [HEAD](#15)|
+| 2 | [git clone ](#2) `gcl` |
+| 3 | [git fetch ](#3) `gf` |
+| 4 | [git branch](#4) `gb` |
+| 5 | [git checkout](#5)  `gco` |
+| 6 | [git merge ](#6) `gm` |
+| 7 | [git pull ](#7) `gl` |
+| 8 | [git revert](#8) |
+| 9 | [git reset](#9)|
+| 10 | [git cherry-pick](#10) `gcp` |
+| 11 | [git rebase](#11) `grb` |
+| 12 | [git stash](#12) `gsta` |
+| 13 | [git clean](#13) `gclean`|
+| 14 | [git remote](#14) `gr`|
+| 15 | [git tag](#15)|
+| 16 | [HEAD](#16)|
 
 <h2 id="1">总体流程图</h2>
 
 <img width="959" alt="image" src="https://user-images.githubusercontent.com/12554487/43994426-2c99e55c-9dcf-11e8-9fb0-0040988b4af4.png">
 
-<h2 id="2">git fetch</h2>
+<h2 id="2">git clone</h2>
+
+该命令很简单不详细说，这里主要说一下如何重命名仓库，对当前文件夹已经存在同名仓库的时候会很有用：
+```bash
+git clone git@github.com:muwenzi/repo.git new-repo-name
+```
+
+<h2 id="3">git fetch</h2>
 
 用于远端仓库和本地仓库的同步，并不会进行本地仓库和工作区的同步（即合并merge）。
 默认情况下，fetch会更新本地仓库中所有 **origin/分支**（包括远端新的分支和现有分支的新commit）。
@@ -61,7 +69,7 @@ git fetch master
 git merge origin/<分支名>
 ```
 
-<h2 id="3">git branch</h2>
+<h2 id="4">git branch</h2>
 
 git fetch所取回的更新，在本地主机上要用 `远程主机名/分支名` 的形式读取。比如origin主机的master，就要用 `origin/master` 读取。
 
@@ -125,7 +133,7 @@ git branch --set-upstream master origin/next
 
 上面命令指定master分支追踪origin/next分支。
 
-<h2 id="4">git checkout</h2>
+<h2 id="5">git checkout</h2>
 
 该 命令可以用于三种场景：
 - 切换分支
@@ -265,7 +273,7 @@ checkout 与 reset区别
 因此 `git reset <paths>` 等于 `git add <paths>` 的逆向操作。
 如果企图用 `reset` 命令覆盖工作目录，是会报错的。
 
-<h2 id="5">git merge</h2>
+<h2 id="6">git merge</h2>
 
 使用git merge命令或者git rebase命令，在本地分支上合并远程分支。
 
@@ -277,7 +285,7 @@ git rebase origin/master
 
 上面命令表示在当前分支上，合并origin/master。与本地的其他分支合并则不用加`origin/`
 
-<h2 id="6">git pull</h2>
+<h2 id="7">git pull</h2>
 
 git pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。它的完整格式稍稍有点复杂。如果当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名
 
@@ -337,7 +345,7 @@ git fetch --all
 git reset --hard origin/<<分支名>>
 ```
 
-<h2 id="7">git revert</h2>
+<h2 id="8">git revert</h2>
 
 只是删除某一个提交，后面的提交不影响
 
@@ -348,7 +356,7 @@ git revert <commit id>
 git revert HEAD
 ```
 
-<h2 id="8">git reset</h2>
+<h2 id="9">git reset</h2>
 
 `reset` 是将指定的 `commit id` 之前的提交从本地仓库移除。假设 `git reset` 之前，工作区和暂存区都有内容：
 
@@ -415,7 +423,7 @@ git show ce1b401ce1a3138e66603fa0b751c2eff974cc78
 
 <kbd>cmd + z</kbd> 或者到 IDEA 的 Local History 里找找看，也许还能恢复。
 
-<h2 id="9">git cherry-pick</h2>
+<h2 id="10">git cherry-pick</h2>
 
 ### 合并某个分支上的单个commit
 
@@ -446,11 +454,11 @@ git rebase --ontomaster 76cada^
 
 得到的结果就是feature分支的commit `76cada` ~`62ecb3` 都被合并到了master分支。
 
-<h2 id="10">git rebase</h2>
+<h2 id="11">git rebase</h2>
 
 [git merge 和 rebase 的区别](https://github.com/muwenzi/Program-Blog/issues/75)
 
-<h2 id="11">git stash</h2>
+<h2 id="12">git stash</h2>
 
 用于保存和恢复工作进度
 
@@ -487,7 +495,7 @@ git stash clear
 ```
 删除所有存储的进度
 
-<h2 id="12">git clean</h2>
+<h2 id="13">git clean</h2>
 
 `git clean`命令用来从你的工作区中删除所有**没有tracked**过的文件. 
 `git clean`经常和`git reset --hard`一起结合使用. 记住reset只影响被track过的文件, 所以需要clean来删除没有track过的文件. 结合使用这两个命令能让你的工作区完全回到一个指定的<commit>的状态.
@@ -549,7 +557,7 @@ git clean -fdx
 
 小结： `git reset --hard` 和 `git clean -f` 是一对好基友. 结合使用他们能让你的工作目录完全回退到最近一次commit的时候
 
-<h2 id="13">git remote</h2>
+<h2 id="14">git remote</h2>
 
 ### 查看远端仓库的地址
 
@@ -613,7 +621,7 @@ git branch | grep -v "master" | xargs git branch -D
 
 [完整git-remote命令](https://www.git-scm.com/docs/git-remote)
 
-<h2 id="14">git tag</h2>
+<h2 id="15">git tag</h2>
 
 ### 打tag
 
@@ -646,7 +654,7 @@ git push origin :v1.1.1
 git push origin --delete tag v1.1.1
 ```
 
-<h2 id="15">HEAD</h2>
+<h2 id="16">HEAD</h2>
 
 > `HEAD~` 是 `HEAD~1` 的缩写，表示当前 commit 的第一个父 commit。  
 > `HEAD~2` 表示当前 commit 的第一个父 commit的第一个父 commit。  
