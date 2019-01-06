@@ -11,7 +11,9 @@
 | 6 | [列出所有包](#6) |
 | 7 | [清除缓存](#7) |
 | 8 | [更改配置信息](#8) |
-| 9 | [问题处理](#9) |
+| 9 | [本地调试](#9) |
+| 10 | [包执行器](#10) |
+| i | [问题处理](#10) |
 
 <h2 id="1">1. 命令一览</h2>
 
@@ -219,7 +221,121 @@ npm get [<key>]
 npm config set registry https://registry.npmjs.org/
 ```
 
-<h2 id="9">9. 问题处理</h2>
+<h2 id="9">9. 本地调试</h2>
+
+ https://docs.npmjs.com/cli/link
+
+同一个目录下：
+ ```bash
+cd path/my-project
+npm link path/my-package
+```
+
+不同目录下：
+```bash
+# 先到模块目录，把它 link 到全局
+cd path/my-package
+npm link
+
+# 再去项目目录通过包名来 link
+cd path/my-project
+npm link my-package
+````
+
+去掉 link：
+```bash
+npm unlink my-package
+```
+
+> :warning: 注意：
+> - 如果在 my-project 里面重新执行过 `npm i ` 那么link就会失效，需要重新link。
+> - 在 my-package 里面的修改能自动同步到 my-project。
+
+<h2 id="10">10. 包执行器</h2>
+
+- **安装**
+
+如果 npm 的版本 `>=5.2.0` 应该会自带 npx 命令，直接使用即可。如果没有则 `npm install -g npx`。完整的命令使用说明，运行`npx`即可
+
+- **机制**
+
+1. 首先会自动检查当前项目中的可执行依赖文件（即`./node_modules/.bin`下面的可用依赖）
+1. 如果不存在就会去环境变量path中寻找
+2. 如果还没有就会自动安装，其安装的依赖位于`~/.npm/_npx`之中(*macOS@10.14, npm@6.3.0*，`npm config get cache`可查看`_npx`所在目录)，安装的依赖只是临时的。
+
+比如运行了 `npx http-server` 会在该目录下面生成 `24745`，当服务停掉时，该目录会自动删除。
+
+![image](https://user-images.githubusercontent.com/12554487/50697107-43250700-107c-11e9-8c73-b8779e17a2b6.png)
+
+> PS: 具体能临时存放多久，待补充。
+
+- **本地二进制的简写方式**
+  
+一般情况下，如果你想执行一个本地项目安装的二进制文件而不是全局安装的，你需要这样：
+
+```bash
+./node_modules/.bin/jest
+```
+有了 npx 之后可以 简写如下形式：
+
+```bash
+$ npx jest
+```
+
+- **不用下载直接使用的 npm 包命令**
+  
+使用 `npx create-react-app my-app` 来执行 create-react-app 命令时，它会正常地帮我们创建 React 应用而不会实际安装 create-react-app。
+
+也可以快速开启一个静态服务器：
+
+```bash
+$ npx serve
+   ┌─────────────────────────────────────────────────┐
+   │                                                 │
+   │   Serving!                                      │
+   │                                                 │
+   │   - Local:            http://localhost:5000     │
+   │   - On Your Network:  http://172.20.10.8:5000   │
+   │                                                 │
+   │   Copied local address to clipboard!            │
+   │                                                 │
+   └─────────────────────────────────────────────────┘
+```
+
+这将可以简化一次性命令的包，比如 xxx-init 来初始化项目，直接 `npx xxx-init`  即可。
+
+- **直接运行来自于 Gist 的脚本**
+
+```bash
+$ npx https://gist.github.com/zkat/4bc19503fe9e9309e2bfaa2c58074d32
+npx: 1 安装成功，用时 9.985 秒
+yay gist
+```
+
+- **测试不同的 npm 包版本**
+
+查询最新的 uglify-js 的版本：
+```bash
+$ npx uglify-js --version
+uglify-js 3.4.9
+```
+
+现在我们想获得最新的 2.x 版本的 uglify-js：
+```bash
+$ npx uglify-js@2 --version
+uglify-js 2.8.29
+```
+
+所以我们就可以很轻松的使用不同版本的 uglify-js 来压缩代码了：
+```bash
+npx uglify-js@2.8.29 main.js -o ./dist/main.js
+```
+
+更多阅读：
+- https://github.com/zkat/npx
+- [Introducing npx: an npm package runner(The npm Blog)](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner)
+
+<h2 id="qa">问题处理</h2>
 
 **node-gyp python 错误**
 
@@ -235,6 +351,8 @@ sudo npm install --unsafe-perm -g node-inspector
 
 **参考资料**
 1. [Node.js (简体中文)](https://wiki.archlinux.org/index.php/Node.js_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
-1. [The .bin folder stackoverflow](https://stackoverflow.com/questions/25306168/the-bin-folder)
-1. [npm入门](https://zhuanlan.zhihu.com/p/27539908)
-1. [npm 模块安装机制简介](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+2. [The .bin folder stackoverflow](https://stackoverflow.com/questions/25306168/the-bin-folder)
+3. [npm入门](https://zhuanlan.zhihu.com/p/27539908)
+4. [npm 模块安装机制简介](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+5. [你所不知道的模块调试技巧 - npm link `作者：atian25`](https://github.com/atian25/blog/issues/17)
+6. [npx 简介 `作者：jackPan`](https://www.jianshu.com/p/84daa0bea35c)
