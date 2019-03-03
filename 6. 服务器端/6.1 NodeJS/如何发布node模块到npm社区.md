@@ -4,7 +4,25 @@
 
 ![image](https://cloud.githubusercontent.com/assets/12554487/18139129/a47e1d1c-6fe2-11e6-9fa4-48a320ad5b83.png)
 
-## 首先注册一个用户
+**目录**
+
+<!-- TOC -->
+
+- [1. 注册](#1-注册)
+- [2. files](#2-files)
+- [3. 更新包](#3-更新包)
+- [4. 撤销发布自己发布过的某个版本](#4-撤销发布自己发布过的某个版本)
+- [5. 废弃某个版本](#5-废弃某个版本)
+- [6. 重命名已经发布的包](#6-重命名已经发布的包)
+- [7. 管理模块的维护者](#7-管理模块的维护者)
+- [8. 其他命令](#8-其他命令)
+- [9. 参考文章](#9-参考文章)
+
+<!-- /TOC -->
+
+# 1. 注册
+
+首先需要注册一个用户：
 
 ```sh
 npm adduser
@@ -20,7 +38,7 @@ Email: YOUR_EMAIL@domain.com
 npm whoami
 ```
 
-## 如果已经注册过，就使用下面的命令登录
+**如果已经注册过，就使用下面的命令登录**
 
 ```sh
 npm login
@@ -28,7 +46,7 @@ npm login
 
 需要输入用户名、密码和邮箱。
 
-## files
+# 2. files
 
 在你发布一个npm包之前一定要明确项目的哪些文件需要发布，默认npm会去读 `.npmignore` 文件，如果没有就会去读 `.gitignore` 。一般来说你不用刻意地加入 `.npmignore` 文件，往往我们需要发布的东西只有`dist`, `lib`, `es`等打包后的东西，所以我们直接在 `package.json` 里面加入 `files` 字段声明即可：
 
@@ -56,7 +74,7 @@ npm login
 
 `.npmignore` 文件的编写规则请参考：https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
 
-## 更新包
+# 3. 更新包
 
 更新包的话，**coding完了千万不直接发布**，这里我们需要修改package的version号，但这里不要直接修改，修改之前先说下npm维护package版本的规则x.y.z.
 x: 主版本号,通常有重大改变或者达到里程碑才改变;
@@ -91,7 +109,7 @@ package.json 配置:
 
 详细用法请参考 [standard-version](https://github.com/conventional-changelog/standard-version) 文档，结合 [commitizen/cz-cli](https://github.com/commitizen/cz-cli) 和 [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) 使用效果更佳。
 
-## 撤销发布自己发布过的某个版本代码
+# 4. 撤销发布自己发布过的某个版本
 
 ```sh
 npm unpublish YOUR_PACKAGE@version
@@ -109,7 +127,7 @@ npm ERR! code E403
 npm ERR! wait-for-user-input cannot be republished until 24 hours have passed. : wait-for-user-input
 ```
 
-## 废弃某个版本的模块
+# 5. 废弃某个版本
 
 ```sh
 npm deprecate YOUR_PACKAGE@"< 0.2.3" "critical bug fixed in v0.2.3"
@@ -117,7 +135,35 @@ npm deprecate YOUR_PACKAGE@"< 0.2.3" "critical bug fixed in v0.2.3"
 
 运行上面的命令以后，小于0.2.3版本的模块的package.json都会写入一行警告，用户安装这些版本时，这行警告就会在命令行显示。
 
-## 管理模块的维护者
+# 6. 重命名已经发布的包
+
+npm 的重命名其实就是废弃老的，发布新的过程，推荐使用 [pkg-rename](https://github.com/tiaanduplessis/pkg-rename)
+
+先在 `package.json` 中把 `name` 字段修改为新的包名，再运行一下命令：
+
+```sh
+$ npx pkg-rename old-package-name
+```
+
+它将从npm获得旧包的最新版本，并弃用此版本和所有以前发布的版本，并附带一条消息:
+
+```sh
+WARNING: This project has been renamed to new-package-name. Install using new-package-name instead.
+```
+
+然后 `npm publish` 发布新包即可，你也可以将以上的命令合二为一：
+
+```sh
+$ npx pkg-rename old-package-name --publish
+```
+
+当然你也可以用原始的npm命名去废弃某个包：
+
+```sh
+npm deprecate old-package-name@"<=0.2.3" "WARNING: This project has been renamed to new-package-name. Install using new-package-name instead."
+```
+
+# 7. 管理模块的维护者
 
 **列出指定模块的维护者**
 
@@ -137,7 +183,7 @@ npm owner add USER_NAME PACKAGE_NAME
 npm owner rm USER_NAME PACKAGE_NAME
 ```
 
-## 其他命令
+# 8. 其他命令
 
 npm home命令可以打开一个模块的主页，npm repo命令则是打开一个模块的代码仓库。
 
@@ -156,7 +202,7 @@ npm outdated
 
 它会输出当前版本（current version）、应当安装的版本（wanted version）和最新发布的版本（latest version）。
 
-## 参考文章
+# 9. 参考文章
 
 1. [npm模块管理器（by 阮一峰）](http://javascript.ruanyifeng.com/nodejs/npm.html)
 1. [NPM 使用介绍](http://www.runoob.com/nodejs/nodejs-npm.html)
@@ -166,4 +212,6 @@ npm outdated
 1. [A story about npm publish / unpublish](https://christianfei.com/posts/a-story-about-npm-publish-unpublish/)
 1. [优雅的提交你的 Git Commit Message](https://zhuanlan.zhihu.com/p/34223150)
 1. [npm package.json属性详解（by 桃子夭夭）](https://www.cnblogs.com/tzyy/p/5193811.html)
-1. [Files and Ignores (by npm)](https://github.com/npm/npm/wiki/Files-and-Ignores)
+2. [Files and Ignores (by npm)](https://github.com/npm/npm/wiki/Files-and-Ignores)
+3. [npm deprecate (by npm)](https://docs.npmjs.com/cli/deprecate)
+4. [pkg-rename (by tiaanduplessis)]([https://github.com/npm/npm/wiki/Files-and-Ignores](https://github.com/tiaanduplessis/pkg-rename))
