@@ -64,8 +64,8 @@ y: 次要版本号,或二级版本号,在保证主体功能基本不变的情况
 z: 尾版本号或者补丁号,一些小范围的修修补补就可以更新补丁号.
 
 ```sh
-npmsh version patch <=> z++
-npmsh version minor <=> y++ && z=0
+npm version patch <=> z++
+npm version minor <=> y++ && z=0
 npm version major <=> x+= && y=0 && z=0
 ```
 
