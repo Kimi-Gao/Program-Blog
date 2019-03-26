@@ -33,10 +33,9 @@
   - [2.4 编译原理][2.4-url]
 - [3. 编程语言][3-url]
   - [3.1 Shell][3.1-url]
-  - [3.2 Java][3.2-url]
-  - [3.3 JavaScript][3.3-url]
-  - [3.4 TypeScript][3.4-url]
-  - [3.5 Python][3.5-url]
+  - [3.2 JavaScript][3.2-url]
+  - [3.3 TypeScript][3.3-url]
+  - [3.4 Python][3.4-url]
 - [4. 程序设计][4-url]
   - [4.1 数据结构][4.1-url]
   - [4.2 算法][4.2-url]
@@ -52,12 +51,11 @@
   - [5.7 客户端安全][5.7-url]
 - [6. 服务器端][6-url]
   - [6.1 NodeJS][6.1-url]
-  - [6.2 Spring][6.2-url]
-  - [6.3 WebServer][6.3-url]
-  - [6.4 数据库][6.4-url]
-  - [6.5 微服务][6.5-url]
-  - [6.6 DevOps][6.6-url]
-  - [6.7 服务器端安全][6.7-url]
+  - [6.2 数据库][6.2-url]
+  - [6.3 微服务][6.3-url]
+  - [6.4 DevOps][6.4-url]
+  - [6.5 服务器端安全][6.5-url]
+- [7. 数据分析][7-url]
 - [其他][others-url]
   - [周刊][weekly-url]
   - [PPT][ppt-url]
@@ -115,6 +113,7 @@ mrgaonju@gmail.com
 [4-url]: https://github.com/muwenzi/Program-Blog/labels/4.%20程序设计
 [5-url]: https://github.com/muwenzi/Program-Blog/labels/5.%20客户端
 [6-url]: https://github.com/muwenzi/Program-Blog/labels/6.%20服务器端
+[7-url]: https://github.com/muwenzi/Program-Blog/labels/7.%20数据分析
 [1.1-url]: https://github.com/muwenzi/Program-Blog/labels/1.1%20Git
 [1.2-url]: https://github.com/muwenzi/Program-Blog/labels/1.2%20IDE
 [1.3-url]: https://github.com/muwenzi/Program-Blog/labels/1.3%20macOS
@@ -124,10 +123,9 @@ mrgaonju@gmail.com
 [2.3-url]: https://github.com/muwenzi/Program-Blog/labels/2.3%20操作系统
 [2.4-url]: https://github.com/muwenzi/Program-Blog/labels/2.4%20编译原理
 [3.1-url]: https://github.com/muwenzi/Program-Blog/labels/3.1%20Shell
-[3.2-url]: https://github.com/muwenzi/Program-Blog/labels/3.2%20Java
-[3.3-url]: https://github.com/muwenzi/Program-Blog/labels/3.3%20JavaScript
-[3.4-url]: https://github.com/muwenzi/Program-Blog/labels/3.4%20TypeScript
-[3.5-url]: https://github.com/muwenzi/Program-Blog/labels/3.5%20Python
+[3.2-url]: https://github.com/muwenzi/Program-Blog/labels/3.2%20JavaScript
+[3.3-url]: https://github.com/muwenzi/Program-Blog/labels/3.3%20TypeScript
+[3.4-url]: https://github.com/muwenzi/Program-Blog/labels/3.4%20Python
 [4.1-url]: https://github.com/muwenzi/Program-Blog/labels/4.1%20数据结构
 [4.2-url]: https://github.com/muwenzi/Program-Blog/labels/4.2%20算法
 [4.3-url]: https://github.com/muwenzi/Program-Blog/labels/4.3%20设计模式
@@ -140,9 +138,7 @@ mrgaonju@gmail.com
 [5.6-url]: https://github.com/muwenzi/Program-Blog/labels/5.6%20调试与优化
 [5.7-url]: https://github.com/muwenzi/Program-Blog/labels/5.7%20客户端安全
 [6.1-url]: https://github.com/muwenzi/Program-Blog/labels/6.1%20NodeJS
-[6.2-url]: https://github.com/muwenzi/Program-Blog/labels/6.2%20Spring
-[6.3-url]: https://github.com/muwenzi/Program-Blog/labels/6.3%20WebServer
-[6.4-url]: https://github.com/muwenzi/Program-Blog/labels/6.4%20数据库
-[6.5-url]: https://github.com/muwenzi/Program-Blog/labels/6.5%20微服务
-[6.6-url]: https://github.com/muwenzi/Program-Blog/labels/6.6%20DevOps
-[6.7-url]: https://github.com/muwenzi/Program-Blog/labels/6.7%20服务器端安全
+[6.2-url]: https://github.com/muwenzi/Program-Blog/labels/6.2%20数据库
+[6.3-url]: https://github.com/muwenzi/Program-Blog/labels/6.3%20微服务
+[6.4-url]: https://github.com/muwenzi/Program-Blog/labels/6.4%20DevOps
+[6.5-url]: https://github.com/muwenzi/Program-Blog/labels/6.5%20服务器端安全

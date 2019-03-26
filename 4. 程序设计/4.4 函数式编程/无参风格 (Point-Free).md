@@ -19,3 +19,5 @@ const incrementAll2 = map(add(1))
 `incrementAll2` 连接函数与值，并不提及它所使用的参数，因为它是 Point-Free 风格的。
 
 Point-Free 风格的函数就像平常的赋值，不使用 `function` 或者 `=>`。
+
+compose 就是典型的 Points-Free
