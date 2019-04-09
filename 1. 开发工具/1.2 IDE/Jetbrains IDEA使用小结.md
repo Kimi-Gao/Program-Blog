@@ -1,14 +1,14 @@
 <!-- TOC -->
 
-- [1. 写在最前](#1-写在最前)
+- [1. 写在最前](#1-%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D)
 - [2. IDEA](#2-idea)
-  - [2.1. 界面](#21-界面)
+  - [2.1. 界面](#21-%E7%95%8C%E9%9D%A2)
     - [2.1.1. Code Map](#211-code-map)
-    - [2.1.2. 调整Tabs的位置](#212-调整tabs的位置)
-    - [2.1.3. 面包屑导航](#213-面包屑导航)
+    - [2.1.2. 调整Tabs的位置](#212-%E8%B0%83%E6%95%B4tabs%E7%9A%84%E4%BD%8D%E7%BD%AE)
+    - [2.1.3. 面包屑导航](#213-%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA)
   - [2.2. Git](#22-git)
-    - [2.2.1. 查看本地的改动/提交代码](#221-查看本地的改动提交代码)
-    - [2.2.2. 增删改冲突的颜色](#222-增删改冲突的颜色)
+    - [2.2.1. 查看本地的改动/提交代码](#221-%E6%9F%A5%E7%9C%8B%E6%9C%AC%E5%9C%B0%E7%9A%84%E6%94%B9%E5%8A%A8%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81)
+    - [2.2.2. 增删改冲突的颜色](#222-%E5%A2%9E%E5%88%A0%E6%94%B9%E5%86%B2%E7%AA%81%E7%9A%84%E9%A2%9C%E8%89%B2)
     - [2.2.3. Resolve Conflicts](#223-resolve-conflicts)
     - [2.2.4. Annotate](#224-annotate)
     - [2.2.5. Auto fetch](#225-auto-fetch)
@@ -23,6 +23,7 @@
   - [3.1. Auto Competition](#31-auto-competition)
   - [3.2. Refactor](#32-refactor)
   - [3.3. Test](#33-test)
+  - [3.4. 在IDE里自动运行代码](#34-%E5%9C%A8ide%E9%87%8C%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81)
 - [4. Others](#4-others)
 
 <!-- /TOC -->
@@ -203,6 +204,12 @@ https://www.jetbrains.com/help/webstorm/auto-completing-code.html
 与 jest 的集成非常好，debug也很方便：
 
 ![image](https://user-images.githubusercontent.com/12554487/48840047-82e3a800-edc8-11e8-86c1-8571dabdc251.png)
+
+## 3.4. 在IDE里自动运行代码
+
+https://quokkajs.com/docs/?editor=jb
+
+![jb-intro](https://user-images.githubusercontent.com/12554487/55778776-62e22600-5ad6-11e9-94bd-d477f0efe0f6.gif)
 
 # 4. Others
 

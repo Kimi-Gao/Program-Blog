@@ -28,6 +28,7 @@
 - **Language Support**
   - [Babel ES6/ES7](#babel-es6-es7)
   - [Code Runner](#code-runner)
+  - [Quokka](#quokka)
 - **Test**
   - [Jest](#jest)
   - [AVA](#ava)
@@ -123,6 +124,12 @@
 },
 "code-runner.runInTerminal": true
 ```
+
+<h3 id="quokka">Quokka</h3>
+
+Quokka 可以实时运行代码，包括错误提示，引入npm包等，详情参考：https://quokkajs.com/docs/?editor=vsc
+
+![vsc-intro](https://user-images.githubusercontent.com/12554487/55786477-e73ca500-5ae6-11e9-8299-a0cb83672860.gif)
 
 ## Test
 
