@@ -22,6 +22,7 @@
 | 14 | [git remote](#14) `gr`|
 | 15 | [git tag](#15)|
 | 16 | [HEAD](#16)|
+| 17 | [git config](#17)|
 
 <h2 id="1">总体流程图</h2>
 
@@ -673,27 +674,62 @@ Others:
 - `^` and `~` 可以组合去写。
 -  `HEAD` 也可以换成任意一个 `commit id`。
 
+<h2 id="17">git config</h2>
+
+config 配置有：
+
+- system
+- global
+- local（当前仓库）
+
+三个 设置先从`system->global->local` 底层配置会覆盖顶层配置 分别使用 `--system/global/local` 可以定位到配置文件
+
+查看系统config
+
+```sh
+git config --system --list
+```
+
+查看当前用户（global）配置
+
+```sh
+git config --global  --list
+```
+
+查看当前仓库配置信息
+
+```sh
+git config --local  --list
+```
+
+`--global` 中存储了提交用户的email和用户名 如果需要手动设置则可以使用如下指令：
+
+```sh
+git config --global user.name "myname"
+git config --global user.email  "test@gmail.com"
+```
 
 ## 参考资料
 
 1. [Git远程操作详解（阮一峰）](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
-1. [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki)
-1. [回滚错误的修改](https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9)
-1. [Git合并特定commits 到另一个分支](http://blog.csdn.net/ybdesire/article/details/42145597)
-1. [git checkout 命令撤销修改](http://cnblog.me/2015/08/15/git-checkout/)
-1. [自定义 Git - 配置 Git](https://git-scm.com/book/zh/v1/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-%E9%85%8D%E7%BD%AE-Git)
-1. [git stash用于保存和恢复工作进度](https://gist.github.com/subchen/3409a16cb46327ca7691)
-1. [git clean 小结](http://blog.csdn.net/wh_19910525/article/details/8233858)
-1. [How do I force “git pull” to overwrite local files?](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
-1. [[译]git clean](http://www.cnblogs.com/irocker/p/git-clean.html)
-1. [git-remote - Manage set of tracked repositories](https://www.git-scm.com/docs/git-remote)
-1. [git创建、删除分支和tag](https://blog.csdn.net/revitalizing/article/details/49056411)
-1. [Can you delete multiple branches in one command with Git?](https://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git)
-1. [GIT本地删除除master以外所有分支，作者：风匀坊](https://www.huuinn.com/archives/234)
-1. [Git docs: git-remote - Manage set of tracked repositories](https://git-scm.com/docs/git-remote)
-1. [Git 初接触 （三） Git的撤销操作 git reset HEAD -- <file>，作者：上官二狗](https://blog.csdn.net/qq_36431213/article/details/78858848)
-1. [找回Git中丢失的Commit，作者：drybeans](https://www.jianshu.com/p/8b4c95677ee0)
-1. [git reset 后代码丢失 代码未commit](https://www.oschina.net/question/255789_155537)
-1. [在 git 中找回丢失的 commit，作者：alsotang](https://cnodejs.org/topic/546e0512c4922d383a82970f)
-1. [What's the difference between HEAD^ and HEAD~ in Git? 作者：dr01](https://stackoverflow.com/a/43046393/9287383)
-1. [What's the difference between HEAD^ and HEAD~ in Git? 作者：Alex Janzik](https://stackoverflow.com/a/29120883/9287383)
+2. [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki)
+3. [回滚错误的修改](https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9)
+4. [Git合并特定commits 到另一个分支](http://blog.csdn.net/ybdesire/article/details/42145597)
+5. [git checkout 命令撤销修改](http://cnblog.me/2015/08/15/git-checkout/)
+6. [自定义 Git - 配置 Git](https://git-scm.com/book/zh/v1/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-%E9%85%8D%E7%BD%AE-Git)
+7. [git stash用于保存和恢复工作进度](https://gist.github.com/subchen/3409a16cb46327ca7691)
+8. [git clean 小结](http://blog.csdn.net/wh_19910525/article/details/8233858)
+9. [How do I force “git pull” to overwrite local files?](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+10. [[译]git clean](http://www.cnblogs.com/irocker/p/git-clean.html)
+11. [git-remote - Manage set of tracked repositories](https://www.git-scm.com/docs/git-remote)
+12. [git创建、删除分支和tag](https://blog.csdn.net/revitalizing/article/details/49056411)
+13. [Can you delete multiple branches in one command with Git?](https://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git)
+14. [GIT本地删除除master以外所有分支，作者：风匀坊](https://www.huuinn.com/archives/234)
+15. [Git docs: git-remote - Manage set of tracked repositories](https://git-scm.com/docs/git-remote)
+16. [Git 初接触 （三） Git的撤销操作 git reset HEAD -- <file>，作者：上官二狗](https://blog.csdn.net/qq_36431213/article/details/78858848)
+17. [找回Git中丢失的Commit，作者：drybeans](https://www.jianshu.com/p/8b4c95677ee0)
+18. [git reset 后代码丢失 代码未commit](https://www.oschina.net/question/255789_155537)
+19. [在 git 中找回丢失的 commit，作者：alsotang](https://cnodejs.org/topic/546e0512c4922d383a82970f)
+20. [What's the difference between HEAD^ and HEAD~ in Git? 作者：dr01](https://stackoverflow.com/a/43046393/9287383)
+21. [What's the difference between HEAD^ and HEAD~ in Git? 作者：Alex Janzik](https://stackoverflow.com/a/29120883/9287383)
+22. [GIT-查看config配置信息 作者：Merray](https://www.cnblogs.com/merray/p/6006411.html)
