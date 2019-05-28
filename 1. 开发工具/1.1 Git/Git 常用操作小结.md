@@ -23,6 +23,7 @@
 | 15 | [git tag](#15)|
 | 16 | [HEAD](#16)|
 | 17 | [git config](#17)|
+| 18 | [git rm](#18)|
 
 <h2 id="1">总体流程图</h2>
 
@@ -709,6 +710,26 @@ git config --global user.name "myname"
 git config --global user.email  "test@gmail.com"
 ```
 
+<h2 id="18">git rm</h2>
+
+有时候在项目开发过程中，把某些目录或文件加入`.gitignore`后发现并未生效，原因是`.gitignore`**只能忽略那些原来没有被track的文件**，如果某些文件已经被纳入了版本管理中，则修改`.gitignore`是无效的。那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交：
+
+```sh
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore
+```
+
+`.gitignore` 的匹配规则：
+
+```sh
+.a       # 忽略所有 .a 结尾的文件
+!lib.a    # 但 lib.a 除外
+/TODO     # 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
+build/    # 忽略 build/ 目录下的所有文件
+doc/.txt # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+```
+
 ## 参考资料
 
 1. [Git远程操作详解（阮一峰）](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
@@ -733,3 +754,5 @@ git config --global user.email  "test@gmail.com"
 20. [What's the difference between HEAD^ and HEAD~ in Git? 作者：dr01](https://stackoverflow.com/a/43046393/9287383)
 21. [What's the difference between HEAD^ and HEAD~ in Git? 作者：Alex Janzik](https://stackoverflow.com/a/29120883/9287383)
 22. [GIT-查看config配置信息 作者：Merray](https://www.cnblogs.com/merray/p/6006411.html)
+23. [Git忽略规则及.gitignore规则不生效的解决办法 作者：Android_大船](https://blog.csdn.net/yingpaixiaochuan/article/details/53729446)
+24. [Git 中.gitignore 使用和.gitignore 无效的解决方法 作者：JohnnyB0Y](https://www.jianshu.com/p/e5360fa04152)
