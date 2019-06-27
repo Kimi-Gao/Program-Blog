@@ -7,19 +7,20 @@
 <!-- TOC -->
 
 - [1. OS Tips](#1-os-tips)
-  - [1.1. 升级 Mojave 后字体渲染过细](#11-%E5%8D%87%E7%BA%A7-mojave-%E5%90%8E%E5%AD%97%E4%BD%93%E6%B8%B2%E6%9F%93%E8%BF%87%E7%BB%86)
-  - [1.2. 音量微调](#12-%E9%9F%B3%E9%87%8F%E5%BE%AE%E8%B0%83)
-  - [1.3. 显示和隐藏文件/文件夹](#13-%E6%98%BE%E7%A4%BA%E5%92%8C%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E6%96%87%E4%BB%B6%E5%A4%B9)
-  - [1.4. 找回消失的「允许任何来源应用运行」选项](#14-%E6%89%BE%E5%9B%9E%E6%B6%88%E5%A4%B1%E7%9A%84%E5%85%81%E8%AE%B8%E4%BB%BB%E4%BD%95%E6%9D%A5%E6%BA%90%E5%BA%94%E7%94%A8%E8%BF%90%E8%A1%8C%E9%80%89%E9%A1%B9)
-  - [1.5. 启用mac三指拖动的窗口](#15-%E5%90%AF%E7%94%A8mac%E4%B8%89%E6%8C%87%E6%8B%96%E5%8A%A8%E7%9A%84%E7%AA%97%E5%8F%A3)
-  - [1.6. 去除两指左右滑动回退/前进网页](#16-%E5%8E%BB%E9%99%A4%E4%B8%A4%E6%8C%87%E5%B7%A6%E5%8F%B3%E6%BB%91%E5%8A%A8%E5%9B%9E%E9%80%80%E5%89%8D%E8%BF%9B%E7%BD%91%E9%A1%B5)
+  - [1.1. 升级 Mojave 后字体渲染过细](#11-升级-mojave-后字体渲染过细)
+  - [1.2. 音量微调](#12-音量微调)
+  - [1.3. 显示和隐藏文件/文件夹](#13-显示和隐藏文件文件夹)
+  - [1.4. 找回消失的「允许任何来源应用运行」选项](#14-找回消失的允许任何来源应用运行选项)
+  - [1.5. 启用mac三指拖动的窗口](#15-启用mac三指拖动的窗口)
+  - [1.6. 去除两指左右滑动回退/前进网页](#16-去除两指左右滑动回退前进网页)
+  - [1.7. 关闭自带输入法首字母大写、拼写纠正、双空格变点号](#17-关闭自带输入法首字母大写拼写纠正双空格变点号)
 - [2. CLI](#2-cli)
-  - [2.1. Homebrew安装的时候自动更新太慢](#21-homebrew%E5%AE%89%E8%A3%85%E7%9A%84%E6%97%B6%E5%80%99%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E5%A4%AA%E6%85%A2)
-  - [2.2. mac升级后，出现的 xcrun: error](#22-mac%E5%8D%87%E7%BA%A7%E5%90%8E%E5%87%BA%E7%8E%B0%E7%9A%84-xcrun-error)
+  - [2.1. Homebrew安装的时候自动更新太慢](#21-homebrew安装的时候自动更新太慢)
+  - [2.2. mac升级后，出现的 xcrun: error](#22-mac升级后出现的-xcrun-error)
 - [3. Software](#3-software)
-  - [3.1. 禁止 Adobe Creative Cloud 开机启动](#31-%E7%A6%81%E6%AD%A2-adobe-creative-cloud-%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8)
-  - [3.2. Magnet: 调节屏幕窗口大小](#32-magnet-%E8%B0%83%E8%8A%82%E5%B1%8F%E5%B9%95%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F)
-  - [3.3. LastPass: 密码管理利器](#33-lastpass-%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%88%A9%E5%99%A8)
+  - [3.1. 禁止 Adobe Creative Cloud 开机启动](#31-禁止-adobe-creative-cloud-开机启动)
+  - [3.2. Magnet: 调节屏幕窗口大小](#32-magnet-调节屏幕窗口大小)
+  - [3.3. LastPass: 密码管理利器](#33-lastpass-密码管理利器)
 - [4. Reference](#4-reference)
 
 <!-- /TOC -->
@@ -76,6 +77,20 @@ PS: 以上命令只适用于OS 10.8+的MAC
 介绍一下关闭此功能的方法：
 
 ![image](https://user-images.githubusercontent.com/12554487/55286240-9e406e80-53cb-11e9-9454-65e4dd3188e1.png)
+
+## 1.7. 关闭自带输入法首字母大写、拼写纠正、双空格变点号
+
+macOS 里面有几个贴心的功能，首字母自动大写、拼写纠正、双空格变点号。然而对程序员来说，这些功能不但没能帮上忙，还瞎捣乱。比如首字母大写，大部分情况我是知道什么时候需要大写什么时候不需要的，当你敲了半天，发现首字母自动变大写了，关闭方法：
+
+```txt
+System preference -> Keyboard -> Text
+```
+
+可以选择性关掉以下三个：
+
+1. Correct spelling automatically
+2. Capitalize words automatically
+3. add period with double-space
 
 # 2. CLI
 
@@ -171,3 +186,4 @@ chrome插件、mac、iOS都支持，高级版和基础版差距不是很大。
 6. [EI Captain OS X10.11Beta7如何使用三指拖动应用窗口](https://bbs.feng.com/forum.php?mod=viewthread&tid=9809561&page=1&extra=#pid151071333)
 7. [升级 macOS Mojave 后部分软件(如 VS Code)字体变虚 及应用白边解决办法](https://ijs.me/2018/09/26/macos-mojave-font/)
 8. [在 macOS Mojave 中恢复暗色菜单栏](https://note.wuze.me/liu-shui/zai-macos-mojave-zhong-hui-fu-an-se-cai-dan-lan)
+9. [OS X 自带输入法关闭首字母大写、拼写纠正、双空格变点号，作者：小川先生](https://blog.csdn.net/stc_XC/article/details/72814069)
