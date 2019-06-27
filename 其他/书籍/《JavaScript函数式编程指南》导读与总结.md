@@ -355,7 +355,7 @@ Functor f =>。这个标记告诉我们 f 必须是一个 Functor。
 
 在上面这些背景下，容器（container）诞生来，它常用来处理错误或异常情况，将可能出现的异常或者说有副作用的函数包裹起来，即本书作者所说的 `wrapper` 函数。
 
-这块内容作者讲解的不是很到位，也与一般的FP概念存在一些“误差”，推荐大家看看这本书：
+这块内容作者讲解的不是很到位，也与一般的FP概念存在一些“偏差”，推荐大家看看这本书：
 
 - [mostly-adequate-guide-chinese](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch8.html)
 - [mostly-adequate-guide(英文版内容比较新，用的ES6语法)](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/ch08.html)
