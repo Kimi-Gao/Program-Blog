@@ -31,13 +31,13 @@
 - `Let's Encrypt V2`免费开源无疑是一个不错的选择。
 - 相比于`亚洲诚信`，它支持多域名通配符。
 
-生成证书可以直接借助 https://freessl.org/ 来生成证书，方便快捷，当然你也可以使用[certbot](https://github.com/certbot/certbot) (Let’s Encrypt项目的自动化工具) 来生成证书。
+生成证书可以直接借助 https://freessl.cn 来生成证书，方便快捷，当然你也可以使用[certbot](https://github.com/certbot/certbot) (Let’s Encrypt项目的自动化工具) 来生成证书。
 
 # 2. 获取证书
 
 ## 2.1. 填写域名
 
-打开网站 https://freessl.org/ 填写自己的域名，你将看到下图。这里我们填入 `*.muwenzi.com,muwenzi.com`, 同时在下方勾选 `Let's Encrypt V2`, 然后点击"**创建免费的SSL证书**"按钮即可。
+打开网站 https://freessl.cn 填写自己的域名，你将看到下图。这里我们填入 `*.muwenzi.com,muwenzi.com`, 同时在下方勾选 `Let's Encrypt V2`, 然后点击"**创建免费的SSL证书**"按钮即可。
 
 ![image](https://user-images.githubusercontent.com/12554487/40354695-0bf6e336-5de7-11e8-8d54-be405bda32e9.png)
 
@@ -128,13 +128,19 @@ server {
 }
 ```
 
+其他二级域名类似进行配置即可。
+
+最后根据配置将证书上传至服务器，可以使用以下命令：
+
+```sh
+scp ~/local/file user@remote:/data/security/letsencrypt/
+```
+
 修改了配置文件后记得：
 
 ```sh
 service nginx restart
 ```
-
-其他二级域名类似进行配置即可。
 
 # 4. 验证
 
@@ -142,7 +148,7 @@ service nginx restart
 
 # 5. 维护
 
-`Let's Encrypt V2` 证书的有效期只有三个月，过期后可以免费重新生成证书，这就需要我们每隔一段时间就去更新一下证书。~~好在`https://freessl.org/`可以帮我们管理证书，注册登录之后在**证书列表**中可以进行`重新生成证书`的操作(当证书到期距离**少于30天**时才会看到该按钮)。~~
+`Let's Encrypt V2` 证书的有效期只有三个月，过期后可以免费重新生成证书，这就需要我们每隔一段时间就去更新一下证书。~~好在`https://freessl.cn`可以帮我们管理证书，注册登录之后在**证书列表**中可以进行`重新生成证书`的操作(当证书到期距离**少于30天**时才会看到该按钮)。~~
 
 > :warning: 注意  
 > - 目前用 freessl 网站不支持重新更新证书，需要自己手动重新生成，重复以上第 2 部分内容即可。
