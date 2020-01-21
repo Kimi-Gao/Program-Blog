@@ -24,7 +24,9 @@
   - [3.2. Refactor](#32-refactor)
   - [3.3. Test](#33-test)
   - [3.4. 在IDE里自动运行代码](#34-%E5%9C%A8ide%E9%87%8C%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81)
-- [4. Others](#4-others)
+- [4. IntelliJ](#4-IntelliJ)
+  - [4.1 Maven Helper](#41-maven-helper)
+- [5. Others](#5-others)
 
 <!-- /TOC -->
 
@@ -129,6 +131,10 @@ IDEA 的git本身已经足够强大了，但有几个地方需要注意一下：
 
 ![image](https://user-images.githubusercontent.com/12554487/48832866-1e6b1d80-edb5-11e8-8bd7-a7b2698f4482.png)
 
+日期格式设置：
+
+![image](https://user-images.githubusercontent.com/12554487/72771948-7dd4ef80-3c3d-11ea-989e-8f28fbdef325.png)
+
 ### 2.2.5. Auto fetch
 
 IDEA 原生没有这个功能，需要安装插件才能实现，去 `Browse Repositories` 搜索 [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox)
@@ -211,7 +217,15 @@ https://quokkajs.com/docs/?editor=jb
 
 ![jb-intro](https://user-images.githubusercontent.com/12554487/55778776-62e22600-5ad6-11e9-94bd-d477f0efe0f6.gif)
 
-# 4. Others
+# 4. IntelliJ
+
+## 4.1 Maven Helper
+
+https://plugins.jetbrains.com/plugin/7179-maven-helper/
+
+![image](https://user-images.githubusercontent.com/12554487/72771766-eb345080-3c3c-11ea-8032-279645c4050d.png)
+
+# 5. Others
 
 1. webstorm最新版，为什么设置tab了也没效果？
 
