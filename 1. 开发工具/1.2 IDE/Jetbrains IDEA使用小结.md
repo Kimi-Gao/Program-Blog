@@ -24,6 +24,7 @@
   - [3.2. Refactor](#32-refactor)
   - [3.3. Test](#33-test)
   - [3.4. 在IDE里自动运行代码](#34-%E5%9C%A8ide%E9%87%8C%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81)
+  - [3.5. Live Templates](#35-live-templates)
 - [4. IntelliJ](#4-IntelliJ)
   - [4.1 Maven Helper](#41-maven-helper)
 - [5. Others](#5-others)
@@ -216,6 +217,14 @@ https://www.jetbrains.com/help/webstorm/auto-completing-code.html
 https://quokkajs.com/docs/?editor=jb
 
 ![jb-intro](https://user-images.githubusercontent.com/12554487/55778776-62e22600-5ad6-11e9-94bd-d477f0efe0f6.gif)
+
+## 3.5 Live Templates
+
+可以自定义一些代码片段的快捷键，比如输入`clg`快速打出`console.log($PARAM$)`:
+
+![image](https://user-images.githubusercontent.com/12554487/72783652-f188f380-3c61-11ea-9e8b-ba7d2c6a6268.png)
+
+其他比如输入 `clm` 快速打出`console.log('$PARAM$', $PARAM$)`，光标会同时 focus 在两个 `$PARAM$` 的起始位置。
 
 # 4. IntelliJ
 
